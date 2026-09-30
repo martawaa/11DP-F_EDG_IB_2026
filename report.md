@@ -1,6 +1,8 @@
-# Manuscript Title: Bioinformatic Analysis of Epimerase Deficiency Galactosemia
+# Manuscript Title: 
+
+Bioinformatic Analysis of Epimerase Deficiency Galactosemia
 **Authors:** Mengxin Lin Huang, Marta Celdrán Abraldes, Elena Alexandra Gae Dumitru, Adrià Cuadros Farré-Escofet  
-**Group:** 11DP-F
+**Department, Institution, City, Country:** BBI,Polytechnic University of Catalonia, Barcelona, Spain
 
 ## Abstract
 *Provide a structured abstract covering Background, Results, and Conclusions (Max 350
@@ -33,4 +35,3 @@ Availability of data and materials: [Statement on repository/access]
 Authors' contributions: Specify roles
 
 ## References
-1. Author A, Author B. Title. BMC Bioinformatics. Year;Vol:Pages.
