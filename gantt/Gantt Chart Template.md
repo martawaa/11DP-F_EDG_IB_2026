@@ -1,36 +1,46 @@
-| ID | Task | Owner | W1<br>14/09 | W2<br>21/09 | W3<br>28/09 | W4<br>05/10 | W5<br>12/10 | W6<br>19/10 | W7<br>26/10 |
-|---|---|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+# Gantt Chart
+
+**Project:** Molecular Mechanism of Epimerase-Deficiency Galactosemia: From Alternative Splicing to Protein Structure
+
+**Team:** Mengxin Lin Huang, Marta Celdrán Abraldes, Elena Alexandra Gae Dumitru, Adrià Cuadros Farré-Escofet
+
+**Company:** UPC | **Date:** 17/09/2026
+
+![Gantt Chart](gantt.png)
+
+| ID | Task title | Owner | Predecessor | Planned start | Planned end | Real start | Real end | Duration | Complete |
+|---|---|---|---|---|---|---|---|---|---|
 | **WP 1** | **Project set-up and management** | | | | | | | | |
-| 1.1 | Create GitHub repository | Team | 🟩 | | | | | | |
-| 1.2 | Setting up repository | Mengxin | | | 🟩 | | | | |
-| 1.3 | Agree task allocation | Team | | | | 🟩 | | | |
-| 1.4 | Complete and upload Gantt chart | Team | | | | 🟨 | | | |
-| 1.5 | Design the overview | Team | | | | 🟩 | | | |
-| 1.6 | Risk analysis | Team | | | | 🟩 | | | |
-| 🏁 | **Milestone 1** | | | | | 🏁 | | | |
+| 1.1 | Create GitHub repository (Step 1.1 - 3.1) | Team | - | 17/09/26 | 17/09/26 | 17/09/26 | 17/09/26 | 1 day | 🟩 100% |
+| 1.2 | Setting up repository (Step 3.2 - 5.2) | Mengxin | 1.1 | 30/09/26 | 30/09/26 | 30/09/26 | 30/09/26 | 1 day | 🟩 100% |
+| 1.3 | Agree task allocation and section ownership | Team | 1.1 | 06/10/26 | 06/10/26 | 06/10/26 | 06/10/26 | 1 day | 🟩 100% |
+| 1.4 | Complete and upload Gantt chart | Team | 1.2 | 06/10/26 | 08/10/26 | 06/10/26 | 09/10/26 | 3 days | 🟨 50% |
+| 1.5 | Design the overview | Team | - | 06/10/26 | 08/10/26 | 06/10/26 | 06/10/26 | 1 day | 🟩 100% |
+| 1.6 | Risk analysis | Team | - | 06/10/26 | 08/10/26 | 06/10/26 | 06/10/26 | 1 day | 🟩 100% |
+| 🏁 | **Milestone 1: Repository and plan ready** | | | | | | | | |
 | **WP 2** | **Background research and data collection** | | | | | | | | |
-| 2.1 | Define Mesh terms | Alexandra | | | | 🟩 | | | |
-| 2.2 | OMIM: GALE gene | Adrià | | | | 🟦 | 🟦 | | |
-| 2.3 | Read key papers and notes | Marta | | | | 🟦 | 🟦 | | |
-| 2.4 | UniProt: protein and species | Mengxin | | | | 🟦 | 🟦 | | |
-| 🏁 | **Milestone 2** | | | | | | 🏁 | | |
+| 2.1 | Define Mesh terms | Alexandra | WP 1 | 08/10/26 | 11/10/26 | 08/10/26 | 08/10/26 | 1 day | 🟩 100% |
+| 2.2 | OMIM: GALE gene, phenotype and variant | Adrià | WP 1 | 08/10/26 | 12/10/26 | | | | ⬜ 0% |
+| 2.3 | Read other key papers and write background notes (PubMed) | Marta | WP 1 | 08/10/26 | 12/10/26 | 08/10/26 | | | ⬜ 0% |
+| 2.4 | UniProt: identify the protein, check accessions, add at least two other species | Mengxin | WP 1 | 08/10/26 | 12/10/26 | | | | ⬜ 0% |
+| 🏁 | **Milestone 2: Literature and data collected** | | | | | | | | |
 | **WP 3** | **Sequence, structure and function analysis** | | | | | | | | |
-| 3.1 | Compare WT and mutant CDS | Mengxin | | | | 🟦 | | | |
-| 3.2 | PDB: WT and mutant structures | Alexandra | | | | 🟦 | 🟦 | | |
-| 3.3 | Multiple sequence alignment | Adrià | | | | | 🟦 | | |
-| 3.4 | Conservation analysis | Marta | | | | | 🟦 | | |
-| 3.5 | Visualize WT vs mutant | Alexandra | | | | | 🟦 | | |
-| 3.6 | Structural environment | Adrià | | | | | 🟦 | | |
-| 3.7 | Link structure to function | Mengxin | | | | | 🟦 | 🟦 | |
-| 3.8 | Cross-species differences | Marta | | | | | 🟦 | 🟦 | |
-| 🏁 | **Milestone 3** | | | | | | | 🏁 | |
-| **WP 4** | **Reporting and delivery** | | | | | | | | |
-| 4.1 | Draft Methods and Results | Adrià | | | | | | 🟦 | |
-| 4.2 | Draft Background | Mengxin | | | | | 🟦 | | |
-| 4.3 | Draft Discussion and Conclusions | Marta | | | | | | 🟦 | |
-| 4.4 | Figures and tables | Alexandra | | | | | | 🟦 | |
-| 4.5 | Abstract and keywords | Adrià | | | | | | 🟦 | |
-| 4.6 | Preview of the full report | Mengxin | | | | | | 🟦 | |
-| 4.7 | Update final Gantt and Status | Marta | | | | | | 🟦 | |
-| 4.8 | Final submission | Alexandra | | | | | | | 🟦 |
-| 🏁 | **Milestone 4** | | | | | | | | 🏁 |
+| 3.1 | Compare WT and mutant CDS and protein | Mengxin | 1.3 | 09/10/26 | 09/10/26 | | | | ⬜ 0% |
+| 3.2 | PDB: find WT and mutant structures | Alexandra | 3.1 | 11/10/26 | 14/10/26 | | | | ⬜ 0% |
+| 3.3 | Multiple sequence alignment across species | Adrià | 2.4 | 12/10/26 | 14/10/26 | | | | ⬜ 0% |
+| 3.4 | Conservation analysis of the mutated position | Marta | 3.3 | 14/10/26 | 16/10/26 | | | | ⬜ 0% |
+| 3.5 | Visualize and compare WT and mutant structure | Alexandra | 3.1, 3.2 | 14/10/26 | 15/10/26 | | | | ⬜ 0% |
+| 3.6 | Analyze the structural environment of the mutated position | Adrià | 3.5 | 14/10/26 | 16/10/26 | | | | ⬜ 0% |
+| 3.7 | Link structure to enzyme function and phenotype | Mengxin | 3.6 | 16/10/26 | 19/10/26 | | | | ⬜ 0% |
+| 3.8 | Interpret cross-species differences | Marta | 3.3 | 14/10/26 | 19/10/26 | | | | ⬜ 0% |
+| 🏁 | **Milestone 3: Sequence, structure and function analysis completed** | | | | | | | | |
+| **WP 4** | **Reporting and delivery (BMC Bioinformatics format)** | | | | | | | | |
+| 4.1 | Draft Methods and Results | Adrià | WP 3 | 19/10/26 | 21/10/26 | | | | ⬜ 0% |
+| 4.2 | Draft Background | Mengxin | 4.1, WP 2 | 15/10/26 | 16/10/26 | | | | ⬜ 0% |
+| 4.3 | Draft Discussion and Conclusions | Marta | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | | | | ⬜ 0% |
+| 4.4 | Figures and tables (maximum five) | Alexandra | WP 3 | 19/10/26 | 21/10/26 | | | | ⬜ 0% |
+| 4.5 | Abstract, keywords, abbreviations, declarations | Adrià | 4.3 | 21/10/26 | 23/10/26 | | | | ⬜ 0% |
+| 4.6 | Preview of the full report | Mengxin | 4.5 | 23/10/26 | 24/10/26 | | | | ⬜ 0% |
+| 4.7 | Update final Gantt chart and Status document | Marta | 4.6 | 25/10/26 | 25/10/26 | | | | ⬜ 0% |
+| 4.8 | Final submission | Alexandra | 4.7 | 26/10/26 | 26/10/26 | | | | ⬜ 0% |
+| 🏁 | **Milestone 4: Final submission** | | | | | | | | |
