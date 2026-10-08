@@ -1,52 +1,36 @@
-# Gantt Chart
-
-**Project:** Molecular Mechanism of Epimerase-Deficiency Galactosemia: From Alternative Splicing to Protein Structure
-**Team:** Mengxin Lin Huang, Marta Celdrán Abraldes, Elena Alexandra Gae Dumitru, Adrià Cuadros Farré-Escofet
-**Date:** 17/09/2026
-
-```mermaid
-gantt
-    title Gantt Chart - Epimerase-Deficiency Galactosemia
-    dateFormat YYYY-MM-DD
-    axisFormat %d/%m
-    tickInterval 1week
-    excludes weekends
-
-    section WP1 Project set-up and management
-    1.1 Create GitHub repository (Team)            :done, t11, 2026-09-17, 1d
-    1.2 Setting up repository (Mengxin)             :done, t12, 2026-09-30, 1d
-    1.3 Agree task allocation (Team)                :done, t13, 2026-10-06, 1d
-    1.4 Complete and upload Gantt chart (Team)      :active, t14, 2026-10-06, 3d
-    1.5 Design the overview (Team)                  :done, t15, 2026-10-06, 3d
-    1.6 Risk analysis (Team)                        :done, t16, 2026-10-06, 3d
-    Milestone 1 - Repository and plan ready         :milestone, m1, 2026-10-09, 0d
-
-    section WP2 Background research and data collection
-    2.1 Define Mesh terms (Alexandra)               :done, t21, 2026-10-08, 4d
-    2.2 OMIM - GALE gene, phenotype and variant (Adrià)  :t22, 2026-10-08, 5d
-    2.3 Read key papers and background notes (Marta)     :t23, 2026-10-08, 5d
-    2.4 UniProt - protein, accessions, two species (Mengxin) :t24, 2026-10-08, 5d
-    Milestone 2 - Literature and data collected     :milestone, m2, 2026-10-13, 0d
-
-    section WP3 Sequence, structure and function analysis
-    3.1 Compare WT and mutant CDS and protein (Mengxin)  :t31, 2026-10-09, 1d
-    3.2 PDB - find WT and mutant structures (Alexandra)  :t32, 2026-10-11, 4d
-    3.3 Multiple sequence alignment (Adrià)         :t33, 2026-10-12, 3d
-    3.4 Conservation analysis of mutated position (Marta) :t34, 2026-10-14, 3d
-    3.5 Visualize WT vs mutant structure (Alexandra) :t35, 2026-10-14, 2d
-    3.6 Structural environment of mutation (Adrià)  :t36, 2026-10-14, 3d
-    3.7 Link structure to function and phenotype (Mengxin) :t37, 2026-10-16, 4d
-    3.8 Interpret cross-species differences (Marta) :t38, 2026-10-14, 6d
-    Milestone 3 - Analysis completed                :milestone, m3, 2026-10-20, 0d
-
-    section WP4 Reporting and delivery (BMC Bioinformatics)
-    4.1 Draft Methods and Results (Adrià)           :t41, 2026-10-19, 3d
-    4.2 Draft Background (Mengxin)                  :t42, 2026-10-15, 2d
-    4.3 Draft Discussion and Conclusions (Marta)    :t43, 2026-10-19, 3d
-    4.4 Figures and tables, max five (Alexandra)    :t44, 2026-10-19, 3d
-    4.5 Abstract, keywords, declarations (Adrià)    :t45, 2026-10-21, 3d
-    4.6 Preview of the full report (Mengxin)        :t46, 2026-10-23, 2d
-    4.7 Update final Gantt and Status (Marta)       :t47, 2026-10-25, 1d
-    4.8 Final submission (Alexandra)                :t48, 2026-10-26, 1d
-    Milestone 4 - Final submission                  :milestone, m4, 2026-10-27, 0d
-```
+| ID | Task | Owner | W1<br>14/09 | W2<br>21/09 | W3<br>28/09 | W4<br>05/10 | W5<br>12/10 | W6<br>19/10 | W7<br>26/10 |
+|---|---|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **WP 1** | **Project set-up and management** | | | | | | | | |
+| 1.1 | Create GitHub repository | Team | 🟩 | | | | | | |
+| 1.2 | Setting up repository | Mengxin | | | 🟩 | | | | |
+| 1.3 | Agree task allocation | Team | | | | 🟩 | | | |
+| 1.4 | Complete and upload Gantt chart | Team | | | | 🟨 | | | |
+| 1.5 | Design the overview | Team | | | | 🟩 | | | |
+| 1.6 | Risk analysis | Team | | | | 🟩 | | | |
+| 🏁 | **Milestone 1** | | | | | 🏁 | | | |
+| **WP 2** | **Background research and data collection** | | | | | | | | |
+| 2.1 | Define Mesh terms | Alexandra | | | | 🟩 | | | |
+| 2.2 | OMIM: GALE gene | Adrià | | | | 🟦 | 🟦 | | |
+| 2.3 | Read key papers and notes | Marta | | | | 🟦 | 🟦 | | |
+| 2.4 | UniProt: protein and species | Mengxin | | | | 🟦 | 🟦 | | |
+| 🏁 | **Milestone 2** | | | | | | 🏁 | | |
+| **WP 3** | **Sequence, structure and function analysis** | | | | | | | | |
+| 3.1 | Compare WT and mutant CDS | Mengxin | | | | 🟦 | | | |
+| 3.2 | PDB: WT and mutant structures | Alexandra | | | | 🟦 | 🟦 | | |
+| 3.3 | Multiple sequence alignment | Adrià | | | | | 🟦 | | |
+| 3.4 | Conservation analysis | Marta | | | | | 🟦 | | |
+| 3.5 | Visualize WT vs mutant | Alexandra | | | | | 🟦 | | |
+| 3.6 | Structural environment | Adrià | | | | | 🟦 | | |
+| 3.7 | Link structure to function | Mengxin | | | | | 🟦 | 🟦 | |
+| 3.8 | Cross-species differences | Marta | | | | | 🟦 | 🟦 | |
+| 🏁 | **Milestone 3** | | | | | | | 🏁 | |
+| **WP 4** | **Reporting and delivery** | | | | | | | | |
+| 4.1 | Draft Methods and Results | Adrià | | | | | | 🟦 | |
+| 4.2 | Draft Background | Mengxin | | | | | 🟦 | | |
+| 4.3 | Draft Discussion and Conclusions | Marta | | | | | | 🟦 | |
+| 4.4 | Figures and tables | Alexandra | | | | | | 🟦 | |
+| 4.5 | Abstract and keywords | Adrià | | | | | | 🟦 | |
+| 4.6 | Preview of the full report | Mengxin | | | | | | 🟦 | |
+| 4.7 | Update final Gantt and Status | Marta | | | | | | 🟦 | |
+| 4.8 | Final submission | Alexandra | | | | | | | 🟦 |
+| 🏁 | **Milestone 4** | | | | | | | | 🏁 |
