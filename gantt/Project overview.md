@@ -28,7 +28,7 @@ Explain, by comparing gene and protein sequence and structure, how the disease-a
 | ID | Milestone | Achieved when | Planned date |
 |:-:|---|---|:-:|
 | **M1** | Repository and plan ready | Completed all the settings and uploaded the Gantt chart. | 08/10/26 |
-| **M2** | Literature and data collected | Background notes, sequences and the PDB list are ready and sources are archived. | 13/10/26 |
+| **M2** | Literature and data collected | Background notes, sequences and the PDB list are ready and sources are archived. | 12/10/26 |
 | **M3** | Sequence, structure and function analysis completed | All analyses are finished and interpreted. | 19/10/26 |
 | **M4** | Final submission | All report sections, figures and references are drafted and formatted, and the final report is committed before the deadline. | 26/10/26 |
 
