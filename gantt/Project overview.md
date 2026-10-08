@@ -3,13 +3,9 @@
 > **Molecular Mechanism of Epimerase-Deficiency Galactosemia:**
 > **From Alternative Splicing to Protein Structure**
 
----
-
 ## 🎯 General Objective
 
 Explain, by comparing gene and protein sequence and structure, how the disease-associated variant causes EDG and what comparison across species reveals about the affected biological function.
-
----
 
 ## 📌 Specific Objectives
 
@@ -21,8 +17,6 @@ Explain, by comparing gene and protein sequence and structure, how the disease-a
 | **SO4** | Analyze the 3D structural environment of the mutated residue using experimental PDB structures, determining its distance to the active site and cofactor/substrate-binding residues and its local contacts in the WT and mutant structures. |
 | **SO5** | Draft and format a comprehensive research report following **BMC Bioinformatics** guidelines, integrating up to five publication-quality figures/tables and maintaining version-controlled team contributions on GitHub. |
 
----
-
 ## 🏁 Milestones
 
 | ID | Milestone | Achieved when | Planned date |
@@ -31,8 +25,6 @@ Explain, by comparing gene and protein sequence and structure, how the disease-a
 | **M2** | Literature and data collected | Background notes, sequences and the PDB list are ready and sources are archived. | 12/10/26 |
 | **M3** | Sequence, structure and function analysis completed | All analyses are finished and interpreted. | 19/10/26 |
 | **M4** | Final submission | All report sections, figures and references are drafted and formatted, and the final report is committed before the deadline. | 26/10/26 |
-
----
 
 ## 👥 Project Members and Roles
 
@@ -43,6 +35,3 @@ Explain, by comparing gene and protein sequence and structure, how the disease-a
 | **Elena Alexandra Gae Dumitru** | Bioinformatics student | Structural Biology & Visualization Specialist | • Defines MeSH literature terms (Task 2.1)<br>• Identifies WT/mutant PDB structures (Task 3.2) and executes 3D structural comparisons (Task 3.5)<br>• Generates publication figures/tables (Task 4.4)<br>• Coordinates final package delivery and submission (Task 4.8) |
 | **Marta Celdrán Abraldes** | Bioinformatics student | Evolutionary Conservation & Project Operations Specialist | • Conducts primary literature research and background notes (Task 2.3)<br>• Evaluates position-specific conservation (Task 3.4) and cross-species variation (Task 3.8)<br>• Drafts Discussion and Conclusions (Task 4.3)<br>• Manages project tools: updates Gantt chart and Status tracking (Task 4.7) |
 
----
-
-📊 See the [Gantt Chart](gantt/gantt.md) for the full schedule.
