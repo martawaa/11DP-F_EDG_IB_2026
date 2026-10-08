@@ -4,9 +4,11 @@
 
 **Team:** Mengxin Lin Huang, Marta Celdrán Abraldes, Elena Alexandra Gae Dumitru, Adrià Cuadros Farré-Escofet
 
-**Company:** UPC | **Date:** 17/09/2026
+**Company:** UPC 
 
-![Gantt Chart](gantt.png)
+**Date:** 17/09/2026
+
+
 
 | ID | Task title | Owner | Predecessor | Planned start | Planned end | Real start | Real end | Duration | Complete |
 |---|---|---|---|---|---|---|---|---|---|
