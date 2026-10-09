@@ -1,18 +1,48 @@
 ### Mengxin:
 
-**Human: 348** *https://www.uniprot.org/uniprotkb/Q14376/entry*
+**Human: 348** 
 
-**Ecoli: 338** *https://www.uniprot.org/uniprotkb/P09147/entry*
+* https://www.uniprot.org/uniprotkb/Q14376/entry*
 
-**Mouse: 347** *https://www.uniprot.org/uniprotkb/Q8R059/entry*
+**Ecoli: 338** 
 
-**CaeeL:Caenorhabditis elegans 349** *https://www.uniprot.org/uniprotkb/Q564Q1/entry*
+* Bacteral homologue;evolutionarily distant
 
-**PONAB:Pongo abelii 348** *https://www.uniprot.org/uniprotkb/Q5R8D0/entry*
+* https://www.uniprot.org/uniprotkb/P09147/entry
 
- **WT CDS:**  *Gene ID: 2582* *ACCESSION:NM_000403*
+* https://rest.uniprot.org/uniprotkb/P09147.fasta
+
+**Mouse: 347** 
+
+* Mammalian model organism
+
+* https://www.uniprot.org/uniprotkb/Q8R059/entry
+
+* https://rest.uniprot.org/uniprotkb/Q8R059.fasta
+
+**CaeeL:Caenorhabditis elegans 349** 
+
+* Invertebrate model organism 
+
+* https://www.uniprot.org/uniprotkb/Q564Q1/entry*
+
+* https://rest.uniprot.org/uniprotkb/Q564Q1.fasta
+
+**PONAB:Pongo abelii 348** 
+
+* Closely related primate; near-identical control
+
+* https://www.uniprot.org/uniprotkb/Q5R8D0/entry*
+
+* https://rest.uniprot.org/uniprotkb/Q5R8D0.fasta
+
+
+**WT CDS:**   
  
- https://www.ncbi.nlm.nih.gov/nucleotide/NM_000403.4?report=genbank&log$=nuclalign&blast_rank=1&RID=CJP3P48Z014
+* Gene ID: 2582 
+* ACCESSION:NM_000403
+
+* https://www.ncbi.nlm.nih.gov/nucleotide/NM_000403.4?report=genbank&log$=nuclalign&blast_rank=1&RID=CJP3P48Z014
  
 
 **Official symbol:** *GALE*
@@ -53,7 +83,7 @@ https://www.ncbi.nlm.nih.gov/protein/NP_000394.2
 **Mutant CDS:** 
 * ACCESSION: NM_000403
 
-https://www.ncbi.nlm.nih.gov/nucleotide/NM_000403.4?report=genbank&log$=nuclalign&blast_rank=1&RID=CJP3P48Z014
+* https://www.ncbi.nlm.nih.gov/nucleotide/NM_000403.4?report=genbank&log$=nuclalign&blast_rank=1&RID=CJP3P48Z014
 
 **Mutant protein**
 * NP_000394.2 https://www.ncbi.nlm.nih.gov/protein/NP_000394.2
