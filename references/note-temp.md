@@ -1,67 +1,39 @@
 ### Mengxin:
 
+**1.Summary of all searches**
+1. Human WT CDS : BLASTn  NM_000403
+2. Human WT  Protein : BLASTP NP_000394
+3. Mutant CDS : BLASTn NM_000403
+4. Mutant protein : BLASTp NP_000394.2
+5. Escherichia coli str. K-12 : BLASTp  NP_415280.3
+6. Escherichia coli str. K-12 : BLASTn NC_000913.3
+7. Additional sepecies CDS : BLASTn NM_001356493.1
+8. Additional species protein : BLASTp NP_001343422.1
 **Human: 348** 
-
-* https://www.uniprot.org/uniprotkb/Q14376/entry*
 
 **Ecoli: 338** 
 
-* Bacteral homologue;evolutionarily distant
-
-* https://www.uniprot.org/uniprotkb/P09147/entry
-
-* https://rest.uniprot.org/uniprotkb/P09147.fasta
-
 **Mouse: 347** 
 
-* Mammalian model organism
-
-* https://www.uniprot.org/uniprotkb/Q8R059/entry
-
-* https://rest.uniprot.org/uniprotkb/Q8R059.fasta
-
-**CaeeL:Caenorhabditis elegans 349** 
-
-* Invertebrate model organism 
-
-* https://www.uniprot.org/uniprotkb/Q564Q1/entry*
-
-* https://rest.uniprot.org/uniprotkb/Q564Q1.fasta
-
-**PONAB:Pongo abelii 348** 
-
-* Closely related primate; near-identical control
-
-* https://www.uniprot.org/uniprotkb/Q5R8D0/entry*
-
-* https://rest.uniprot.org/uniprotkb/Q5R8D0.fasta
-
-
-**WT CDS:**   
- 
-* Gene ID: 2582 
-* ACCESSION:NM_000403
-
-* https://www.ncbi.nlm.nih.gov/nucleotide/NM_000403.4?report=genbank&log$=nuclalign&blast_rank=1&RID=CJP3P48Z014
- 
-
-**Official symbol:** *GALE*
+**2.Human WT Gene and protein**
 
 **Official Full Name:** *UDP-galactose-4-epimerase*
 
-**Also known as:** *THC13; SDR1E1*
+**Also known as:** THC13; SDR1E1
 
-**Primary source:** *HGNC:HGNC: 4116*
+**Primary source:** HGNC:HGNC:4116
 
-**See related:** *MIM: 606953*
+**Gene ID:** 2582 
 
-**Gene type:** *protein coding*
+**See related:** MIM: 606953
 
-**Organism:** *Homo sapiens*
+**Gene type:** protein coding
 
-**Location:** *1p36.11*
+**Organism:** Homo sapiens
+
+**Location:** 1p36.11
  
- **Exon count:** *13*
+ **Exon count:** 13
 
  **Chromosome 1 - NC_000001.11**
 
@@ -75,21 +47,36 @@ Because the enzyme does both, cells or individuals with mutations depend on exte
 
 **Expression:** broad; highest in stomach and duodenum
 
-**WT Protein:** 
-* ACCESSION:NP_000394
+**WT Protein Accession:** NP_000394.2
 
-https://www.ncbi.nlm.nih.gov/protein/NP_000394.2
-
-**Mutant CDS:** 
-* ACCESSION: NM_000403
-
-* https://www.ncbi.nlm.nih.gov/nucleotide/NM_000403.4?report=genbank&log$=nuclalign&blast_rank=1&RID=CJP3P48Z014
+**3.Mutant CDS:** 
+* ACCESSION: NM_000403.4
 
 **Mutant protein**
 * NP_000394.2 https://www.ncbi.nlm.nih.gov/protein/NP_000394.2
 
+**4. Assigned homolog: Escherichia coli**
 
+**Species:** Escherichia coli K-12 substr.MG1655
 
+**Gene:** galE
+
+**Protein accession:** NP_415280.3
+
+**Protein description:** UDP-glucose 4-epimerase
+
+**Protein length:** 338 aa
+
+**Note:**	The BLASTn search against the whole genome returned NC_ genome records (query cover 25%, identity 71.5%, E-value 5e-22), not a CDS. The CDS is taken from the NP_415280.3 record (CDS link).
+https://www.ncbi.nlm.nih.gov/protein/NP_415280.3?report=genbank&log$=protalign&blast_rank=2&RID=CUDYAHV1016
+
+**5.Additional homolog:**
+
+**Species:** Mus musculus (house mouse)
+
+**Gene:** Gale
+
+**Protein length:** 337a
 
 
 ### Alexandra:
