@@ -1,0 +1,11 @@
+Query: None Query ID: lcl|Query_4559213 Length: 1047
+
+
+Query range 5: 241 to 300
+
+Query          241   AGCTTTATGGCGGTCATCCACTTTGCGGGGCTCAAGGCCGTGGGCGAGTCGGTGCAGAAG  300
+Query_4559215  241   .......................................A....................  300
+
+
+
+
