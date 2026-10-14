@@ -31,7 +31,7 @@ words).*
 | Species | Gene | CDS | Protein | Length |
 |---|---|---|---|---|
 | *Homo sapiens* | *GALE* | NM_000403.4 | NP_000394.2 | 348 aa |
-| *Escherichia coli* K-12 MG1655 | *galE* | [CDS accession] | NP_415280.3 (UDP-glucose 4-epimerase) | 338 aa |
+| *Escherichia coli* K-12 MG1655 | *galE* | NC_000913.3 | NP_415280.3 (UDP-glucose 4-epimerase) | 338 aa |
 | *Mus musculus* | *Gale* | NM_001356493.1 | NP_001343422.1 | 347 aa |
 
 *E. coli* blastp against human: cover 98%, identity 52.49%, E-value 4e-131. Blastn against the *E. coli* genome returned NC_ genome records (cover 25%, identity 71.5%, E-value 5e-22), not a CDS.
