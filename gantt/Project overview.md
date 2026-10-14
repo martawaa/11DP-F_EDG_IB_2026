@@ -13,9 +13,8 @@ Explain, by comparing gene and protein sequence and structure, how the disease-a
 |:-:|---|
 | **SO1** | Gather and archive clinical, genetic, and functional data for the human *GALE* gene and its EDG-associated variants from **OMIM, UniProt and MeSH**, including orthologous sequences from *Escherichia coli* and additional species. |
 | **SO2** | Perform alignment and comparative analysis of Wild-Type (WT) versus mutant Coding DNA Sequences (CDS) and protein sequences to evaluate amino acid alterations and assess the impact of alternative splicing on transcript/protein integrity. |
-| **SO3** | Conduct Multiple Sequence Alignment (MSA) across human, *E. coli*, and additional model organisms to quantify position-specific conservation scores at the mutated residue. |
-| **SO4** | Analyze the 3D structural environment of the mutated residue using experimental PDB structures, determining its distance to the active site and cofactor/substrate-binding residues and its local contacts in the WT and mutant structures. |
-| **SO5** | Draft and format a comprehensive research report following **BMC Bioinformatics** guidelines, integrating up to five publication-quality figures/tables and maintaining version-controlled team contributions on GitHub. |
+| **SO3** | Analyze the 3D structural environment of the mutated residue using experimental PDB structures, determining its distance to the active site and cofactor/substrate-binding residues and its local contacts in the WT and mutant structures. |
+| **SO4** | Draft and format a comprehensive research report following **BMC Bioinformatics** guidelines, integrating up to five publication-quality figures/tables and maintaining version-controlled team contributions on GitHub. |
 
 ## 🏁 Milestones
 
