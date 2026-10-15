@@ -23,7 +23,7 @@
 | **WP 2** | **Background research and data collection** | | | | | | | | |
 | 2.1 | Define Mesh terms | Alexandra | WP 1 | 08/10/26 | 11/10/26 | 08/10/26 | 08/10/26 | 1 day |  100%  |
 | 2.2 | OMIM: GALE gene, phenotype and variant | Adrià | WP 1 | 08/10/26 | 12/10/26 | | | |  0%  |
-| 2.3 | Read other key papers and write background notes (PubMed) | Marta | WP 1 | 08/10/26 | 12/10/26 | 08/10/26 | | |  0%  |
+| 2.3 | Read other key papers and write background notes (PubMed) | Marta | WP 1 | 08/10/26 | 12/10/26 | | | |  0%  |
 | 2.4 | UniProt: identify the protein, check accessions, add at least two other species | Mengxin | WP 1 | 08/10/26 | 12/10/26 | | | |  0%  |
 | 🏁 | **Milestone 2: Literature and data collected** | | | | | | | | |
 | **WP 3** | **Sequence, structure and function analysis** | | | | | | | | |
