@@ -1,0 +1,69 @@
+RID: D217YV09114
+Job Title:EDG_CDS_WT
+Program: BLASTN
+Query: EDG_CDS_WT ID: lcl|Query_1731920(dna) Length: 1047
+
+Subject #1:OZ544371.1 Escherichia coli strain RSZYD15081311_A genome assembly, chromosome: 1 ID: lcl|Query_1731922 Length: 2314235
+Subject #2:NM_001356493.1 Mus musculus galactose-4-epimerase, UDP (Gale), mRNA ID: lcl|Query_1731923 Length: 1446
+
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession
+NM_001356493.1 Mus musculus galactose-4-epimerase, UDP (Gale),...                                 0          1297   1297  99%   0.0   89.15  1446       Query_1731923
+
+Alignments:
+
+Query          7     GAGAAGGTGCTGGTAACAGGTGGGGCTGGCTACATTGGCAGCCACACGGTGCTGGAGCTG  66
+Query_1731923  73    ..A...........C....................C..............AT........  132
+
+Query          67    CTGGAGGCTGGCTACTTGCCTGTGGTCATCGATAACTTCCATAATGCCTTCCGTGGAGGG  126
+Query_1731923  133   ........A.......CA...........T..C...........C...A.T.......AA  192
+
+Query          127   GGCTCCCTGCCTGAGAGCCTGCGGCGGGTCCAGGAGCTGACAGGCCGCTCTGTGGAGTTT  186
+Query_1731923  193   .A....A................C............T.......................  252
+
+Query          187   GAGGAGATGGACATTTTGGACCAGGGAGCCCTACAGCGTCTCTTCAAAAAGTACAGCTTT  246
+Query_1731923  253   ..............C..........C...........AC.....T..G...C........  312
+
+Query          247   ATGGCGGTCATCCACTTTGCGGGGCTCAAGGCCGTGGGCGAGTCGGTGCAGAAGCCTCTG  306
+Query_1731923  313   .A...C..............T..C........T...........A...............  372
+
+Query          307   GATTATTACAGAGTTAACCTGACCGGGACCATCCAGCTTCTGGAGATCATGAAGGCCCAC  366
+Query_1731923  373   ..C..C..T.........T.A..A.................A..........G.......  432
+
+Query          367   GGGGTGAAGAACCTGGTGTTCAGCAGCTCAGCCACTGTGTACGGGAACCCCCAGTACCTG  426
+Query_1731923  433   ..A................................C........................  492
+
+Query          427   CCCCTTGATGAGGCCCACCCCACGGGTGGTTGTACCAACCCTTACGGCAAGTCCAAGTTC  486
+Query_1731923  493   ..T..G....................G..C...........C..................  552
+
+Query          487   TTCATCGAGGAAATGATCCGGGACCTGTGCCAGGCAGACAAGACTTGGAACGCAGTGCTG  546
+Query_1731923  553   ...........G...................G........C.G.C........C......  612
+
+Query          547   CTGCGCTATTTCAACCCCACAGGTGCCCATGCCTCTGGCTGCATTGGTGAGGATCCCCAG  606
+Query_1731923  613   ..T..G..C.....T....T...C.....C........GC....C.....A.....T...  672
+
+Query          607   GGCATACCCAACAACCTCATGCCTTATGTCTCCCAGGTGGCGATCGGGCGACGGGAGGCC  666
+Query_1731923  673   ..T..T.................C..C..............A...........A......  732
+
+Query          667   CTGAATGTCTTTGGCAATGACTATGACACAGAGGATGGCACAGGTGTCCGGGATTACATC  726
+Query_1731923  733   ..............TG.........CT........C..G........GA..........T  792
+
+Query          727   CATGTCGTGGATCTGGCCAAGGGCCACATTGCAGCCTTAAGGAAGCTGAAAGAACAGTGT  786
+Query_1731923  793   ..C..G.....C.....G........T..A........G.A.........G..G..A...  852
+
+Query          787   GGCTGCCGGATCTACAACCTGGGCACGGGCACAGGCTATTCAGTGCTGCAGATGGTCCAG  846
+Query_1731923  853   ..T.......C...........................C..T..C..............A  912
+
+Query          847   GCTATGGAGAAGGCCTCTGGGAAGAAGATCCCGTACAAGGTGGTGGCACGGCGGGAAGGT  906
+Query_1731923  913   ..C........A.....A..........................................  972
+
+Query          907   GATGTGGCAGCCTGTTACGCCAACCCCAGCCTGGCCCAAGAGGAGCTGGGGTGGACAGCA  966
+Query_1731923  973   ........G........T....................T...........C.........  1032
+
+Query          967   GCCTTAGGGCTGGACAGGATGTGTGAGGATCTCTGGCGCTGGCAGAAGCAGAATCCTTCA  1026
+Query_1731923  1033  ...C.G....................A.....G....................C.....G  1092
+
+Query          1027  GGCTTTGGCACGCAAGCCTGA  1047
+Query_1731923  1093  ........GG....G......  1113
