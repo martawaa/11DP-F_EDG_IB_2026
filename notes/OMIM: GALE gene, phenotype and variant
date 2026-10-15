@@ -1,0 +1,28 @@
+# OMIM: gen *GALE*, fenotip i variants
+
+## Gen
+- **Gen:** *GALE* (OMIM 606953)
+- **Localització:** 1p36.11
+
+## Proteïna
+- **Enzim:** UDP-galactosa-4-epimerasa (UDP-galactose-4-epimerase)
+- **Funció:** Aquest gen codifica la UDP-galactosa-4-epimerasa, que catalitza la interconversió de UDP-galactosa i UDP-glucosa.
+
+## Malaltia
+- **Nom:** Deficiència d'epimerasa de galactosa / Galactosèmia III (OMIM 230350)
+- **Herència:** Autosòmica recessiva (AR)
+- **Símptomes:** sordesa neurosensorial, hepatomegàlia, esplenomegàlia, vòmits, icterícia, hipotonia, discapacitat intel·lectual, retard motor gruixut, retard del llenguatge, retard cognitiu
+- *Aclariment:* aquests símptomes apareixen en casos greus, mentre que els casos lleus gairebé no presenten símptomes.
+
+## Variants
+
+| Número | Canvi | Notació curta |
+|---|---|---|
+| .0001 | Leu183Pro | L183P |
+| .0002 | Asn34Ser | N34S |
+| .0003 | Gly90Glu | G90E |
+| .0004 | Asp103Gly | D103G |
+| .0005 | Lys257Arg | K257R |
+| .0006 | Leu313Met | L313M |
+| .0007 | Gly319Glu | G319E |
+| .0008 | Val94Met | V94M |
