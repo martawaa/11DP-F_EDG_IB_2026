@@ -31,7 +31,7 @@ words).*
 | Species | Gene | CDS | Protein | Length |
 |---|---|---|---|---|
 | *Homo sapiens* | *GALE* | NM_000403.4 | NP_000394.2 | 348 aa |
-| *Escherichia coli* K-12 MG1655 | *galE* | OZ544371.1 | NP_415280.3 (UDP-glucose 4-epimerase) | 338 aa |
+| *Escherichia coli* | *galE* | OZ544371.1 | NP_415280.3 (*Escherichia coli* K-12 MG1655:UDP-glucose 4-epimerase) | 338 aa |
 | *Mus musculus* | *Gale* | NM_001356493.1 | NP_001343422.1 | 347 aa |
 
 
