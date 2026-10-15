@@ -76,6 +76,18 @@ They describe the same event at two levels: c.280G>A in the CDS corresponds to p
 **Q11. How does the nucleotide variant produce the amino-acid variant?**
 The G>A substitution at c.280 is the first base of codon 94, which changes GTG (valine) to ATG (methionine).
 
+**Q12. Are there any highly conserved regions across the three species in the CDS sequences?  &#xA0;**
+Yes. The human and mouse CDS are 89.15% identical (query cover 99%, E-value 0.0). Conservation is not uniform: some regions (e.g. positions 367–426 and 847–906) show almost only identical positions, while others (e.g. 547–606) accumulate more mismatches. No gaps were observed. *E. coli* did not give a significant blastn alignment, so the CDS conservation could only be assessed between human and mouse. 
+
+**Q13. Are there any sequence positions with variants across the three species, either substitutions or gaps in the CDS sequences? &#x20;**&#xA0; 
+Yes. Compared with the human WT CDS, the mouse CDS shows about 110 nucleotide substitutions along the aligned region (identity 89.15%), spread throughout the sequence (e.g. G>A at position 9 and A>C at position 21 of the human CDS). No gaps were found, so there are no insertions or deletions between the two sequences. *E. coli* did not produce a significant blastn alignment, so variants could not be assessed for the three species at CDS level.  
+
+**Q14. Are there any highly conserved regions across the three species in the protein sequences?&#xA0;**
+Yes. The human protein is 93.93% identical to the mouse protein and 52.49% identical to the *E. coli* protein. Several stretches are identical in all three species, for example residues 5–18 (VLVTGGAGYIGSHT, except position 11 in *E. coli*), 85–102 (VIHFAGLKAVGESVQKPL), 129–137 (FSSSATVYG), 198–211 (GEDPQGIPNNLMPY) and 232–242 (TEDGTGVRDYI). The N-terminal region (about residues 19–47) and the C-terminal region are less conserved, mainly in *E. coli*.  
+
+**Q15. Are there any sequence positions with variants across the three species, either substitutions or gaps in the protein sequences? &#xA0;**
+Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. Leu28Ser, Gly71Ala, Arg75His, Lys120Arg) and no gaps. The *E. coli* protein shows many more substitutions (about half of the aligned positions; e.g. Lys4Arg, Glu21Gln, Ala84Thr) and a 6-residue gap corresponding to human residues 41–46. The last residues of the human protein (345–348) have no counterpart in the *E. coli* alignment. 
+
 ---
 ## Discussion
 [Discuss implications, compare with existing research, and highlight limitations.]
