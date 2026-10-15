@@ -105,7 +105,15 @@ The G>A substitution at c.280 is the first base of codon 94, which changes GTG (
 - Query: WT protein (348 aa). Subject: mutant protein (348 aa).
 - Algorithm: blastp (protein-protein BLAST)
 - Run on: 13/10/2026.
-- Alignment view: query-anchored with dots for identities, line length 60. 
+- Alignment view: query-anchored with dots for identities, line length 60.
+
+  
+### Multiple sequence alignment across species (Lab 2.3–2.4)
+
+- **Sequences:** the WT CDS and WT protein of human *GALE* (`EDG_CDS_WT.fasta`, `EDG_protein_WT.fasta`; NM_000403.4 / NP_000394.2) were compared with the homologs from *Mus musculus* (NM_001356493.1 / NP_001343422.1) and *Escherichia coli* K-12 MG1655 (NP_415280.3).
+- **CDS alignment:** NCBI BLAST, blastn, with the "Align two or more sequences" option activated. Query: human WT CDS (1047 nt). Subjects: *E. coli* sequence and mouse CDS, entered one after the other. Algorithm: [somewhat similar sequences (blastn) / megablast — write the one you used], other parameters left at default. Run on: [15/10/2026].
+- **Protein alignment:** NCBI BLAST, blastp, with the "Align two or more sequences" option activated. Query: human WT protein (348 aa). Subjects: mouse protein (347 aa) and *E. coli* protein (338 aa, NP_415280.3). Run on: [15/10/2026].
+- **Alignment view:** "Query-anchored with dots for identities", with the human sequence as the reference in all cases. Variable positions were identified as non-identical letters or gaps (`-`) relative to the human sequence.
 
 ---
 
