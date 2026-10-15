@@ -1,0 +1,40 @@
+RID: D21P1GCA114
+Job Title: EDG_protein_WT
+Program: BLASTP
+Query: EDG_protein_WT ID: lcl|Query_2380680(amino acid) Length: 348
+
+Subject #1:NP_001343422.1 UDP-glucose 4-epimerase [Mus musculus] ID: lcl|Query_2380682 Length: 347
+Subject #2:NP_415280.3 UDP-glucose 4-epimerase [Escherichia coli str. K-12 substr. MG1655] ID: lcl|Query_2380683 Length: 338
+
+
+Clusters producing significant alignments:
+                                                                  #          #          Scientific      Cluster                    Max    Total Query   E    Per.   Acc.
+Cluster Rep.                                                      Mem.       Taxa       Name            Ancestor        Taxid      Score  Score cover Value  Ident  Len        Accession
+NP_001343422.1 UDP-glucose 4-epimerase [Mus musculus]             0          0                                          0          678    678   99%   0.0    93.93  347        Query_2380682
+NP_415280.3 UDP-glucose 4-epimerase [Escherichia coli str. K-1... 0          0                                          0          376    376   98%   1e-134 52.49  338        Query_2380683
+
+Alignments:
+
+Query          3    EKVLVTGGAGYIGSHTVLELLEAGYLPVVIDNFHNAFRGGGSLPESLRRVQELTGRSVEF  62
+Query_2380682  2    .........................S..........I..ED.M.................  61
+Query_2380683  2     R......S.......CVQ..QN.HDVIIL..LC.SK.------SV.PVIER.G.KHPT.  54
+
+Query          63   EEMDILDQGALQRLFKKYSFMAVIHFAGLKAVGESVQKPLDYYRVNLTGTIQLLEIMKAH  122
+Query_2380682  62   ........A...H....H..K....................................R..  121
+Query_2380683  55   V.G..RNEALMTEILHDHAIDT..................E..DN.VN..LR.ISA.R.A  114
+
+Query          123  GVKNLVFSSSATVYGNPQYLPLDEAHPTGGCTNPYGKSKFFIEEMIRDLCQADKTWNAVL  182
+Query_2380682  122  ..................................................R..TA.....  181
+Query_2380683  115  N...FI.........DQPKI.YV.SF...TPQS......LMV.QILT..QK.QPD.SIA.  174
+
+Query          183  LRYFNPTGAHASGCIGEDPQGIPNNLMPYVSQVAIGRREALNVFGNDYDTEDGTGVRDYI  242
+Query_2380682  182  ......I......R...............................D..A...........  241
+Query_2380683  175  ......V...P..DM..............IA...V...DS.AI.....P...........  234
+
+Query          243  HVVDLAKGHIAALRKLKEQCGCRIYNLGTGTGYSVLQMVQAMEKASGKKIPYKVVARREG  302
+Query_2380682  242  .............K.........T....................................  301
+Query_2380683  235  ..M...D..VV.ME..ANKP.VH.....A.V.N...DV.N.FS..C..PVN.HFAP....  294
+
+Query          303  DVAACYANPSLAQEELGWTAALGLDRMCEDLWRWQKQNPSGFGTQA  348
+Query_2380682  302  ............H..............................A..  347
+Query_2380683  295  .LP.YW.DA.K.DR..N.RVTRT..E.AQ.T.H..SRH.Q.Y      336
