@@ -1,22 +1,22 @@
-# OMIM: gen *GALE*, fenotip i variants
+# OMIM: GALE gene, phenotype and variants
 
-## Gen
-- **Gen:** *GALE* (OMIM 606953)
-- **Localització:** 1p36.11
+## Gene
+- **Gene:** *GALE* (OMIM 606953)
+- **Location:** 1p36.11
 
-## Proteïna
-- **Enzim:** UDP-galactosa-4-epimerasa (UDP-galactose-4-epimerase)
-- **Funció:** Aquest gen codifica la UDP-galactosa-4-epimerasa, que catalitza la interconversió de UDP-galactosa i UDP-glucosa.
+## Protein
+- **Enzyme:** UDP-galactose-4-epimerase
+- **Function:** This gene codifies UDP-galactose-4-epimerase which catalyzes the interconversion of UDP-galactose and UDP-glucose.
 
-## Malaltia
-- **Nom:** Deficiència d'epimerasa de galactosa / Galactosèmia III (OMIM 230350)
-- **Herència:** Autosòmica recessiva (AR)
-- **Símptomes:** sordesa neurosensorial, hepatomegàlia, esplenomegàlia, vòmits, icterícia, hipotonia, discapacitat intel·lectual, retard motor gruixut, retard del llenguatge, retard cognitiu
-- *Aclariment:* aquests símptomes apareixen en casos greus, mentre que els casos lleus gairebé no presenten símptomes.
+## Disease
+- **Name:** Galactose epimerase deficiency / Galactosemia III (OMIM 230350)
+- **Inheritance:** Autosomal recessive (AR)
+- **Symptoms:** sensorineural deafness, hepatomegaly, splenomegaly, vomiting, jaundice, hypotonia, intellectual disability, gross motor developmental delay, language delay, cognitive delay
+- *Clarification:* These symptoms appear in serious cases, while mild cases hardly show symptoms.
 
 ## Variants
 
-| Número | Canvi | Notació curta |
+| Number | Change | Short notation |
 |---|---|---|
 | .0001 | Leu183Pro | L183P |
 | .0002 | Asn34Ser | N34S |
