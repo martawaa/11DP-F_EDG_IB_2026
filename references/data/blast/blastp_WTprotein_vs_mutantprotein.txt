@@ -1,0 +1,35 @@
+RID: D96SJAWS114	
+Job Title:Compare WT and mutant protein				
+Program: BLASTP 
+Query: unnamed protein product ID: lcl|Query_8253581(amino acid) Length: 348
+Subject:None ID: lcl|Query_8253583(amino acid) Length: 348
+	
+Clusters producing significant alignments:
+                                                                  #          #          Scientific      Cluster                    Max    Total Query   E   Per.   Acc.                        
+Cluster Rep.                                                      Mem.       Taxa       Name            Ancestor        Taxid      Score  Score cover Value Ident  Len        Accession        
+unnamed protein product                                           0          0                                          0          724    724   100%  0.0   99.71  348        Query_8253583    
+
+Alignments:
+
+Query          1    MAEKVLVTGGAGYIGSHTVLELLEAGYLPVVIDNFHNAFRGGGSLPESLRRVQELTGRSV  60
+Query_8253583  1    ............................................................  60
+
+Query          61   EFEEMDILDQGALQRLFKKYSFMAVIHFAGLKAVGESVQKPLDYYRVNLTGTIQLLEIMK  120
+Query_8253583  61   .................................M..........................  120
+
+Query          121  AHGVKNLVFSSSATVYGNPQYLPLDEAHPTGGCTNPYGKSKFFIEEMIRDLCQADKTWNA  180
+Query_8253583  121  ............................................................  180
+
+Query          181  VLLRYFNPTGAHASGCIGEDPQGIPNNLMPYVSQVAIGRREALNVFGNDYDTEDGTGVRD  240
+Query_8253583  181  ............................................................  240
+
+Query          241  YIHVVDLAKGHIAALRKLKEQCGCRIYNLGTGTGYSVLQMVQAMEKASGKKIPYKVVARR  300
+Query_8253583  241  ............................................................  300
+
+Query          301  EGDVAACYANPSLAQEELGWTAALGLDRMCEDLWRWQKQNPSGFGTQA  348
+Query_8253583  301  ................................................  348
+
+
+		
+
+
