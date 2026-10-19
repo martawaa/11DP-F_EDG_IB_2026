@@ -11,18 +11,21 @@ OZ544371.1 Escherichia coli strain RSZYD15081311_A genome...                    
 
 Alignments:
 
+- SECTION 1
 Query         532     TGGAACGCAGTGCTGCTGCGCTATTTCAACCCCACAGGTGCCCATGCCTCTGGCTGCATT  591
 Query_662397  176507  ...G...TC........C..T..C..........TC..C.....C.....C...CT...C  176566
 
+- SECTION 2
 Query         592     GGTGAGGATCCCCAGGGCATACCCAACAACCTCATGCCTTATGTCTCCCAGGTGGCGATC  651
 Query_662397  176567  ..C.....C...A.......C..G........GG.T..C......G...........G.-  176625
 
+- SECTION 3
 Query         652     GGGCGACGGGAGGCCCTGAATGTCTTTGGCAATGACTATGACACAGAGGATGGCACAGGT  711
 Query_662397  176626  ....A..T.......G.TC.G.....C...G.......C.....GCCC..C.....C...  176686
                             \                                                     
                             |                                                     
                             G
-
+- SECTION 4
 Query         712     GTCCGGGATTACATCCATGTCGTGGATCTGGCCAAGGGCCACATTGCAGC  761
 Query_662397  176687  ..G..C..C........C..G.....C..C..G.CC......G.G..G..  176736
 
