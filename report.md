@@ -137,7 +137,7 @@ Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. L
   
 - **WTCDS - Mus musculus**
 
-  -----------------
+
 
 
 - **WTProtein - mutant Protein**
