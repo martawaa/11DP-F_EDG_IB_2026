@@ -308,6 +308,35 @@ All sections present a percentage identity > 90%, the highest being *SECTION 5* 
 
 ---
 
+*(this should be added to discussion)*
+
+
+In the comparison between WT CDS & mutant CDS, the G --> A substitution at nucleotide po 280 corresponds to a V --> M substitution at amino-acid position 94. This means that a different nucleotid will codsitionificate a different aminoacid aswell and the sequence will be affected. This happens in the comparisons of the aligments WT CDS & mouse CDS and WT CDS & E. coli CDS aswell, but in both of them there's cases where regardless of the different nucleotids, it still codificates for the same aminoacid and the sequence is unaffected.
+
+WTCDS - mutant CDS - 99.90% (100% coverage) 
+
+WTProtein - mutant Protein - 99.71% (100% coverage) 
+
+-> Both percentage identities are similar, but the highest is the nucleotid sequence
+
+
+WTCDS - E. coli - 76.19% (22% coverage)
+
+WTProtein - E. coli - 52.49% (98% coverage)
+
+-> Both percentage identities are similar, but the highest is the nucleotid sequence
+
+
+WTCDS - Mus musculus - 98.15% (99% coverage)
+
+WTProtein - Mus musculus - 93.93% (99% coverage)
+
+-> Both percentage identities are similar, but the highest is the nucleotid sequence
+
+# I dont understand why this happens. Ask teacher
+
+---
+
 ## Abbreviations
 [List abbreviations used, e.g., AI: Artificial Intelligence.]
 
