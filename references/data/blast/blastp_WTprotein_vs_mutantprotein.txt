@@ -11,21 +11,27 @@ unnamed protein product                                           0          0  
 
 Alignments:
 
+- SECTION 1
 Query          1    MAEKVLVTGGAGYIGSHTVLELLEAGYLPVVIDNFHNAFRGGGSLPESLRRVQELTGRSV  60
 Query_8253583  1    ............................................................  60
 
+- SECTION 2
 Query          61   EFEEMDILDQGALQRLFKKYSFMAVIHFAGLKAVGESVQKPLDYYRVNLTGTIQLLEIMK  120
 Query_8253583  61   .................................M..........................  120
 
+- SECTION 3
 Query          121  AHGVKNLVFSSSATVYGNPQYLPLDEAHPTGGCTNPYGKSKFFIEEMIRDLCQADKTWNA  180
 Query_8253583  121  ............................................................  180
 
+- SECTION 4
 Query          181  VLLRYFNPTGAHASGCIGEDPQGIPNNLMPYVSQVAIGRREALNVFGNDYDTEDGTGVRD  240
 Query_8253583  181  ............................................................  240
 
+- SECTION 5
 Query          241  YIHVVDLAKGHIAALRKLKEQCGCRIYNLGTGTGYSVLQMVQAMEKASGKKIPYKVVARR  300
 Query_8253583  241  ............................................................  300
 
+- SECTION 6
 Query          301  EGDVAACYANPSLAQEELGWTAALGLDRMCEDLWRWQKQNPSGFGTQA  348
 Query_8253583  301  ................................................  348
 
