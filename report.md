@@ -134,6 +134,8 @@ Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. L
 - **Alignment view:** "Query-anchored with dots for identities", with the human sequence as the reference in all cases. Variable positions were identified as non-identical letters or gaps (`-`) relative to the human sequence.
 
 ### Comparison of the alignments (Lab 2.5)
+Conservation can suggest that a position is important for protein structure or function
+because some positions tolerate fewer changes than others. Nevertheless, these comparisons aren't sufficient to demonstrate it in all species and shouldn't be considered universal.
 
 - **WTCDS - mutant CDS**
   
