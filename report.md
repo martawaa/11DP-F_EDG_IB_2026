@@ -127,6 +127,28 @@ Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. L
 - **Protein alignment:** NCBI BLAST, blastp, with the "Align two or more sequences" option activated. Query: human WT protein (348 aa). Subjects: mouse protein (347 aa) and *E. coli* protein (338 aa, NP_415280.3). Run on: [15/10/2026].
 - **Alignment view:** "Query-anchored with dots for identities", with the human sequence as the reference in all cases. Variable positions were identified as non-identical letters or gaps (`-`) relative to the human sequence.
 
+### Comparison of the alignments (Lab 2.5)
+
+- **WTCDS - mutant CDS**
+
+
+- **WTCDS - E. coli**
+
+  
+- **WTCDS - Mus musculus**
+
+  -----------------
+
+
+- **WTProtein - mutant Protein**
+
+  
+- **WTProtein - E. coli**
+
+  
+- **WTProtein - Mus musculus**
+
+
 ---
 
 ## Abbreviations
