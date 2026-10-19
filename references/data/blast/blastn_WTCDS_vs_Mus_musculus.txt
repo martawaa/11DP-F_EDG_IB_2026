@@ -11,57 +11,75 @@ lcl|NM_001356493.1_cds_NP_001343422.1_1 [gene=Gale]...                          
 
 Alignments:
 
+- SECTION 1
 Query          7     GAGAAGGTGCTGGTAACAGGTGGGGCTGGCTACATTGGCAGCCACACGGTGCTGGAGCTG  66
 Query_6479863  4     ..A...........C....................C..............AT........  63
 
+- SECTION 2
 Query          67    CTGGAGGCTGGCTACTTGCCTGTGGTCATCGATAACTTCCATAATGCCTTCCGTGGAGGG  126
 Query_6479863  64    ........A.......CA...........T..C...........C...A.T.......AA  123
 
+- SECTION 3
 Query          127   GGCTCCCTGCCTGAGAGCCTGCGGCGGGTCCAGGAGCTGACAGGCCGCTCTGTGGAGTTT  186
 Query_6479863  124   .A....A................C............T.......................  183
 
+- SECTION 4
 Query          187   GAGGAGATGGACATTTTGGACCAGGGAGCCCTACAGCGTCTCTTCAAAAAGTACAGCTTT  246
 Query_6479863  184   ..............C..........C...........AC.....T..G...C........  243
 
+- SECTION 5
 Query          247   ATGGCGGTCATCCACTTTGCGGGGCTCAAGGCCGTGGGCGAGTCGGTGCAGAAGCCTCTG  306
 Query_6479863  244   .A...C..............T..C........T...........A...............  303
 
+- SECTION 6
 Query          307   GATTATTACAGAGTTAACCTGACCGGGACCATCCAGCTTCTGGAGATCATGAAGGCCCAC  366
 Query_6479863  304   ..C..C..T.........T.A..A.................A..........G.......  363
 
+- SECTION 7
 Query          367   GGGGTGAAGAACCTGGTGTTCAGCAGCTCAGCCACTGTGTACGGGAACCCCCAGTACCTG  426
 Query_6479863  364   ..A................................C........................  423
 
+- SECTION 8
 Query          427   CCCCTTGATGAGGCCCACCCCACGGGTGGTTGTACCAACCCTTACGGCAAGTCCAAGTTC  486
 Query_6479863  424   ..T..G....................G..C...........C..................  483
 
+- SECTION 9
 Query          487   TTCATCGAGGAAATGATCCGGGACCTGTGCCAGGCAGACAAGACTTGGAACGCAGTGCTG  546
 Query_6479863  484   ...........G...................G........C.G.C........C......  543
 
+- SECTION 10
 Query          547   CTGCGCTATTTCAACCCCACAGGTGCCCATGCCTCTGGCTGCATTGGTGAGGATCCCCAG  606
 Query_6479863  544   ..T..G..C.....T....T...C.....C........GC....C.....A.....T...  603
 
+- SECTION 11
 Query          607   GGCATACCCAACAACCTCATGCCTTATGTCTCCCAGGTGGCGATCGGGCGACGGGAGGCC  666
 Query_6479863  604   ..T..T.................C..C..............A...........A......  663
 
+- SECTION 12
 Query          667   CTGAATGTCTTTGGCAATGACTATGACACAGAGGATGGCACAGGTGTCCGGGATTACATC  726
 Query_6479863  664   ..............TG.........CT........C..G........GA..........T  723
 
+- SECTION 13
 Query          727   CATGTCGTGGATCTGGCCAAGGGCCACATTGCAGCCTTAAGGAAGCTGAAAGAACAGTGT  786
 Query_6479863  724   ..C..G.....C.....G........T..A........G.A.........G..G..A...  783
 
+- SECTION 14
 Query          787   GGCTGCCGGATCTACAACCTGGGCACGGGCACAGGCTATTCAGTGCTGCAGATGGTCCAG  846
 Query_6479863  784   ..T.......C...........................C..T..C..............A  843
 
+- SECTION 15
 Query          847   GCTATGGAGAAGGCCTCTGGGAAGAAGATCCCGTACAAGGTGGTGGCACGGCGGGAAGGT  906
 Query_6479863  844   ..C........A.....A..........................................  903
 
+- SECTION 16
 Query          907   GATGTGGCAGCCTGTTACGCCAACCCCAGCCTGGCCCAAGAGGAGCTGGGGTGGACAGCA  966
 Query_6479863  904   ........G........T....................T...........C.........  963
 
+- SECTION 17
 Query          967   GCCTTAGGGCTGGACAGGATGTGTGAGGATCTCTGGCGCTGGCAGAAGCAGAATCCTTCA  1026
 Query_6479863  964   ...C.G....................A.....G....................C.....G  1023
 
+- SECTION 18
 Query          1027  GGCTTTGGCACGCAAGCCTGA  1047
 Query_6479863  1024  ........GG....G......  1044
 
