@@ -1,0 +1,32 @@
+RID: DBRSX52G114	
+Job Title: EDG_CDS_WT 				
+Program: BLASTN 
+Query: EDG_CDS_WT ID: lcl|Query_662395(dna) Length: 1047
+Subject:OZ544371.1 Escherichia coli strain RSZYD15081311_A genome assembly, chromosome: 1 ID: lcl|Query_662397(dna) Length: 2314235
+	
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+OZ544371.1 Escherichia coli strain RSZYD15081311_A genome...                                      0          162    162   22%   5e-40 76.19  2314235    Query_662397     
+
+Alignments:
+
+Query         532     TGGAACGCAGTGCTGCTGCGCTATTTCAACCCCACAGGTGCCCATGCCTCTGGCTGCATT  591
+Query_662397  176507  ...G...TC........C..T..C..........TC..C.....C.....C...CT...C  176566
+
+Query         592     GGTGAGGATCCCCAGGGCATACCCAACAACCTCATGCCTTATGTCTCCCAGGTGGCGATC  651
+Query_662397  176567  ..C.....C...A.......C..G........GG.T..C......G...........G.-  176625
+
+Query         652     GGGCGACGGGAGGCCCTGAATGTCTTTGGCAATGACTATGACACAGAGGATGGCACAGGT  711
+Query_662397  176626  ....A..T.......G.TC.G.....C...G.......C.....GCCC..C.....C...  176686
+                            \                                                     
+                            |                                                     
+                            G
+
+Query         712     GTCCGGGATTACATCCATGTCGTGGATCTGGCCAAGGGCCACATTGCAGC  761
+Query_662397  176687  ..G..C..C........C..G.....C..C..G.CC......G.G..G..  176736
+
+
+		
+
+
