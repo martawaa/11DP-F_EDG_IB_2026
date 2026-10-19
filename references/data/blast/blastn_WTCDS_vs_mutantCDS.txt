@@ -11,57 +11,75 @@ None provided                                                                   
 
 Alignments:
 
+- SECTION 1
 Query          1     ATGGCAGAGAAGGTGCTGGTAACAGGTGGGGCTGGCTACATTGGCAGCCACACGGTGCTG  60
 Query_5210635  1     ............................................................  60
 
+- SECTION 2
 Query          61    GAGCTGCTGGAGGCTGGCTACTTGCCTGTGGTCATCGATAACTTCCATAATGCCTTCCGT  120
 Query_5210635  61    ............................................................  120
 
+- SECTION 3
 Query          121   GGAGGGGGCTCCCTGCCTGAGAGCCTGCGGCGGGTCCAGGAGCTGACAGGCCGCTCTGTG  180
 Query_5210635  121   ............................................................  180
 
+- SECTION 4
 Query          181   GAGTTTGAGGAGATGGACATTTTGGACCAGGGAGCCCTACAGCGTCTCTTCAAAAAGTAC  240
 Query_5210635  181   ............................................................  240
 
+- SECTION 5
 Query          241   AGCTTTATGGCGGTCATCCACTTTGCGGGGCTCAAGGCCGTGGGCGAGTCGGTGCAGAAG  300
 Query_5210635  241   .......................................A....................  300
 
+- SECTION 6
 Query          301   CCTCTGGATTATTACAGAGTTAACCTGACCGGGACCATCCAGCTTCTGGAGATCATGAAG  360
 Query_5210635  301   ............................................................  360
 
+- SECTION 7
 Query          361   GCCCACGGGGTGAAGAACCTGGTGTTCAGCAGCTCAGCCACTGTGTACGGGAACCCCCAG  420
 Query_5210635  361   ............................................................  420
 
+- SECTION 8
 Query          421   TACCTGCCCCTTGATGAGGCCCACCCCACGGGTGGTTGTACCAACCCTTACGGCAAGTCC  480
 Query_5210635  421   ............................................................  480
 
+- SECTION 9
 Query          481   AAGTTCTTCATCGAGGAAATGATCCGGGACCTGTGCCAGGCAGACAAGACTTGGAACGCA  540
 Query_5210635  481   ............................................................  540
 
+- SECTION 10
 Query          541   GTGCTGCTGCGCTATTTCAACCCCACAGGTGCCCATGCCTCTGGCTGCATTGGTGAGGAT  600
 Query_5210635  541   ............................................................  600
 
+- SECTION 11
 Query          601   CCCCAGGGCATACCCAACAACCTCATGCCTTATGTCTCCCAGGTGGCGATCGGGCGACGG  660
 Query_5210635  601   ............................................................  660
 
+- SECTION 12
 Query          661   GAGGCCCTGAATGTCTTTGGCAATGACTATGACACAGAGGATGGCACAGGTGTCCGGGAT  720
 Query_5210635  661   ............................................................  720
 
+- SECTION 13
 Query          721   TACATCCATGTCGTGGATCTGGCCAAGGGCCACATTGCAGCCTTAAGGAAGCTGAAAGAA  780
 Query_5210635  721   ............................................................  780
 
+- SECTION 14
 Query          781   CAGTGTGGCTGCCGGATCTACAACCTGGGCACGGGCACAGGCTATTCAGTGCTGCAGATG  840
 Query_5210635  781   ............................................................  840
 
+- SECTION 15
 Query          841   GTCCAGGCTATGGAGAAGGCCTCTGGGAAGAAGATCCCGTACAAGGTGGTGGCACGGCGG  900
 Query_5210635  841   ............................................................  900
 
+- SECTION 16
 Query          901   GAAGGTGATGTGGCAGCCTGTTACGCCAACCCCAGCCTGGCCCAAGAGGAGCTGGGGTGG  960
 Query_5210635  901   ............................................................  960
 
+- SECTION 17
 Query          961   ACAGCAGCCTTAGGGCTGGACAGGATGTGTGAGGATCTCTGGCGCTGGCAGAAGCAGAAT  1020
 Query_5210635  961   ............................................................  1020
 
+- SECTION 18
 Query          1021  CCTTCAGGCTTTGGCACGCAAGCCTGA  1047
 Query_5210635  1021  ...........................  1047
 
