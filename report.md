@@ -76,11 +76,17 @@ They describe the same event at two levels: c.280G>A in the CDS corresponds to p
 **Q11. How does the nucleotide variant produce the amino-acid variant?**
 The G>A substitution at c.280 is the first base of codon 94, which changes GTG (valine) to ATG (methionine).
 
-**Q12. Are there any highly conserved regions across the three species in the CDS sequences?  &#xA0;**
-Yes. The human and mouse CDS are 89.15% identical (query cover 99%, E-value 0.0). Conservation is not uniform: some regions (e.g. positions 367–426 and 847–906) show almost only identical positions, while others (e.g. 547–606) accumulate more mismatches. No gaps were observed. *E. coli* did not give a significant blastn alignment, so the CDS conservation could only be assessed between human and mouse. 
+**Q12. Are there any highly conserved regions across the three species in the CDS sequences?**
 
-**Q13. Are there any sequence positions with variants across the three species, either substitutions or gaps in the CDS sequences? &#x20;**&#xA0; 
-Yes. Compared with the human WT CDS, the mouse CDS shows about 110 nucleotide substitutions along the aligned region (identity 89.15%), spread throughout the sequence (e.g. G>A at position 9 and A>C at position 21 of the human CDS). No gaps were found, so there are no insertions or deletions between the two sequences. *E. coli* did not produce a significant blastn alignment, so variants could not be assessed for the three species at CDS level.  
+Yes, but the CDS comparison could not be done as a single three-way alignment. Human vs mouse and human vs *E. coli* were aligned separately with blastn, with the human WT CDS as the query in both runs. The *E. coli* CDS was too divergent to be aligned together with the other two sequences.
+
+Human and mouse CDS align over almost their whole length (positions 7–1047, cover 99%, 89.15% identity, E-value 0.0). Conservation is not uniform: positions 367–426 and 847–906 are almost identical (2 and 3 mismatches per 60 nt), whereas positions 547–606 have about 12 mismatches. For *E. coli*, blastn only aligned a 230 nt segment (positions 532–761, cover 22%, 76.19% identity, E-value 5e-40).
+
+**Q13. Are there any sequence positions with variants across the three species, either substitutions or gaps in the CDS sequences?**
+
+Yes. As above, each species was compared with human separately. Human vs mouse shows about 113 substitutions, spread along the sequence and frequently at the third base of codons. There are no gaps, and the mouse CDS is one codon shorter (1044 vs 1047 nt). Human vs *E. coli* shows, within the aligned segment (positions 532–761), about 53 substitutions and 2 gaps, which compensate each other. No variants can be reported outside this segment.
+
+Position c.280 is identical in human and mouse (G), so it is conserved between these two species. It lies outside the segment aligned with *E. coli* (positions 532–761), so it could not be compared.
 
 **Q14. Are there any highly conserved regions across the three species in the protein sequences?&#xA0;**
 Yes. The human protein is 93.93% identical to the mouse protein and 52.49% identical to the *E. coli* protein. Several stretches are identical in all three species, for example residues 5–18 (VLVTGGAGYIGSHT, except position 11 in *E. coli*), 85–102 (VIHFAGLKAVGESVQKPL), 129–137 (FSSSATVYG), 198–211 (GEDPQGIPNNLMPY) and 232–242 (TEDGTGVRDYI). The N-terminal region (about residues 19–47) and the C-terminal region are less conserved, mainly in *E. coli*.  
