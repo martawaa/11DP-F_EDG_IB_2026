@@ -248,7 +248,7 @@ There's sections with noticeably higher identity than the rest: *SECTION 7*, *SE
   
 The aligment covers 100% of the WTCDS sequence provided to BLAST. The percentage identity states that 99.71% of the aligned nucleotides in that coverage are identical, with only a 0.29% of differance approximately.
 
-Knowing that the percentage identity = identical nucleotides / total nucleotides:
+Knowing that the percentage identity = identical aminoacids / total aminoacids:
   
 *SECTION 1* :	100,0%
 
@@ -269,7 +269,7 @@ Every section matches the original sequence perfectly except for *SECTION 2*, wi
   
 The aligment covers 98% of the WTCDS sequence provided to BLAST. The percentage identity states that 52.49% of the aligned nucleotides in that coverage are identical, with a 48.52% of differance approximately.
 
-Knowing that the percentage identity = identical nucleotides / total nucleotides:
+Knowing that the percentage identity = identical aminoacids / total aminoacids:
 
 *SECTION 1* :	41.67%
 
@@ -290,7 +290,7 @@ All sections present a percentage identity < 20% except for *SECTION 1* with a 4
   
 The aligment covers 99% of the WTCDS sequence provided to BLAST. The percentage identity states that 93.93% of the aligned nucleotides in that coverage are identical, with a 6.07% of differance approximately.
 
-Knowing that the percentage identity = identical nucleotides / total nucleotides:
+Knowing that the percentage identity = identical aminoacids / total aminoacids:
 
 *SECTION 1* :	91.67%
 
