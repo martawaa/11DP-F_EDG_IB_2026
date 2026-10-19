@@ -15,26 +15,32 @@ NP_415280.3 UDP-glucose 4-epimerase [Escherichia coli str. K-1... 0          0  
 
 Alignments:
 
+- SECTION 1
 Query          3    EKVLVTGGAGYIGSHTVLELLEAGYLPVVIDNFHNAFRGGGSLPESLRRVQELTGRSVEF  62
 Query_2380682  2    .........................S..........I..ED.M.................  61
 Query_2380683  2     R......S.......CVQ..QN.HDVIIL..LC.SK.------SV.PVIER.G.KHPT.  54
 
+- SECTION 2
 Query          63   EEMDILDQGALQRLFKKYSFMAVIHFAGLKAVGESVQKPLDYYRVNLTGTIQLLEIMKAH  122
 Query_2380682  62   ........A...H....H..K....................................R..  121
 Query_2380683  55   V.G..RNEALMTEILHDHAIDT..................E..DN.VN..LR.ISA.R.A  114
 
+- SECTION 3
 Query          123  GVKNLVFSSSATVYGNPQYLPLDEAHPTGGCTNPYGKSKFFIEEMIRDLCQADKTWNAVL  182
 Query_2380682  122  ..................................................R..TA.....  181
 Query_2380683  115  N...FI.........DQPKI.YV.SF...TPQS......LMV.QILT..QK.QPD.SIA.  174
 
+- SECTION 4
 Query          183  LRYFNPTGAHASGCIGEDPQGIPNNLMPYVSQVAIGRREALNVFGNDYDTEDGTGVRDYI  242
 Query_2380682  182  ......I......R...............................D..A...........  241
 Query_2380683  175  ......V...P..DM..............IA...V...DS.AI.....P...........  234
 
+- SECTION 5
 Query          243  HVVDLAKGHIAALRKLKEQCGCRIYNLGTGTGYSVLQMVQAMEKASGKKIPYKVVARREG  302
 Query_2380682  242  .............K.........T....................................  301
 Query_2380683  235  ..M...D..VV.ME..ANKP.VH.....A.V.N...DV.N.FS..C..PVN.HFAP....  294
 
+- SECTION 6
 Query          303  DVAACYANPSLAQEELGWTAALGLDRMCEDLWRWQKQNPSGFGTQA  348
 Query_2380682  302  ............H..............................A..  347
 Query_2380683  295  .LP.YW.DA.K.DR..N.RVTRT..E.AQ.T.H..SRH.Q.Y      336
