@@ -62,6 +62,7 @@ Not applicable: the change is a single nucleotide substitution, with no insertio
 - Protein annotation: **p.Val94Met**.
 
 ### Protein 3D Structures (PDB Analysis)
+*Supplementary material: [View GALE 3D structure and sequence comparison PDF](figures/GALE_PDB_1EK5_comparison.pdf).*
 
 To evaluate the 3D structural consequences of the p.Val94Met mutation, experimental crystal structures were retrieved from the Protein Data Bank (RCSB PDB):
 
