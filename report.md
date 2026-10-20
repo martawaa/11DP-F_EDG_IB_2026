@@ -65,13 +65,13 @@ Not applicable: the change is a single nucleotide substitution, with no insertio
 Both valine and methionine are non-polar, hydrophobic and uncharged, so the substitution does not change charge or polarity. They differ in size and shape: methionine has a longer, unbranched and more flexible side chain containing sulfur, whereas valine has a short, branched side chain. [Add values from the course material or UniProt if needed.]
 
 **Q8. Could the substitution change the interactions made by this position? Why?**
-
+Yes, while both valine and methionine are non-polar and hydrophobic, methionine has a significantly longer, bulkier side chain containing a sulfur atom. Substituting Val94 with Met introduces steric hindrance in the hydrophobic core, disrupting optimal van der Waals contacts and compact hydrophobic packing.
 
 **Q9. Could this affect how the protein folds or functions? Why?**
-
+Yes. Position 94 is located within a highly conserved sequence block (residues 85–102). The steric clashes caused by the bulkier methionine side chain can destabilize the local 3D fold, reduce protein stability, and distort the active site, leading to reduced epimerase activity.
 
 **Q10. How does the CDS-level variant compare with the protein-level variant?**
-They describe the same event at two levels: c.280G>A in the CDS corresponds to p.Val94Met in the protein.
+They describe the same event at two levels: c.280G > A in the CDS corresponds to p.Val94Met in the protein.
 
 **Q11. How does the nucleotide variant produce the amino-acid variant?**
 The G>A substitution at c.280 is the first base of codon 94, which changes GTG (valine) to ATG (methionine).
