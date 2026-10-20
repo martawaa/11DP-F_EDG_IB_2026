@@ -61,6 +61,22 @@ Not applicable: the change is a single nucleotide substitution, with no insertio
 - Variant type: single amino-acid substitution (missense).
 - Protein annotation: **p.Val94Met**.
 
+### Protein 3D Structures (PDB Analysis)
+To evaluate the 3D structural consequences of the p.Val94Met mutation, experimental crystal structures were retrieved from the Protein Data Bank (RCSB PDB):
+
+| Feature | Wild Type (WT) Structure | Mutant (V94M) Structure |
+| :--- | :--- | :--- |
+| **PDB ID** | **1EK8** | **1EK5** |
+| **Experimental Method** | X-ray Diffraction | X-ray Diffraction |
+| **Resolution** | 2.50 Å | 2.50 Å |
+| **Organism** | *Homo sapiens* | *Homo sapiens* |
+| **Mutation** | None (WT) | V94M (p.Val94Met) |
+| **Ligands / Cofactors** | NAD+, UDP-Glucose / UDP-Galactose | NAD+, UDP-Glucose / UDP-Galactose |
+| **Oligomeric State** | Homodimer | Homodimer |
+
+**Structural Impact of p.Val94Met:**
+The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing side chain into a highly conserved, tightly packed hydrophobic core (residues 85–102). Comparison between `1EK8` (WT) and `1EK5` (Mutant) reveals that while the overall fold and homodimeric structure remain intact, the larger volume of methionine induces local steric clashes that destabilize the core packing and decrease protein stability, contributing to Epimerase-Deficiency Galactosemia.
+
 **Q7. How do the properties of the WT and mutant amino acids differ?**
 Both valine and methionine are non-polar, hydrophobic and uncharged, so the substitution does not change charge or polarity. They differ in size and shape: methionine has a longer, unbranched and more flexible side chain containing sulfur, whereas valine has a short, branched side chain. [Add values from the course material or UniProt if needed.]
 
