@@ -289,19 +289,19 @@ The aligment covers 98% of the WTCDS sequence provided to BLAST. The percentage 
 
 Knowing that the percentage identity = identical aminoacids / total aminoacids * 100:
 
-*SECTION 1* :	41.67%
+*SECTION 1* : 51.67%
 
-*SECTION 2* :	16.67%
+*SECTION 2* :	48.33%
 
-*SECTION 3* :	16.67%
+*SECTION 3* :	48.33%
 
-*SECTION 4* :	66.67%
+*SECTION 4* :	80.0%
 
-*SECTION 5* :	16.67%
+*SECTION 5* :	53.33%
 
-*SECTION 6* :	13.04%
+*SECTION 6* :	45.65%
 
-All sections present a percentage identity < 20% except for *SECTION 1* with a 41.67% and *SECTION 4* with a 66.67%. 
+All sections present a percentage identity < 60% except for *SECTION 4* with a 80.0%. 
 
   
 - **WTProtein - Mus musculus**
