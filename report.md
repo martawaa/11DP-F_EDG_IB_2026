@@ -11,6 +11,15 @@ words).*
 
 ## Background
 [Explain the background to the study, its aims, and research gap.]
+## Background
+
+Galactose is a sugar found mainly in milk and dairy products. The body converts it into glucose so it can be used as energy. Galactosemias are a group of inherited disorders in which this process fails and galactose accumulates in the blood.
+
+The *GALE* gene (chromosome 1, 1p36.11) encodes the enzyme UDP-galactose 4-epimerase. This enzyme catalyses two reversible reactions: the interconversion of UDP-glucose and UDP-galactose, and of UDP-N-acetylglucosamine and UDP-N-acetylgalactosamine. The second reaction is important because these sugars are needed to build glycoproteins and glycolipids. Several alternatively spliced transcripts of *GALE* have been described, and they encode the same protein.
+
+Mutations in *GALE* cause epimerase-deficiency galactosemia (EDG, galactosemia type III), an autosomal recessive disorder. Its severity varies widely. The generalized form, with very low enzyme activity in all tissues, can cause liver damage, cataracts, hearing loss and developmental delay. The peripheral form is milder, with reduced activity only in blood cells. Treatment is based on a galactose-restricted diet, which prevents many acute symptoms but not all long-term problems.
+
+Several missense variants in *GALE* have been reported in OMIM, including p.Val94Met. However, it is not fully understood how a single amino-acid change affects the structure and function of the enzyme. In this study, we compared the wild-type and mutant *GALE* sequences, analysed their conservation across species (human, mouse and *Escherichia coli*), and examined the 3D structural environment of the mutated residue using PDB structures. Our aim is to explain how this variant may cause EDG.
 
 ## Results
 
