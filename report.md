@@ -10,8 +10,6 @@ words).*
 [Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5]
 
 ## Background
-[Explain the background to the study, its aims, and research gap.]
-## Background
 
 Galactose is a sugar found mainly in milk and dairy products. The body converts it into glucose so it can be used as energy. Galactosemias are a group of inherited disorders in which this process fails and galactose accumulates in the blood.
 
