@@ -21,52 +21,44 @@ Several missense variants in *GALE* have been reported in OMIM, including p.Val9
 
 ## Results
 
-### Human WT gene and protein
+### Identification of the human GALE sequences
 
-|Item |Value |
-|---|---|
-| Gene | *GALE* (UDP-galactose-4-epimerase); also known as THC13, SDR1E1 |
-| Gene ID / HGNC / MIM | 2582 / HGNC:4116 / 606953 |
-| Location | 1p36.11, chromosome 1 (NC_000001.11) |
-| Exons | 13 |
-| Expression | Broad; highest in stomach and duodenum |
-| WT CDS | NM_000403.4 |
-| WT protein | NP_000394.2 (348 aa) |
+The wild-type (WT) CDS search identified the human gene GALE (UDP-galactose-4-epimerase; Gene ID 2582, HGNC:4116, MIM 606953) at locus 1p36.11 on chromosome 1 (NC_000001.11), with the RefSeq record NM_000403.4. The gene has 13 exons and is expressed broadly, with the highest levels in the stomach and duodenum. The WT protein search identified NP_000394.2 (348 aa), the product of this gene, named UDP-galactose 4-epimerase (also listed as UDP-glucose 4-epimerase).
 
-### Homologs
+The mutant sequences matched the same records. The mutant CDS had its best hit on NM_000403.4 with 99.90% identity to the WT CDS (1046/1047 nucleotides; query cover 100%, E-value 0.0) and the mutant protein had its best hit on NP_000394.2 with 99.71% identity to the WT protein (347/348 amino acids; query cover 100%, E-value 0.0).
 
-| Species | Gene | CDS | Protein | Length |
+Homologous sequences were selected for the cross-species comparison: for Mus musculus, the gene Gale (CDS NM_001356493.1; protein NP_001343422.1, 347 aa), and for Escherichia coli, the gene galE (protein NP_415280.3, 338 aa, from strain K-12 MG1655; nucleotide record OZ544371.1, from strain RSZYD15081311_A, which is not K-12). The human reference sequences are NM_000403.4 and NP_000394.2 (348 aa).
+
+A blastp search of the E. coli protein against the human protein gave 98% query cover, 52.49% identity and an E-value of 1e-134. In the blastn comparison of the human CDS with OZ544371.1 a genome assembly, chromosome 1, 2 314 235 nt; the aligned segment is at positions 176 507–176 736, the alignment covered 22% of the human CDS (positions 532–761), with 76.19% identity and an E-value of 5e-40. A search against the E. coli genome gave a similar result (25% query cover, 71.5% identity). In both cases only a short segment of the human CDS aligned, so the CDS of the two species could not be compared over their whole length. The protein and the nucleotide sequences come from different E. coli strains.
+
+### Comparison of the WT and mutant sequences
+
+The WT and mutant CDS are both 1047 nt long and differ at one position only, with no gaps (1046/1047 identities, 99.90%). The difference is at position 280, where the WT has G and the mutant has A, a transition (c.280G>A). 
+
+The WT and mutant proteins are both 348 aa long and also differ at one position only, with no gaps (347/348 identities, 99.71%). The difference is at position 94, where valine (Val, V) in the WT is replaced by methionine (Met, M), written p.Val94Met. The two percentages differ only because the CDS is three times longer than the protein, so a single difference is a smaller fraction of it.
+
+Codon 94 occupies nucleotides 280–282, and position 280 is its first base. The G>A change converts GTG (Val) to ATG (Met), so the substitution is missense: the new codon still encodes an amino acid, and the stop codon is unchanged. No nucleotides are inserted or deleted, so the reading frame is not altered.
+
+Valine and methionine are both non-polar, hydrophobic and uncharged, so charge and polarity are the same. They differ in side-chain size and shape. Valine has a short, branched side chain, whereas methionine has a longer, unbranched and more flexible side chain that contains sulfur.
+
+### Conservation across species: CDS
+
+The CDS could not be compared in a single three-way alignment, because the E. coli sequence was too divergent. Human vs mouse and human vs E. coli were therefore aligned separately, with the human WT CDS as the query in both runs (Table 1).
+
+Table 1. Identity and coverage of the WT human sequences against mouse and E. coli.
+
+| Comparison | 	Level | Query cover | Identity | 	Identity per 60-position block |
 |---|---|---|---|---|
-| *Homo sapiens* | *GALE* | NM_000403.4 | NP_000394.2 | 348 aa |
-| *Escherichia coli* | *galE* | OZ544371.1 | NP_415280.3 (*Escherichia coli* K-12 MG1655:UDP-glucose 4-epimerase) | 338 aa |
-| *Mus musculus* | *Gale* | NM_001356493.1 | NP_001343422.1 | 347 aa |
+| *Human vs mouse* | CDS | 99% (positions 7–1047) | 89.15% | 80.00–96.67% (18 blocks) |
+| *Escherichia coli* | CDS | 	22% (positions 532–761) | 76.19% | 74.0–80.0% (4 blocks) |
+| *Human vs mouse* | Protein | 99% | 93.93% (325/346) | 91.67–96.67% (6 blocks) |
+| *Human vs E. coli* | Protein | 98% | 52.49% (179/341) | 40.48–80.00% (6 blocks) |
+
+Human and mouse CDS align over almost their whole length (E-value 0.0). Conservation is not uniform. The blocks at positions 367–426 and 847–906 are almost identical (two and three mismatches per 60 nt), whereas the block at positions 547–606 has about 12 mismatches. For E. coli, blastn aligned only one segment of about 230 nt (positions 532–761, E-value 5e-40; 176/231 identities, 76.19%). Outside this segment the human CDS has no alignment, so the region conserved at nucleotide level in the three species is this segment. This segment corresponds approximately to residues 178–254 of the protein.
+
+Human vs mouse shows 113 substitutions (928/1041 identities, no gaps), spread along the sequence and frequently at the third base of codons. The first six nucleotides of the human CDS are not aligned, and the mouse CDS is 1044 nt long against 1047 nt for human. Within the segment aligned with E. coli there are 53 substitutions and two gaps. Position c.280 is G in both human and mouse, so it is conserved between these two species. It lies outside the segment aligned with E. coli and could not be compared.
 
 
-*E. coli* blastp against human: cover 98%, identity 52.49%, E-value 4e-131. Blastn against the *E. coli* genome returned NC_ genome records (cover 25%, identity 71.5%, E-value 5e-22), not a CDS.
-
-### WT vs mutant CDS (Lab 2.1)
-- Both sequences are 1047 nt long. Identities: 1046/1047 (99.90%); gaps: 0/1047.
-- The two sequences are identical except at one position.
-- Position of the difference: 280 (alignment block 241–300; the mismatch is the 40th column of that block).
-- WT nucleotide: G. Mutant nucleotide: A.
-- No insertions or deletions were observed (no gaps in the alignment).
-- Variant type: substitution (single-nucleotide variant, transition G>A).
-- CDS annotation: **c.280G>A**.
-  
-**Q5. Is the mutation synonymous, missense or nonsense?**
-Missense. The substitution changes codon 94 from GTG (Val) to ATG (Met), and the stop codon is unchanged.
-
-**Q6. Could insertions or deletions alter the reading frame?**
-Not applicable: the change is a single nucleotide substitution, with no insertions or deletions.
-
-### WT vs mutant protein (Lab 2.2)
-- Both proteins are 348 aa long. Identities: 347/348 (99.71%); gaps: 0/348.
-- The two sequences are identical except at one position.
-- Position of the difference: 94 (alignment block 61–120; the mismatch is the 34th column of that block).
-- WT amino acid: Val (V). Mutant amino acid: Met (M).
-- No insertions or deletions were observed (no gaps in the alignment).
-- Variant type: single amino-acid substitution (missense).
-- Protein annotation: **p.Val94Met**.
 
 ### Protein 3D Structures (PDB Analysis)
 *Supplementary material: [View GALE 3D structure and sequence comparison PDF](figures/GALE_PDB_1EK5_comparison.pdf).*
