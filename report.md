@@ -39,7 +39,7 @@ The WT and mutant proteins are both 348 aa long and also differ at one position 
 
 Codon 94 occupies nucleotides 280–282, and position 280 is its first base. The G>A change converts GTG (Val) to ATG (Met), so the substitution is missense: the new codon still encodes an amino acid, and the stop codon is unchanged. No nucleotides are inserted or deleted, so the reading frame is not altered.
 
-Valine and methionine are both non-polar, hydrophobic and uncharged, so charge and polarity are the same. They differ in side-chain size and shape. Valine has a short, branched side chain, whereas methionine has a longer, unbranched and more flexible side chain that contains sulfur.
+Valine and methionine are both non-polar, hydrophobic and uncharged, so charge and polarity are the same. They differ in chemical class and side-chain volume: valine is aliphatic with a medium volume (140.0 Å³), whereas methionine is a sulfur-containing amino acid with a larger volume (162.9 Å³) (Pommié et al. 2004).
 
 ### Conservation across species: CDS
 
@@ -120,10 +120,10 @@ Yes. As above, each species was compared with human separately. Human vs mouse s
 Position c.280 is identical in human and mouse (G), so it is conserved between these two species. It lies outside the segment aligned with *E. coli* (positions 532–761), so it could not be compared.
 
 **Q14. Are there any highly conserved regions across the three species in the protein sequences?&#xA0;**
-Yes. The human protein is 93.93% identical to the mouse protein and 52.49% identical to the *E. coli* protein. Several stretches are identical in all three species, for example residues 5–18 (VLVTGGAGYIGSHT, except position 11 in *E. coli*), 85–102 (VIHFAGLKAVGESVQKPL), 129–137 (FSSSATVYG), 198–211 (GEDPQGIPNNLMPY) and 232–242 (TEDGTGVRDYI). The N-terminal region (about residues 19–47) and the C-terminal region are less conserved, mainly in *E. coli*.  
+Yes. The human protein is 93.93% identical to the mouse protein and 52.49% identical to the *E. coli* protein. Several stretches are identical in all three species, for example residues 5–18 (VLVTGGAGYIGSHT, except position 11 in *E. coli*), 85–102 (VIHFAGLKAVGESVQKPL), 129–137 (FSSSATVYG), 198–211 (GEDPQGIPNNLMPY) and 232–242 (TEDGTGVRDYI). The N-terminal region (about residues 19–47) and the C-terminal region are less conserved, mainly in *E. coli*.  
 
-**Q15. Are there any sequence positions with variants across the three species, either substitutions or gaps in the protein sequences? &#xA0;**
-Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. Leu28Ser, Gly71Ala, Arg75His, Lys120Arg) and no gaps. The *E. coli* protein shows many more substitutions (about half of the aligned positions; e.g. Lys4Arg, Glu21Gln, Ala84Thr) and a 6-residue gap corresponding to human residues 41–46. The last residues of the human protein (345–348) have no counterpart in the *E. coli* alignment. 
+**Q15. Are there any sequence positions with variants across the three species, either substitutions or gaps in the protein sequences? &#xA0;**
+Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. Leu28Ser, Gly71Ala, Arg75His, Lys120Arg) and no gaps. The *E. coli* protein shows many more substitutions (about half of the aligned positions; e.g. Lys4Arg, Glu21Gln, Ala84Thr) and a 6-residue gap corresponding to human residues 41–46. The last residues of the human protein (345–348) have no counterpart in the *E. coli* alignment. 
 
 ---
 ## Discussion
@@ -136,50 +136,44 @@ Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. L
 
 ### Literature and database searches
 
-Background information on the disease, the gene and the variant was collected from the NCBI MeSH database, OMIM, PubMed, NCBI Gene and UniProt.
+Background information on the disease, the gene and the variant was collected from the NCBI MeSH database, PubMed, OMIM and UniProt.
 
-The NCBI MeSH database was searched with the query "galactosemias"[MeSH Terms] OR Epimerase-Deficiency Galactosemia[Text Word], and with the term "Epimerase". The MeSH records 68004926 and 68017398 [name the two headings] were consulted to define the terms used to search PubMed [add the PubMed query and the date of the search].
+The NCBI MeSH database was searched with the query "galactosemias"[MeSH Terms] OR Epimerase-Deficiency Galactosemia[Text Word] and with the query "Epimerase"[MeSH Terms]. The MeSH records 68004926 (Escherichia coli) and 68017398 (Alternative Splicing) were also consulted, to define the terms for the literature on the alternative splicing of GALE. The clinical description of epimerase-deficiency galactosemia (types, diagnosis, management and inheritance) was taken from the PubMed record PMID 21290786 (GeneReviews) and from the NORD page on galactose epimerase deficiency. Articles on the effect of the V94M substitution were searched in PubMed (Comparison of Dynamics of Wildtype and V94M Human UDP-Galactose 4-Epimerase).
 
-- **Tool and databases:** NCBI BLAST was used to identify the human *GALE* sequences (blastn against core_nt for the CDS, blastp for the protein) and the homologs from *Escherichia coli* K-12 (taxid:83333) and *Mus musculus* (taxid:10090).
-- **Query sequences:** the provided FASTA files for the WT and mutant CDS and proteins (`EDG_CDS_WT.fasta`, `EDG_CDS_mutant.fasta`, `EDG_protein_WT.fasta`, `EDG_protein_mutant.fasta`).
-- **Hit selection criteria:** high query cover, high identity, very small E-value, correct description and organism, and curated RefSeq records (NM_ / NP_) preferred.
-- **Search date:** 12/10/2026
+OMIM was used for the gene and the phenotype. The gene entry *606953 (GALE) was read for the gene location and the function of the enzyme, and its list of allelic variants (.0001 to .0008, which includes .0008, p.Val94Met) was used to identify the variants reported. The phenotype entry 
+#230350 (galactosemia III) was read for the disease name, the mode of inheritance and the clinical features. UniProt (Q14376) was consulted for protein information (function,structure) Gene information was taken from NCBI Gene (Gene ID 2582) run at 09/10/2026.
 
-### Pairwise alignment of WT and mutant CDS (Lab 2.1)
+### Sequences and sequence searches
 
-- Tool: NCBI BLAST, blastn, "Align two or more sequences" option activated.
-- Query: WT CDS (1047 nt). Subject: mutant CDS (1047 nt).
-- Algorithm: highly similar sequences (megablast), default parameters.
-- Run on: 13/10/2026.
-- Alignment view: "Query-anchored with dots for identities", line length 60.
+The WT and mutant sequences were provided as FASTA files (CDS: EDG_CDS_WT.fasta, EDG_CDS_mutant.fasta; protein: EDG_protein_WT.fasta, EDG_protein_mutant.fasta). They were used as queries in NCBI BLAST (https://blast.ncbi.nlm.nih.gov/Blast.cgi; Altschul et al. 1990) to identify the gene and the protein. The CDS was searched with blastn against the core_nt database and the protein with blastp. Hits were selected for high query cover, high identity, a very small E-value, a matching description and organism, and a curated RefSeq record (NM_ or NP_) where available. These searches were run on 12 October 2026.
 
-### Pairwise alignment of WT and mutant proteins (Lab 2.2)
+Homologues were searched in Escherichia coli (the protein NP_415280.3 is from strain K-12 MG1655, taxid:83333) and Mus musculus (taxid:10090) with the same programs, selecting the same criteria. The E. coli nucleotide sequence used for the CDS comparison was the record OZ544371.1, an E. coli genome assembly of strain RSZYD15081311_A (chromosome 1, 2 314 235 nt), which is not K-12. A preliminary blastn search against the E. coli genome returned genome (NC_) records and was not used further.
 
-- Tool: NCBI BLAST, blastp, "Align two or more sequences".option activated.
-- Query: WT protein (348 aa). Subject: mutant protein (348 aa).
-- Algorithm: blastp (protein-protein BLAST)
-- Run on: 13/10/2026.
-- Alignment view: query-anchored with dots for identities, line length 60.
+### Pairwise alignment of WT and mutant sequences
 
-  
-### Multiple sequence alignment across species (Lab 2.3–2.4)
+The WT and mutant CDS were compared with blastn, and the WT and mutant proteins with blastp, in both cases using the "Align two or more sequences" option. The WT sequence was the query and the mutant sequence the subject. The CDS comparison used the highly similar sequences algorithm (megablast) and the protein comparison used blastp, with default parameters in both. The alignments were run on 13 October 2026 and displayed as "Query-anchored with dots for identities" with a line length of 60. The position of the difference was read from the alignment block and its column, and the variant was named following HGVS nomenclature (c. for the CDS and p. for the protein).
 
-- **Sequences:** the WT CDS and WT protein of human *GALE* (`EDG_CDS_WT.fasta`, `EDG_protein_WT.fasta`; NM_000403.4 / NP_000394.2) were compared with the homologs from *Mus musculus* (NM_001356493.1 / NP_001343422.1) and *Escherichia coli* K-12 MG1655 (NP_415280.3).
-- **CDS alignment:** NCBI BLAST, blastn, with the "Align two or more sequences" option activated. Query: human WT CDS (1047 nt). Subjects: *E. coli* sequence and mouse CDS, entered one after the other. Algorithm: [somewhat similar sequences (blastn) / megablast — write the one you used], other parameters left at default. Run on: [15/10/2026].
-- **Protein alignment:** NCBI BLAST, blastp, with the "Align two or more sequences" option activated. Query: human WT protein (348 aa). Subjects: mouse protein (347 aa) and *E. coli* protein (338 aa, NP_415280.3). Run on: [15/10/2026].
-- **Alignment view:** "Query-anchored with dots for identities", with the human sequence as the reference in all cases. Variable positions were identified as non-identical letters or gaps (`-`) relative to the human sequence.
+### Cross-species alignments
 
-### Comparison of the alignments (Lab 2.5)
+The WT human CDS and protein were compared with the mouse and E. coli sequences using the "Align two or more sequences" option of NCBI BLAST. For the CDS, blastn was run with the human CDS (1047 nt) as the query and the E. coli and mouse sequences as subjects, each in a separate run with somewhat similar sequences and highly similar sequences actived respectively; other parameters were left at default; run on 19 Octuber 2026. The E. coli CDS did not align over most of its length, so the CDS comparison was done in two pairs (human vs mouse and human vs E. coli). For the protein, blastp was run with the human protein (348 aa) as the query and the mouse (347 aa) and E. coli (338 aa, NP_415280.3) proteins as subjects in the same alignment [run on 15 October 2026; RID D21P1GCA114]. All alignments were displayed as "Query-anchored with dots for identities", with the human sequence as the reference. Variable positions were identified as letters other than a dot, or as gaps (-), relative to the human sequence. Only WT sequences were used in the cross-species comparison.
 
-Conservation can suggest that a position is important for protein structure or function because some positions tolerate fewer changes than others. Nevertheless, these comparisons aren't sufficient to demonstrate it in all species and shouldn't be considered universal.
+The multiple alignment of the three proteins with the consensus line (* identical, : strongly similar, . weakly similar) was produced with CLUSTAL on 14 October 2026.
 
----
+### Calculation of identity and conservation
 
-##### 1. WTCDS - mutant CDS
+Percentage identity and query cover were taken from the BLAST output. Identity over each 60-position block of the alignment was calculated as **the number of identical positions divided by the number of aligned positions in the block, multiplied by 100** by using the code of Python. Positions identical in the human, mouse and E. coli proteins were counted position by position in the three-way protein alignment. Conserved stretches were defined as runs of consecutive positions identical in the three species. The codon position of each nucleotide difference in the human vs mouse alignment was calculated from its position in the human CDS.
 
-The aligment covers 100% of the WTCDS sequence provided to BLAST. The percentage identity states that 99.90% of the aligned nucleotides in that coverage are identical, with only a 0.10% of differance approximately.
+### Protein structures
 
-Knowing that the percentage identity = identical nucleotides / total nucleotides * 100:
+Experimental structures of human GALE were searched in the RCSB Protein Data Bank (https://www.rcsb.org) and in UniProt (Q14376). Structures were selected for being human, determined by X-ray diffraction, having the WT sequence or the V94M substitution, and having a published study. 1EK5 (WT; Thoden et al. 2000) and 1I3N (V94M; Thoden et al. 2001) were chosen because of its lowest resolution and correct length. Their sequences were compared with the WT protein sequence. Resolution, ligands, chains and the associated publications were taken from the RCSB entries on 20 October 2026. The structures were visualised in  and superposed with . The environment of residue 94 was analysed by 
+
+Amino acid properties
+
+The properties of valine and methionine (hydropathy, volume, chemical class, charge and polarity) were taken from the IMGT classes of the 20 common amino acids (https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html; Pommié et al. 2004).
+
+### Presentation of the data
+
+Tables and figures were prepared from the BLAST output and the structure images. The sequence files and the alignments are stored in the repository.
 
 | Section | Percentage Identity |
 |:--|--:|
@@ -202,16 +196,6 @@ Knowing that the percentage identity = identical nucleotides / total nucleotides
 | **SECTION 17** | 100.0% |
 | **SECTION 18** | 100.0% |
 
-Every section matches the original sequence perfectly except for *SECTION 5*, with a percentage identity of 98.33%. The mutation consists of the single nucleotide A (Adenine) instead of G (Guanine) in this section.
-
----
-
-##### 2. WTCDS - E. coli
-
-The aligment covers 22% of the WTCDS sequence provided to BLAST. The percentage identity states that 76.19% of the aligned nucleotides in that coverage are identical, with a 23.79% of differance approximately.
-
-Knowing that the percentage identity = identical nucleotides / total nucleotides * 100:
-
 | Section | Percentage Identity |
 |:--|--:|
 | **SECTION 1** | 76.7% |
@@ -219,15 +203,7 @@ Knowing that the percentage identity = identical nucleotides / total nucleotides
 | **SECTION 3** | 75.0% |
 | **SECTION 4** | 74.0% |
 
-The identity only varies slightly between the different sections of the covered sequence. Therefore, there's no pattern in particular sections.
-
----
-
 ##### 3. WTCDS - Mus musculus
-
-The aligment covers 99% of the WTCDS sequence provided to BLAST. The percentage identity states that 89.15% of the aligned nucleotides in that coverage are identical, with a 10.85% of differance approximately.
-
-Knowing that the percentage identity = identical nucleotides / total nucleotides * 100:
 
 | Section | Percentage Identity |
 |:--|--:|
@@ -250,15 +226,7 @@ Knowing that the percentage identity = identical nucleotides / total nucleotides
 | **SECTION 17** | 90.00% |
 | **SECTION 18** | 85.71% |
 
-There's sections with noticeably higher identity than the rest: *SECTION 7*, *SECTION 15*, *SECTION 3* and *SECTION 16*, with a percentage identity > 90%. On the contrary, the lowest identities are *SECTION 10* and *SECTION 13* with percentages closer or equal to 80%. Nevertheless, all sections present high similarity.
-
----
-
 ##### 4. WTProtein - mutant Protein
-
-The aligment covers 100% of the WTCDS sequence provided to BLAST. The percentage identity states that 99.71% of the aligned nucleotides in that coverage are identical, with only a 0.29% of differance approximately.
-
-Knowing that the percentage identity = identical aminoacids / total aminoacids * 100:
 
 | Section | Percentage Identity |
 |:--|--:|
@@ -269,15 +237,7 @@ Knowing that the percentage identity = identical aminoacids / total aminoacids *
 | **SECTION 5** | 100.0% |
 | **SECTION 6** | 100.0% |
 
-Every section matches the original sequence perfectly except for *SECTION 2*, with a percentage identity of 98.33%. The mutation consists of the M aminoacid instead of V in this section.
-
----
-
 ##### 5. WTProtein - E. coli
-
-The aligment covers 98% of the WTCDS sequence provided to BLAST. The percentage identity states that 52.49% of the aligned nucleotides in that coverage are identical, with a 48.52% of differance approximately.
-
-Knowing that the percentage identity = identical aminoacids / total aminoacids * 100:
 
 | Section | Percentage Identity |
 |:--|--:|
@@ -288,15 +248,7 @@ Knowing that the percentage identity = identical aminoacids / total aminoacids *
 | **SECTION 5** | 53.33% |
 | **SECTION 6** | 45.65% |
 
-All sections present a percentage identity < 60% except for *SECTION 4* with an 80.0%.
-
----
-
 ##### 6. WTProtein - Mus musculus
-
-The aligment covers 99% of the WTCDS sequence provided to BLAST. The percentage identity states that 93.93% of the aligned nucleotides in that coverage are identical, with a 6.07% of differance approximately.
-
-Knowing that the percentage identity = identical aminoacids / total aminoacids * 100:
 
 | Section | Percentage Identity |
 |:--|--:|
@@ -371,6 +323,7 @@ Positions 132-134, 185-187, 206-208, 224-226, 239 and 300-303: binding sites for
 the studied mutation appears in postion 279, meaning that it does not directly affect any of the indicated functional sites. These are needed for the basic wellness of the organism and therefore are less prone to effective mutation. 
 
 ---
+
 
 ## Abbreviations
 [List abbreviations used, e.g., AI: Artificial Intelligence.]
