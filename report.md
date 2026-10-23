@@ -129,6 +129,8 @@ The multiple alignment of the three proteins with the consensus line (* identica
 
 Percentage identity and query cover were taken from the BLAST output. Identity over each 60-position block of the alignment was calculated as **the number of identical positions divided by the number of aligned positions in the block, multiplied by 100** by using the code of Python. Positions identical in the human, mouse and E. coli proteins were counted position by position in the three-way protein alignment. Conserved stretches were defined as runs of consecutive positions identical in the three species. The codon position of each nucleotide difference in the human vs mouse alignment was calculated from its position in the human CDS.
 
+##### 1. WTCDS - mutantCDS
+
 | Section | Percentage Identity |
 |:--|--:|
 | **SECTION 1** | 100,0% |
@@ -149,6 +151,8 @@ Percentage identity and query cover were taken from the BLAST output. Identity o
 | **SECTION 16** | 100.0% |
 | **SECTION 17** | 100.0% |
 | **SECTION 18** | 100.0% |
+
+##### 2. WTCDS - E. coli
 
 | Section | Percentage Identity |
 |:--|--:|
