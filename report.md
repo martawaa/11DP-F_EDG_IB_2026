@@ -322,7 +322,7 @@ All sections present a percentage identity > 90%, the highest being *SECTION 5* 
 | WTCDS - mutant CDS | 99.90% | 100% |
 | WTProtein - mutant Protein | 99.71% | 100% |
 
-> Although the nucleotid sequence alignment has a higher identity percentage, the variation in both cases is only one component of the sequence. The mutation consists of a substitution at nucleotide 280 that corresponds to a V --> M substitution at amino-acid position 94. The highest percentage of the CDS sequence is due to a greater ammount of nucleotids in the sequence than aminoacids, as three nucleotids (a codon) are needed to form an aminoacid during traduction.
+> Although the nucleotid sequence alignment has a higher identity percentage, the variation in both cases is only one component of the sequence. The mutation consists of a substitution at nucleotide 280 that corresponds to a V --> M substitution at amino-acid position 94. The highest percentage of the CDS sequence is due to a greater ammount of nucleotids in the sequence than aminoacids, as three nucleotids (a codon) are needed to form an aminoacid during traduction. This is called a missense mutation.
 
 ---
 
@@ -345,9 +345,32 @@ All sections present a percentage identity > 90%, the highest being *SECTION 5* 
 | WTProtein - Mus musculus | 93.93% | 99% |
 
 > Both percentage identities are similar, but the highest is the protein sequence. This is because throughout the alignment there can be cases where the change of a nucleotid doesn't necessarily imply a change in the codificated aminoacid. Aminoacids can be codificated by different codon sequences at the same time, meaning that the change of a nucleotid could create a new codon that also codificates for that same aminoacid, making it a neutral mutation with no visible effect on the final protein.
+
 ---
 
+[  https://www.ncbi.nlm.nih.gov/books/NBK26836/ ]
 
+##The conservation of the genome and proteins throughout evolution
+
+The conservation of the genome sequences between two different species depend on the ammount of time they have separately evolved. 
+Also, purifying selection eliminates individuals that carry mutations that interfere with important genetic functions. Sequences that are subject to strong functional constraint (the sequence has an important impact on the organism's wellness) are often conserved.
+
+According to the molecular-clock hypothesis, changes of specific sequences of genes and proteins are not sudden, but constant in time. This molecular clock runs faster in sequences that are not affected by purifying selection, and slower in those that suffer from strong functional constraints.
+
+[https://www.uniprot.org/uniprotkb/Q14376/ ]
+
+The general function of the gene UDP-glucose 4-epimerase (GALE) is to catalyze two analogous reactions: the reversible epimerization of UDP-glucose to UDP-galactose and the reversible epimerization of UDP-N-acetylglucosamine to UDP-N-acetylgalactosamine. The reaction with UDP-Gal plays a critical role in the Leloir pathway of galactose catabolism in which galactose is converted to the glycolytic intermediate glucose 6-phosphate. It contributes to the catabolism of dietary galactose and enables the endogenous biosynthesis of both UDP-Gal and UDP-GalNAc when exogenous sources are limited.
+
+more specifically, it contains the following functional sites:
+
+[https://www.uniprot.org/uniprotkb/Q14376/entry]
+Positions 12-14, 33-37, 66-67, 88, 92, 161 and 185: binding sites for NAD+.
+Position 157: active site of proton acceptor
+Positions 132-134, 185-187, 206-208, 224-226, 239 and 300-303: binding sites for substrate
+
+the studied mutation appears in postion 279, meaning that it does not directly affect any of the indicated functional sites. These are needed for the basic wellness of the organism and therefore are less prone to effective mutation. 
+
+---
 
 ## Abbreviations
 [List abbreviations used, e.g., AI: Artificial Intelligence.]
