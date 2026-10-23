@@ -29,13 +29,13 @@ The mutant sequences matched the same records. The mutant CDS had its best hit o
 
 Homologous sequences were selected for the cross-species comparison: for Mus musculus, the gene Gale (CDS NM_001356493.1; protein NP_001343422.1, 347 aa), and for Escherichia coli, the gene galE (protein NP_415280.3, 338 aa, from strain K-12 MG1655; nucleotide record OZ544371.1, from strain RSZYD15081311_A, which is not K-12). The human reference sequences are NM_000403.4 and NP_000394.2 (348 aa).
 
-A blastp search of the E. coli protein against the human protein gave 98% query cover, 52.49% identity and an E-value of 1e-134. In the blastn comparison of the human CDS with OZ544371.1 a genome assembly, chromosome 1, 2 314 235 nt; the aligned segment is at positions 176 507–176 736, the alignment covered 22% of the human CDS (positions 532–761), with 76.19% identity and an E-value of 5e-40. A search against the E. coli genome gave a similar result (25% query cover, 71.5% identity). In both cases only a short segment of the human CDS aligned, so the CDS of the two species could not be compared over their whole length. The protein and the nucleotide sequences come from different E. coli strains.
+A blastp search of the E. coli protein against the human protein gave 98% query cover, 52.49% identity and an E-value of 1e-134. In the blastn comparison of the human CDS with OZ544371.1 a genome assembly, chromosome 1, 2 314 235 nt; the aligned segment is at positions 176 507–176 736, the alignment covered 22% of the human CDS (positions 532–761), with 76.19% identity and an E-value of 5e-40. A search against the E. coli genome gave 25% query cover and 71.5% identity. In both cases only a short segment of the human CDS aligned. The protein and the nucleotide sequences come from different E. coli strains.
 
 ### Comparison of the WT and mutant sequences
 
-The WT and mutant CDS are both 1047 nt long and differ at one position only, with no gaps (1046/1047 identities, 99.90%). The difference is at position 280, where the WT has G and the mutant has A, a transition (c.280G>A). 
+The WT and mutant CDS are both 1047 nt long and differ at one position only, with no gaps (1046/1047 identities, 99.90%). The difference is at position 280, where the WT has G and the mutant has A, a transition (c.280G>A).
 
-The WT and mutant proteins are both 348 aa long and also differ at one position only, with no gaps (347/348 identities, 99.71%). The difference is at position 94, where valine (Val, V) in the WT is replaced by methionine (Met, M), written p.Val94Met. The two percentages differ only because the CDS is three times longer than the protein, so a single difference is a smaller fraction of it.
+The WT and mutant proteins are both 348 aa long and also differ at one position only, with no gaps (347/348 identities, 99.71%). The difference is at position 94, where valine (Val, V) in the WT is replaced by methionine (Met, M), written p.Val94Met. 
 
 Codon 94 occupies nucleotides 280–282, and position 280 is its first base. The G>A change converts GTG (Val) to ATG (Met), so the substitution is missense: the new codon still encodes an amino acid, and the stop codon is unchanged. No nucleotides are inserted or deleted, so the reading frame is not altered.
 
@@ -43,7 +43,7 @@ Valine and methionine are both non-polar, hydrophobic and uncharged, so charge a
 
 ### Conservation across species: CDS
 
-The CDS could not be compared in a single three-way alignment, because the E. coli sequence was too divergent. Human vs mouse and human vs E. coli were therefore aligned separately, with the human WT CDS as the query in both runs (Table 1).
+The CDS could not be compared in a single three-way alignment, because blastn aligned only 22% of the human CDS with the E. coli sequence. Human vs mouse and human vs E. coli were therefore aligned separately, with the human WT CDS as the query in both runs (Table 1).
 
 Table 1. Identity and coverage of the WT human sequences against mouse and E. coli.
 
@@ -54,16 +54,28 @@ Table 1. Identity and coverage of the WT human sequences against mouse and E. co
 | *Human vs mouse* | Protein | 99% | 93.93% (325/346) | 91.67–96.67% (6 blocks) |
 | *Human vs E. coli* | Protein | 98% | 52.49% (179/341) | 40.48–80.00% (6 blocks) |
 
-Human and mouse CDS align over almost their whole length (E-value 0.0). Conservation is not uniform. The blocks at positions 367–426 and 847–906 are almost identical (two and three mismatches per 60 nt), whereas the block at positions 547–606 has about 12 mismatches. For E. coli, blastn aligned only one segment of about 230 nt (positions 532–761, E-value 5e-40; 176/231 identities, 76.19%). Outside this segment the human CDS has no alignment, so the region conserved at nucleotide level in the three species is this segment. This segment corresponds approximately to residues 178–254 of the protein.
+Human and mouse CDS align over almost their whole length (E-value 0.0). Identity differs between blocks: the blocks at positions 367–426 and 847–906 have two and three mismatches per 60 nt, whereas the block at positions 547–606 has 12 mismatches. For E. coli, blastn aligned only one segment of about 230 nt (positions 532–761, E-value 5e-40; 176/231 identities, 76.19%). Outside this segment the human CDS has no alignment with the E. coli sequence. This segment corresponds approximately to residues 178–254 of the protein.
 
-Human vs mouse shows 113 substitutions (928/1041 identities, no gaps), spread along the sequence and frequently at the third base of codons. The first six nucleotides of the human CDS are not aligned, and the mouse CDS is 1044 nt long against 1047 nt for human. Within the segment aligned with E. coli there are 53 substitutions and two gaps. Position c.280 is G in both human and mouse, so it is conserved between these two species. It lies outside the segment aligned with E. coli and could not be compared.
+Human vs mouse shows 113 substitutions (928/1041 identities, no gaps), spread along the sequence; 88 of them are at the third base of a codon, 12 at the first and 13 at the second. The first six nucleotides of the human CDS are not aligned, and the mouse CDS is 1044 nt long against 1047 nt for human. Within the segment aligned with E. coli there are 53 substitutions and two gaps. Position c.280 is G in both human and mouse, so it is identical in these two species. It lies outside the segment aligned with E. coli and could not be compared.
 
+### Conservation across species: protein
 
+The human protein is 93.93% identical to the mouse protein and 52.49% identical to the E. coli protein (Table 1). Of the 346 human positions covered by the three-way alignment (residues 3–348), 177 (51.2%) are identical in human, mouse and E. coli. The longest stretches identical in the three species are residues 85–102 (VIHFAGLKAVGESVQKPL, 18 aa), 198–211 (GEDPQGIPNNLMPY), 232–244 (TEDGTGVRDYIHV) and 129–137 (FSSSATVYG). The N-terminal stretch at residues 8–17 (TGGAGYIGSH) is identical in mouse and has one substitution in E. coli (A11S), and the stretch at residues 157–161 (YGKSK) is identical in the three species. Identity with E. coli is lowest in residues 19–47 (7 of 29 positions identical) and in the C-terminal residues 303–348 (17 of 46).
 
-### Protein 3D Structures (PDB Analysis)
-*Supplementary material: [View GALE 3D structure and sequence comparison PDF](figures/GALE_PDB_1EK5_comparison.pdf).*
+Compared with human, the mouse protein has 21 substitutions (L28S, F39I, G42E, G43D, L45M, G71A, R75H, Y80H, M83K, K120R, Q173R, K176T, T177A, T189I, C196R, N228D, D231A, R256K, I266T, Q315H, T346A) and no internal gaps. The E. coli protein has 156 substitutions and one internal gap of six residues, corresponding to human residues 41–46 (GGGSLP). Human residues 1–3 and 345–348 have no counterpart in the E. coli alignment.
 
-To evaluate the 3D structural consequences of the p.Val94Met mutation, experimental crystal structures were retrieved from the Protein Data Bank (RCSB PDB):
+### Comparison of the CDS and protein alignments
+
+Mouse differences are located at residues 28–83 (nine of the 21) and 173–177 (three of the 21). In the E. coli protein comparison, the identity per block is lowest in the last block (residues 303–344) and highest at residues 183–242 (80.00%). At CDS level, the only region of the E. coli sequence that aligned is the segment at positions 532–761.
+
+The two alignments do not show the same number of differences. Human vs mouse has 113 nucleotide differences but 21 amino-acid differences.
+
+For mouse, identity is higher at protein level (93.93%) than at CDS level (89.15%). For E. coli, the protein aligned over 98% of the human protein and the CDS over 22% of the human CDS, so the two percentages are not directly comparable.
+
+Valine 94 is identical in human, mouse and E. coli, and lies inside the longest stretch conserved in the three species (residues 85–102).
+
+### Experimental 3D structures
+Protein Data Bank (Table 2). The sequence of 1EK5 is identical to the WT protein. The sequence of 1I3N has methionine at position 94 and also differs from the WT protein at position 180 (Ala in the WT, Val in 1I3N).
 
 | Feature | Wild Type (WT) Structure | Mutant (V94M) Structure |
 | :--- | :--- | :--- |
@@ -72,8 +84,10 @@ To evaluate the 3D structural consequences of the p.Val94Met mutation, experimen
 | **Resolution** | 1.80 Å | 1.50 Å |
 | **Organism** | *Homo sapiens* | *Homo sapiens* |
 | **Mutation** | None (WT - Val94) | V94M (p.Val94Met) |
-| **Ligands / Cofactors** | NAD+, UDP-Glucose / UDP-Galactose | NAD+, UDP-N-acetylglucosamine |
-| **Oligomeric State** | Homodimer | Homodimer |
+| **Ligands / Cofactors** | NAD | NAD, UDP-N-acetylglucosamine, chloride, magnesium |
+| **Chains in the asymmetric unit** | One (chain A); the dimer is generated by symmetry | Two (A and B) |
+
+[results of tasks 3.5 and 3.6]
 
 **Structural Impact of p.Val94Met:**
 The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing side chain into a highly conserved, tightly packed region (residues 85–102). Comparison between `1EK5` (WT) and `1I3N` (Mutant) reveals that the V94M substitution causes a slight displacement of the surface loop (Ala93 to Glu96), disrupting optimal active site geometry and destabilizing the core structure, which accounts for the reduced enzymatic activity in Epimerase-Deficiency Galactosemia.
@@ -119,7 +133,12 @@ Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. L
 [State the main conclusions and their significance.]
 
 ## Methods
-### Sequence searches (Lab Session 1)
+
+### Literature and database searches
+
+Background information on the disease, the gene and the variant was collected from the NCBI MeSH database, OMIM, PubMed, NCBI Gene and UniProt.
+
+The NCBI MeSH database was searched with the query "galactosemias"[MeSH Terms] OR Epimerase-Deficiency Galactosemia[Text Word], and with the term "Epimerase". The MeSH records 68004926 and 68017398 [name the two headings] were consulted to define the terms used to search PubMed [add the PubMed query and the date of the search].
 
 - **Tool and databases:** NCBI BLAST was used to identify the human *GALE* sequences (blastn against core_nt for the CDS, blastp for the protein) and the homologs from *Escherichia coli* K-12 (taxid:83333) and *Mus musculus* (taxid:10090).
 - **Query sequences:** the provided FASTA files for the WT and mutant CDS and proteins (`EDG_CDS_WT.fasta`, `EDG_CDS_mutant.fasta`, `EDG_protein_WT.fasta`, `EDG_protein_mutant.fasta`).
