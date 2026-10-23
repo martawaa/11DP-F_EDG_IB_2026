@@ -92,40 +92,6 @@ Protein Data Bank (Table 2). The sequence of 1EK5 is identical to the WT protein
 **Structural Impact of p.Val94Met:**
 The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing side chain into a highly conserved, tightly packed region (residues 85–102). Comparison between `1EK5` (WT) and `1I3N` (Mutant) reveals that the V94M substitution causes a slight displacement of the surface loop (Ala93 to Glu96), disrupting optimal active site geometry and destabilizing the core structure, which accounts for the reduced enzymatic activity in Epimerase-Deficiency Galactosemia.
 
-**Q7. How do the properties of the WT and mutant amino acids differ?**
-Both valine and methionine are non-polar, hydrophobic and uncharged, so the substitution does not change charge or polarity. They differ in size and shape: methionine has a longer, unbranched and more flexible side chain containing sulfur, whereas valine has a short, branched side chain. [Add values from the course material or UniProt if needed.]
-
-**Q8. Could the substitution change the interactions made by this position? Why?**
-Yes, while both valine and methionine are non-polar and hydrophobic, methionine has a significantly longer, bulkier side chain containing a sulfur atom. Substituting Val94 with Met introduces steric hindrance in the hydrophobic core, disrupting optimal van der Waals contacts and compact hydrophobic packing.
-
-**Q9. Could this affect how the protein folds or functions? Why?**
-Yes. Position 94 is located within a highly conserved sequence block (residues 85–102). The steric clashes caused by the bulkier methionine side chain can destabilize the local 3D fold, reduce protein stability, and distort the active site, leading to reduced epimerase activity.
-
-**Q10. How does the CDS-level variant compare with the protein-level variant?**
-They describe the same event at two levels: c.280G > A in the CDS corresponds to p.Val94Met in the protein.
-
-**Q11. How does the nucleotide variant produce the amino-acid variant?**
-The G>A substitution at c.280 is the first base of codon 94, which changes GTG (valine) to ATG (methionine).
-
-**Q12. Are there any highly conserved regions across the three species in the CDS sequences?**
-
-Yes, but the CDS comparison could not be done as a single three-way alignment. Human vs mouse and human vs *E. coli* were aligned separately with blastn, with the human WT CDS as the query in both runs. The *E. coli* CDS was too divergent to be aligned together with the other two sequences.
-
-Human and mouse CDS align over almost their whole length (positions 7–1047, cover 99%, 89.15% identity, E-value 0.0). Conservation is not uniform: positions 367–426 and 847–906 are almost identical (2 and 3 mismatches per 60 nt), whereas positions 547–606 have about 12 mismatches. For *E. coli*, blastn only aligned a 230 nt segment (positions 532–761, cover 22%, 76.19% identity, E-value 5e-40).
-
-**Q13. Are there any sequence positions with variants across the three species, either substitutions or gaps in the CDS sequences?**
-
-Yes. As above, each species was compared with human separately. Human vs mouse shows about 113 substitutions, spread along the sequence and frequently at the third base of codons. There are no gaps, and the mouse CDS is one codon shorter (1044 vs 1047 nt). Human vs *E. coli* shows, within the aligned segment (positions 532–761), about 53 substitutions and 2 gaps, which compensate each other. No variants can be reported outside this segment.
-
-Position c.280 is identical in human and mouse (G), so it is conserved between these two species. It lies outside the segment aligned with *E. coli* (positions 532–761), so it could not be compared.
-
-**Q14. Are there any highly conserved regions across the three species in the protein sequences?&#xA0;**
-Yes. The human protein is 93.93% identical to the mouse protein and 52.49% identical to the *E. coli* protein. Several stretches are identical in all three species, for example residues 5–18 (VLVTGGAGYIGSHT, except position 11 in *E. coli*), 85–102 (VIHFAGLKAVGESVQKPL), 129–137 (FSSSATVYG), 198–211 (GEDPQGIPNNLMPY) and 232–242 (TEDGTGVRDYI). The N-terminal region (about residues 19–47) and the C-terminal region are less conserved, mainly in *E. coli*.  
-
-**Q15. Are there any sequence positions with variants across the three species, either substitutions or gaps in the protein sequences? &#xA0;**
-Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. Leu28Ser, Gly71Ala, Arg75His, Lys120Arg) and no gaps. The *E. coli* protein shows many more substitutions (about half of the aligned positions; e.g. Lys4Arg, Glu21Gln, Ala84Thr) and a 6-residue gap corresponding to human residues 41–46. The last residues of the human protein (345–348) have no counterpart in the *E. coli* alignment. 
-
----
 ## Discussion
 [Discuss implications, compare with existing research, and highlight limitations.]
 
