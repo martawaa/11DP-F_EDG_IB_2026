@@ -163,18 +163,6 @@ The multiple alignment of the three proteins with the consensus line (* identica
 
 Percentage identity and query cover were taken from the BLAST output. Identity over each 60-position block of the alignment was calculated as **the number of identical positions divided by the number of aligned positions in the block, multiplied by 100** by using the code of Python. Positions identical in the human, mouse and E. coli proteins were counted position by position in the three-way protein alignment. Conserved stretches were defined as runs of consecutive positions identical in the three species. The codon position of each nucleotide difference in the human vs mouse alignment was calculated from its position in the human CDS.
 
-### Protein structures
-
-Experimental structures of human GALE were searched in the RCSB Protein Data Bank (https://www.rcsb.org) and in UniProt (Q14376). Structures were selected for being human, determined by X-ray diffraction, having the WT sequence or the V94M substitution, and having a published study. 1EK5 (WT; Thoden et al. 2000) and 1I3N (V94M; Thoden et al. 2001) were chosen because of its lowest resolution and correct length. Their sequences were compared with the WT protein sequence. Resolution, ligands, chains and the associated publications were taken from the RCSB entries on 20 October 2026. The structures were visualised in  and superposed with . The environment of residue 94 was analysed by 
-
-Amino acid properties
-
-The properties of valine and methionine (hydropathy, volume, chemical class, charge and polarity) were taken from the IMGT classes of the 20 common amino acids (https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html; Pommié et al. 2004).
-
-### Presentation of the data
-
-Tables and figures were prepared from the BLAST output and the structure images. The sequence files and the alignments are stored in the repository.
-
 | Section | Percentage Identity |
 |:--|--:|
 | **SECTION 1** | 100,0% |
@@ -260,6 +248,19 @@ Tables and figures were prepared from the BLAST output and the structure images.
 | **SECTION 6** | 95.65% |
 
 All sections present a percentage identity > 90%, the highest being *SECTION 5* with 96.67% and the lowest *SECTION 1* and *SECTION 2* with 91.67%. Nevertheless, all sections present high similarity.
+
+### Protein structures
+
+Experimental structures of human GALE were searched in the RCSB Protein Data Bank (https://www.rcsb.org) and in UniProt (Q14376). Structures were selected for being human, determined by X-ray diffraction, having the WT sequence or the V94M substitution, and having a published study. 1EK5 (WT; Thoden et al. 2000) and 1I3N (V94M; Thoden et al. 2001) were chosen because of its lowest resolution and correct length. Their sequences were compared with the WT protein sequence. Resolution, ligands, chains and the associated publications were taken from the RCSB entries on 20 October 2026. The structures were visualised in  and superposed with . The environment of residue 94 was analysed by 
+
+Amino acid properties
+
+The properties of valine and methionine (hydropathy, volume, chemical class, charge and polarity) were taken from the IMGT classes of the 20 common amino acids (https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html; Pommié et al. 2004).
+
+### Presentation of the data
+
+Tables and figures were prepared from the BLAST output and the structure images. The sequence files and the alignments are stored in the repository.
+
 
 ---
 
