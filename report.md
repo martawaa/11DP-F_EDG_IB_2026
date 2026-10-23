@@ -151,175 +151,142 @@ Yes. Compared with human, the mouse protein shows about 21 substitutions (e.g. L
 - **Alignment view:** "Query-anchored with dots for identities", with the human sequence as the reference in all cases. Variable positions were identified as non-identical letters or gaps (`-`) relative to the human sequence.
 
 ### Comparison of the alignments (Lab 2.5)
-Conservation can suggest that a position is important for protein structure or function
-because some positions tolerate fewer changes than others. Nevertheless, these comparisons aren't sufficient to demonstrate it in all species and shouldn't be considered universal.
 
-- **WTCDS - mutant CDS**
-  
+Conservation can suggest that a position is important for protein structure or function because some positions tolerate fewer changes than others. Nevertheless, these comparisons aren't sufficient to demonstrate it in all species and shouldn't be considered universal.
+
+---
+
+##### 1. WTCDS - mutant CDS
+
 The aligment covers 100% of the WTCDS sequence provided to BLAST. The percentage identity states that 99.90% of the aligned nucleotides in that coverage are identical, with only a 0.10% of differance approximately.
 
 Knowing that the percentage identity = identical nucleotides / total nucleotides * 100:
 
-*SECTION 1* :	100,0%
-
-*SECTION 2* :	100.0%
-
-*SECTION 3* :	100.0%
-
-*SECTION 4* :	100.0%
-
-*SECTION 5* :	98.33%
-
-*SECTION 6* :	100.0%
-
-*SECTION 7* :	100.0%
-
-*SECTION 8* :	100.0%
-
-*SECTION 9* :	100.0%
-
-*SECTION 10* :	100.0%
-
-*SECTION 11* :	100.0%
-
-*SECTION 12* :	100.0%
-
-*SECTION 13* :	100.0%
-
-*SECTION 14* :	100.0%
-
-*SECTION 15* :	100.0%
-
-*SECTION 16* :	100.0%
-
-*SECTION 17* :	100.0%
-
-*SECTION 18* :	100.0%
+| Section | Percentage Identity |
+|:--|--:|
+| **SECTION 1** | 100,0% |
+| **SECTION 2** | 100.0% |
+| **SECTION 3** | 100.0% |
+| **SECTION 4** | 100.0% |
+| **SECTION 5** | 98.33% |
+| **SECTION 6** | 100.0% |
+| **SECTION 7** | 100.0% |
+| **SECTION 8** | 100.0% |
+| **SECTION 9** | 100.0% |
+| **SECTION 10** | 100.0% |
+| **SECTION 11** | 100.0% |
+| **SECTION 12** | 100.0% |
+| **SECTION 13** | 100.0% |
+| **SECTION 14** | 100.0% |
+| **SECTION 15** | 100.0% |
+| **SECTION 16** | 100.0% |
+| **SECTION 17** | 100.0% |
+| **SECTION 18** | 100.0% |
 
 Every section matches the original sequence perfectly except for *SECTION 5*, with a percentage identity of 98.33%. The mutation consists of the single nucleotide A (Adenine) instead of G (Guanine) in this section.
 
+---
 
-- **WTCDS - E. coli**
-  
-The aligment covers 22% of the WTCDS sequence provided to BLAST. The percentage identity states that 76.19% of the aligned nucleotides in that coverage are identical, with a 23.79% of differance approximately. 
+##### 2. WTCDS - E. coli
+
+The aligment covers 22% of the WTCDS sequence provided to BLAST. The percentage identity states that 76.19% of the aligned nucleotides in that coverage are identical, with a 23.79% of differance approximately.
 
 Knowing that the percentage identity = identical nucleotides / total nucleotides * 100:
 
-*SECTION 1* : 76.7%
-
-*SECTION 2* : 80.0%
-
-*SECTION 3* : 75.0%
-
-*SECTION 4* : 74.0%
+| Section | Percentage Identity |
+|:--|--:|
+| **SECTION 1** | 76.7% |
+| **SECTION 2** | 80.0% |
+| **SECTION 3** | 75.0% |
+| **SECTION 4** | 74.0% |
 
 The identity only varies slightly between the different sections of the covered sequence. Therefore, there's no pattern in particular sections.
 
+---
 
-- **WTCDS - Mus musculus**
-  
+##### 3. WTCDS - Mus musculus
+
 The aligment covers 99% of the WTCDS sequence provided to BLAST. The percentage identity states that 89.15% of the aligned nucleotides in that coverage are identical, with a 10.85% of differance approximately.
 
 Knowing that the percentage identity = identical nucleotides / total nucleotides * 100:
 
-*SECTION 1* :	91.67%
-
-*SECTION 2* :	83.33%
-
-*SECTION 3* :	93.33%
-
-*SECTION 4* :	88.33%
-
-*SECTION 5* :	90.00%
-
-*SECTION 6* :	86.67%
-
-*SECTION 7* :	96.67%
-
-*SECTION 8* :	91.67%
-
-*SECTION 9* :	90.00%
-
-*SECTION 10* :	80.00%
-
-*SECTION 11* :	90.00%
-
-*SECTION 12* :	85.00%
-
-*SECTION 13* :	81.67%
-
-*SECTION 14* :	90.00%
-
-*SECTION 15* :	95.00%
-
-*SECTION 16* :	93.33%
-
-*SECTION 17* :	90.00%
-
-*SECTION 18* :	85.71%
+| Section | Percentage Identity |
+|:--|--:|
+| **SECTION 1** | 91.67% |
+| **SECTION 2** | 83.33% |
+| **SECTION 3** | 93.33% |
+| **SECTION 4** | 88.33% |
+| **SECTION 5** | 90.00% |
+| **SECTION 6** | 86.67% |
+| **SECTION 7** | 96.67% |
+| **SECTION 8** | 91.67% |
+| **SECTION 9** | 90.00% |
+| **SECTION 10** | 80.00% |
+| **SECTION 11** | 90.00% |
+| **SECTION 12** | 85.00% |
+| **SECTION 13** | 81.67% |
+| **SECTION 14** | 90.00% |
+| **SECTION 15** | 95.00% |
+| **SECTION 16** | 93.33% |
+| **SECTION 17** | 90.00% |
+| **SECTION 18** | 85.71% |
 
 There's sections with noticeably higher identity than the rest: *SECTION 7*, *SECTION 15*, *SECTION 3* and *SECTION 16*, with a percentage identity > 90%. On the contrary, the lowest identities are *SECTION 10* and *SECTION 13* with percentages closer or equal to 80%. Nevertheless, all sections present high similarity.
 
+---
 
-- **WTProtein - mutant Protein**
-  
+##### 4. WTProtein - mutant Protein
+
 The aligment covers 100% of the WTCDS sequence provided to BLAST. The percentage identity states that 99.71% of the aligned nucleotides in that coverage are identical, with only a 0.29% of differance approximately.
 
 Knowing that the percentage identity = identical aminoacids / total aminoacids * 100:
-  
-*SECTION 1* :	100,0%
 
-*SECTION 2* :	98.33%
-
-*SECTION 3* :	100.0%
-
-*SECTION 4* :	100.0%
-
-*SECTION 5* :	100.0%
-
-*SECTION 6* :	100.0%
+| Section | Percentage Identity |
+|:--|--:|
+| **SECTION 1** | 100,0% |
+| **SECTION 2** | 98.33% |
+| **SECTION 3** | 100.0% |
+| **SECTION 4** | 100.0% |
+| **SECTION 5** | 100.0% |
+| **SECTION 6** | 100.0% |
 
 Every section matches the original sequence perfectly except for *SECTION 2*, with a percentage identity of 98.33%. The mutation consists of the M aminoacid instead of V in this section.
 
-  
-- **WTProtein - E. coli**
-  
+---
+
+##### 5. WTProtein - E. coli
+
 The aligment covers 98% of the WTCDS sequence provided to BLAST. The percentage identity states that 52.49% of the aligned nucleotides in that coverage are identical, with a 48.52% of differance approximately.
 
 Knowing that the percentage identity = identical aminoacids / total aminoacids * 100:
 
-*SECTION 1* : 51.67%
+| Section | Percentage Identity |
+|:--|--:|
+| **SECTION 1** | 51.67% |
+| **SECTION 2** | 48.33% |
+| **SECTION 3** | 48.33% |
+| **SECTION 4** | 80.0% |
+| **SECTION 5** | 53.33% |
+| **SECTION 6** | 45.65% |
 
-*SECTION 2* :	48.33%
+All sections present a percentage identity < 60% except for *SECTION 4* with an 80.0%.
 
-*SECTION 3* :	48.33%
+---
 
-*SECTION 4* :	80.0%
+##### 6. WTProtein - Mus musculus
 
-*SECTION 5* :	53.33%
-
-*SECTION 6* :	45.65%
-
-All sections present a percentage identity < 60% except for *SECTION 4* with a 80.0%. 
-
-  
-- **WTProtein - Mus musculus**
-  
 The aligment covers 99% of the WTCDS sequence provided to BLAST. The percentage identity states that 93.93% of the aligned nucleotides in that coverage are identical, with a 6.07% of differance approximately.
 
 Knowing that the percentage identity = identical aminoacids / total aminoacids * 100:
 
-*SECTION 1* :	91.67%
-
-*SECTION 2* :	91.67%
-
-*SECTION 3* :	95.00%
-
-*SECTION 4* :	93.33%
-
-*SECTION 5* :	96.67%
-
-*SECTION 6* :	95.65%
+| Section | Percentage Identity |
+|:--|--:|
+| **SECTION 1** | 91.67% |
+| **SECTION 2** | 91.67% |
+| **SECTION 3** | 95.00% |
+| **SECTION 4** | 93.33% |
+| **SECTION 5** | 96.67% |
+| **SECTION 6** | 95.65% |
 
 All sections present a percentage identity > 90%, the highest being *SECTION 5* with 96.67% and the lowest *SECTION 1* and *SECTION 2* with 91.67%. Nevertheless, all sections present high similarity.
 
@@ -327,32 +294,41 @@ All sections present a percentage identity > 90%, the highest being *SECTION 5* 
 
 *(this should be added to discussion)*
 
+## Sequence Alignment Analysis
 
-In the comparison between WT CDS & mutant CDS, the G --> A substitution at nucleotide po 280 corresponds to a V --> M substitution at amino-acid position 94. This means that a different nucleotid will codsitionificate a different aminoacid aswell and the sequence will be affected. This happens in the comparisons of the aligments WT CDS & mouse CDS and WT CDS & E. coli CDS aswell, but in both of them there's cases where regardless of the different nucleotids, it still codificates for the same aminoacid and the sequence is unaffected.
+#### 1. WTCDS vs. Mutant CDS
 
-WTCDS - mutant CDS - 99.90% (100% coverage) 
+| Alignment | Percentage Identity | Coverage |
+|:--|--:|--:|
+| WTCDS - mutant CDS | 99.90% | 100% |
+| WTProtein - mutant Protein | 99.71% | 100% |
 
-WTProtein - mutant Protein - 99.71% (100% coverage) 
-
--> Both percentage identities are similar, but the highest is the nucleotid sequence
-
-
-WTCDS - E. coli - 76.19% (22% coverage)
-
-WTProtein - E. coli - 52.49% (98% coverage)
-
--> Both percentage identities are similar, but the highest is the nucleotid sequence
-
-
-WTCDS - Mus musculus - 98.15% (99% coverage)
-
-WTProtein - Mus musculus - 93.93% (99% coverage)
-
--> Both percentage identities are similar, but the highest is the nucleotid sequence
-
-# I dont understand why this happens. Ask teacher
+> Although the nucleotid sequence alignment has a higher identity percentage, the variation in both cases is only one component of the sequence. The mutation consists of a substitution at nucleotide 280 that corresponds to a V --> M substitution at amino-acid position 94. The highest percentage of the CDS sequence is due to a greater ammount of nucleotids in the sequence than aminoacids, as three nucleotids (a codon) are needed to form an aminoacid during traduction.
 
 ---
+
+#### 2. WTCDS vs. *E. coli*
+
+| Alignment | Percentage Identity | Coverage |
+|:--|--:|--:|
+| WTCDS - E. coli | 76.19% | 22% |
+| WTProtein - E. coli | 52.49% | 98% |
+
+> The highest percentage identity is the WTCDS - E. coli alignment. Although it is higher, this is only because it is a percentage made within the section that BLAST covered, which is only a 22% of the sequence provided. This suggests that the rest of the sequence doesn't align with the human protein sequence and, therefore, would have a significantly lower identity percentage than the protein's if 98% of the sequence had been taken into account aswell.
+
+---
+
+#### 3. WTCDS vs. *Mus musculus*
+
+| Alignment | Percentage Identity | Coverage |
+|:--|--:|--:|
+| WTCDS - Mus musculus | 89.15% | 99% |
+| WTProtein - Mus musculus | 93.93% | 99% |
+
+> Both percentage identities are similar, but the highest is the protein sequence. This is because throughout the alignment there can be cases where the change of a nucleotid doesn't necessarily imply a change in the codificated aminoacid. Aminoacids can be codificated by different codon sequences at the same time, meaning that the change of a nucleotid could create a new codon that also codificates for that same aminoacid, making it a neutral mutation with no visible effect on the final protein.
+---
+
+
 
 ## Abbreviations
 [List abbreviations used, e.g., AI: Artificial Intelligence.]
