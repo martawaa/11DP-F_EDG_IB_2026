@@ -32,7 +32,7 @@
 | 3.3 | Multiple sequence alignment across species | Adrià | 2.4 | 12/10/26 | 14/10/26 | 14/10/26 | 14/10/26 | 1 day |  100%  |
 | 3.4 | Conservation analysis of the mutated position | Marta | 3.3 | 14/10/26 | 16/10/26 | 15/10/26 | 23/10/26| 9 days |  0%  |
 | 3.5 | Visualize and compare WT and mutant structure | Alexandra | 3.1, 3.2 | 14/10/26 | 15/10/26 | 23/10/26 | 23/10/26 | 1 day |  100%  |
-| 3.6 | Analyze the structural environment of the mutated position | Adrià | 3.5 | 14/10/26 | 16/10/26 | | | |  0%  |
+| 3.6 | Analyze the structural environment of the mutated position | Adrià | 3.5 | 14/10/26 | 16/10/26 | 24/10/26 | 24/10/26 | 1 day |  100%  |
 | 3.7 | Link structure to enzyme function and phenotype | Mengxin | 3.6 | 16/10/26 | 19/10/26 | | | |  0%  |
 | 3.8 | Interpret cross-species differences | Marta | 3.3 | 14/10/26 | 19/10/26 | 16/10/26 | | |  0%  |
 | 🏁 | **Milestone 3: Sequence, structure and function analysis completed** | | | | | | | | |
