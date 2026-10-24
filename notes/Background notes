@@ -37,3 +37,21 @@ Restriction of dietary galactose/lactose appears to correct or prevent the commo
 
 Genetic counseling: 
 Epimerase deficiency galactosemia is inherited in an autosomal recessive manner. Appropriate testing when conceiving is recommended
+
+---
+
+from yogi import scan
+
+a = len(scan(str))
+
+while a is not None:
+    b = scan(str)
+    c = ''
+
+    for i in range(len(b)):
+        if b[i] != '.':
+            c = c + b[i]
+
+    print(((a-len(c))/a) * 100)
+    
+    a = len(scan(str))
