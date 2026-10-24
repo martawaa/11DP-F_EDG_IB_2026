@@ -78,12 +78,12 @@ In the WT, residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, A
 # Marta, you may need this following information
 
 The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing side chain into a highly conserved, tightly packed region (residues 85–102). Comparison between `1EK5` (WT) and `1I3N` (Mutant) reveals that the V94M substitution causes a slight displacement of the surface loop (Ala93 to Glu96), disrupting optimal active site geometry and destabilizing the core structure, which accounts for the reduced enzymatic activity in Epimerase-Deficiency Galactosemia.
+
 ### Structural environment of residue 94
 
 The environment of residue 94 was analysed in the WT (1EK5) and V94M (1I3N) structures (Table 2). Residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, Ala93, Gly95, Glu96 and Asn206 are neighbours in both structures. Ser97, Val98, Asn155 and Tyr157 are neighbours only in the WT, and Asn37 and Tyr104 only in the mutant. No residue of chain B lies within 4.5 Å of residue 94.
 
 The Cα–Cα distance between residue 94 and Tyr157 was 5.6 Å in the WT, and 10.0 Å (chain A) and 10.1 Å (chain B) in 1I3N. No NAD atom lies within 4.5 Å of residue 94 in the WT; within 8 Å there are six NAD atoms in the WT and ten in 1I3N (chain A). In 1I3N, no atom of the substrate UDP-N-acetylglucosamine lies within 4.5 Å of residue 94, and seven atoms lie within 8 Å. Residue 94 is not part of the dimer interface (residues 110, 117, 156, 163, 167, 171 and 174 are).
-
 
 Residue 94 therefore does not contact NAD, the substrate or the other subunit directly, but it lies close to residues annotated in UniProt Q14376 as NAD-binding (Lys92), substrate-binding (Asn206) and the catalytic proton acceptor (Tyr157). These are measurements. The interpretation that Met94 acts indirectly on the active site is a hypothesis.
 
@@ -125,7 +125,7 @@ The WT and mutant sequences were compared with the "Align two or more sequences"
 
 Percentage identity and query cover were taken from the BLAST output. Identity per 60-position block was calculated as **identical positions divided by aligned positions in the block, multiplied by 100,** with a Python script (code 1). Positions identical in the three proteins were counted position by position in the three-way alignment. Conserved stretches were defined as runs of consecutive positions identical in the three species. The codon position of each nucleotide difference in the human vs mouse alignment was calculated from its position in the human CDS.
 
-##### code 1
+```python
 from yogi import scan
 
 a = len(scan(str))
@@ -133,17 +133,15 @@ a = len(scan(str))
 while a is not None:
     b = scan(str)
     c = ''
-
     for i in range(len(b)):
         if b[i] != '.':
             c = c + b[i]
-
-    print(((a-len(c))/a) * 100)
-    
+    print(((a - len(c)) / a) * 100)
     a = len(scan(str))
+```
 
 ### Protein structures and amino acid properties
-Human GALE structures were searched in the RCSB Protein Data Bank (https://www.rcsb.org) and UniProt (Q14376), and selected for being human, determined by X-ray diffraction, having the WT sequence or the V94M substitution, and having a published study. 1EK5 (Thoden et al. 2000) and 1I3N (Thoden et al. 2001) were chosen [state the rationale and why 9HJN, 1EK6 and 1I3K–1I3M were not used]. Resolution, ligands, chains and publications were taken from the RCSB entries on 20 October 2026. Structures were visualised and superposed in PyMOL (Schrödinger, LLC; version [confirm]) with align [state chains, atoms and RMSD]. Solvent was removed. Secondary structure was assigned with dss; neighbouring residues were selected with around 4.5 (whole residues); Cα–Cα distances were measured with get_distance; ligand atoms were counted with count_atoms within 4.5 and 8 Å; and the dimer interface was defined as residues of chain A within 4 Å of chain B in 1I3N. Measurements used chain A, with one control in chain B. Burial was judged visually from the surface representation.
+Human GALE structures were searched in the RCSB Protein Data Bank (https://www.rcsb.org) and UniProt (Q14376), and selected for being human, determined by X-ray diffraction, having the WT sequence or the V94M substitution, and having a published study. 1EK5 and 1I3N were chosen because both have a resolution better than 2 Å (1.80 and 1.50 Å), cover almost the whole protein and come from the same research group. Resolution, ligands, chains and publications were taken from the RCSB entries on 20 October 2026. Structures were visualised and superposed in PyMOL (Schrödinger, LLC; version). Solvent was removed. Secondary structure was assigned with dss; neighbouring residues were selected with around 4.5 (whole residues); Cα–Cα distances were measured with get_distance; ligand atoms were counted with count_atoms within 4.5 and 8 Å; and the dimer interface was defined as residues of chain A within 4 Å of chain B in 1I3N. Measurements used chain A, with one control in chain B. Burial was judged visually from the surface representation.
 
 The properties of valine and methionine were taken from the IMGT classes of the 20 common amino acids (https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html; Pommié et al. 2004).
 
