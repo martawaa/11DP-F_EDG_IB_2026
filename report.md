@@ -265,6 +265,11 @@ Amino acid properties
 
 The properties of valine and methionine (hydropathy, volume, chemical class, charge and polarity) were taken from the IMGT classes of the 20 common amino acids (https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html; Pommié et al. 2004).
 
+### Methods addition (Protein structures)
+
+The structural environment of residue 94 was analysed in PyMOL. Secondary structure was assigned with `dss`. Neighbouring residues were selected with `around 4.5` (whole residues, `byres`). Cα–Cα distances were measured with `get_distance`. Ligand atoms near residue 94 were counted with `count_atoms ... within 4.5` and `within 8`. The dimer interface was defined as the residues of chain A within 4 Å of chain B in 1I3N. All measurements used chain A, except one control Cα–Cα measurement in chain B. Solvent was removed before the analysis. Burial was judged visually from the surface representation.
+
+
 ### Presentation of the data
 
 Tables and figures were prepared from the BLAST output and the structure images. The sequence files and the alignments are stored in the repository.
