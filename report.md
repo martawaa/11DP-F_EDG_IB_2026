@@ -89,6 +89,11 @@ Protein Data Bank (Table 2). The sequence of 1EK5 is identical to the WT protein
 
 [results of tasks 3.5 and 3.6]
 
+![Figure 1: Superposition of WT and V94M mutant GALE structures](figures/comparacion_V94M.png)
+
+**Figure 1. Structural superposition of human WT GALE (1EK5) and V94M mutant (1I3N).** 
+Superposition of WT (green, 1EK5) and V94M mutant (cyan, 1I3N) structures zoomed in on position 94. The p.Val94Met substitution replaces valine with a larger methionine side chain, causing steric hindrance and a displacement of the neighboring loop (Ala93–Glu96).
+
 **Structural Impact of p.Val94Met:**
 The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing side chain into a highly conserved, tightly packed region (residues 85–102). Comparison between `1EK5` (WT) and `1I3N` (Mutant) reveals that the V94M substitution causes a slight displacement of the surface loop (Ala93 to Glu96), disrupting optimal active site geometry and destabilizing the core structure, which accounts for the reduced enzymatic activity in Epimerase-Deficiency Galactosemia.
 
