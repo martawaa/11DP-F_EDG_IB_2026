@@ -226,7 +226,7 @@ All sections present a percentage identity > 90%, the highest being *SECTION 5* 
 
 ### Protein structures
 
-Experimental structures of human GALE were searched in the RCSB Protein Data Bank (https://www.rcsb.org) and in UniProt (Q14376). Structures were selected for being human, determined by X-ray diffraction, having the WT sequence or the V94M substitution, and having a published study. 1EK5 (WT; Thoden et al. 2000) and 1I3N (V94M; Thoden et al. 2001) were chosen because of its lowest resolution and correct length. Their sequences were compared with the WT protein sequence. Resolution, ligands, chains and the associated publications were taken from the RCSB entries on 20 October 2026. The structures were visualised in  and superposed with . The environment of residue 94 was analysed by 
+Experimental structures of human GALE were searched in the RCSB Protein Data Bank (https://www.rcsb.org) and in UniProt (Q14376). Structures were selected for being human, determined by X-ray diffraction, having the WT sequence or the V94M substitution, and having a published study. 1EK5 (WT; Thoden et al. 2000) and 1I3N (V94M; Thoden et al. 2001) were chosen because of its lowest resolution and correct length. Their sequences were compared with the WT protein sequence. Resolution, ligands, chains and the associated publications were taken from the RCSB entries on 20 October 2026. The structures were visualised in  and superposed with . The structures were visualised and superposed in PyMOL using the align command. The structural environment of residue 94 was analysed by inspecting side-chain volume differences and local backbone displacements between 1EK5 (WT) and 1I3N (mutant)
 
 Amino acid properties
 
