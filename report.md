@@ -208,8 +208,13 @@ Positions 132-134, 185-187, 206-208, 224-226, 239 and 300-303: binding sites for
 
 the studied mutation appears in postion 279, meaning that it does not directly affect any of the indicated functional sites. These are needed for the basic wellness of the organism and therefore are less prone to effective mutation. 
 
----
+**Task 3.7. Link between the structure, the enzyme function and the phenotype**
 
+The p.Val94Met variant can be followed from the gene to the patient. The change c.280G>A in GALE makes the enzyme have methionine instead of valine at position 94. This enzyme, UDP-galactose 4-epimerase, needs NAD to work and is a dimer. It changes UDP-glucose into UDP-galactose, and UDP-N-acetylglucosamine into UDP-N-acetylgalactosamine, and Tyr157 is the residue that takes a proton during the reaction (UniProt Q14376). When the enzyme has low activity, the person has EDG. This disease can be mild, when only the blood cells are affected (peripheral form), or severe, when all the tissues tested are affected (generalized form). V94M has been found in patients with two copies of the variant who have the generalized form (Fridovich-Keil et al.).
+
+Here it is important to separate what we found from what is only an idea. From our analysis, valine 94 is the same in human, mouse and E. coli. In the structures, it is inside the protein and it does not touch NAD, the UDP-sugar or the other subunit, but it is close to Lys92, Asn206 and Tyr157. The distance between residue 94 and Tyr157 is 5.6 Å in 1EK5 and 10.0 Å in 1I3N. From the literature, the V94M enzyme has about 5% of the normal activity with UDP-galactose and about 25% with UDP-N-acetylgalactosamine, and its structure shows that the loop Ala93–Glu96 opens (Thoden et al. 2001). A computer simulation also found that the substrate is farther from Tyr157 in the variant (Timson and Lindert 2013). 
+
+Our idea is that, since residue 94 does not touch the substrate, Met94 may affect the active site in an indirect way, and this would fit with the low activity and the severe disease. However, we cannot prove it, because 1EK5 and 1I3N have different resolution and ligands, 1I3N also has the change Ala180Val, and we did not measure any activity.
 
 ## Abbreviations
 [List abbreviations used, e.g., AI: Artificial Intelligence.]
@@ -242,6 +247,6 @@ Authors' contributions: Specify roles
 19. IMGT Education. IMGT classes of the 20 common amino acids. Available at: https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html (accessed 23 October 2026).
 20. Pommié C, Levadoux S, Sabatier R et al. IMGT standardized criteria for statistical analysis of immunoglobulin V-REGION amino acid properties. J Mol Recognit 2004;17:17–32.
 21. Schrödinger, LLC. The PyMOL Molecular Graphics System, Version 3.1. Available at: https://pymol.org/ (accessed 24 October 2026).
-22. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Crystallographic evidence for Tyr 157 functioning as the active site base in human UDP-galactose 4-epimerase. Biochemistry 2000;39:5691–701.
+22. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Crystallographic evidence for Tyr 157 functioning as the active site base in human UDP-galactose 4-epimerase. Biochemistry  2000-05, Vol.39 (19), p.5691-5701
 23. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Molecular basis for severe epimerase deficiency galactosemia. X-ray structure of the human V94M-substituted UDP-galactose 4-epimerase. J Biol Chem 2001;276:20617–23.
-25. Timson DJ, Lindert S. Comparison of dynamics of wildtype and V94M human UDP-galactose 4-epimerase: a computational perspective on severe epimerase-deficiency galactosemia. Gene 2013;526:318–24.
+24. Timson DJ, Lindert S. Comparison of dynamics of wildtype and V94M human UDP-galactose 4-epimerase: a computational perspective on severe epimerase-deficiency galactosemia. Gene 2013;526:318–24.
