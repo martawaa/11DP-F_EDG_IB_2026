@@ -23,29 +23,21 @@ Several missense variants in *GALE* have been reported in OMIM, including p.Val9
 
 ### Identification of the human GALE sequences
 
-The wild-type (WT) CDS search identified the human gene GALE (UDP-galactose-4-epimerase; Gene ID 2582, HGNC:4116, MIM 606953) at locus 1p36.11 on chromosome 1 (NC_000001.11), with the RefSeq record NM_000403.4. The gene has 13 exons and is expressed broadly, with the highest levels in the stomach and duodenum. The WT protein search identified NP_000394.2 (348 aa), the product of this gene, named UDP-galactose 4-epimerase (also listed as UDP-glucose 4-epimerase).
+The WT CDS search identified the human gene GALE (Gene ID 2582, MIM 606953) at locus 1p36.11 (NC_000001.11), with the RefSeq record NM_000403.4 (13 exons). The WT protein search identified NP_000394.2 (348 aa). The mutant CDS had its best hit on NM_000403.4 with 99.90% identity to the WT CDS (1046/1047 nucleotides; query cover 100%, E-value 0.0), and the mutant protein had its best hit on NP_000394.2 with 99.71% identity to the WT protein (347/348 amino acids; query cover 100%, E-value 0.0).
 
-The mutant sequences matched the same records. The mutant CDS had its best hit on NM_000403.4 with 99.90% identity to the WT CDS (1046/1047 nucleotides; query cover 100%, E-value 0.0) and the mutant protein had its best hit on NP_000394.2 with 99.71% identity to the WT protein (347/348 amino acids; query cover 100%, E-value 0.0).
-
-Homologous sequences were selected for the cross-species comparison: for Mus musculus, the gene Gale (CDS NM_001356493.1; protein NP_001343422.1, 347 aa), and for Escherichia coli, the gene galE (protein NP_415280.3, 338 aa, from strain K-12 MG1655; nucleotide record OZ544371.1, from strain RSZYD15081311_A, which is not K-12). The human reference sequences are NM_000403.4 and NP_000394.2 (348 aa).
-
-A blastp search of the E. coli protein against the human protein gave 98% query cover, 52.49% identity and an E-value of 1e-134. In the blastn comparison of the human CDS with OZ544371.1 a genome assembly, chromosome 1, 2 314 235 nt; the aligned segment is at positions 176 507–176 736, the alignment covered 22% of the human CDS (positions 532–761), with 76.19% identity and an E-value of 5e-40. A search against the E. coli genome gave 25% query cover and 71.5% identity. In both cases only a short segment of the human CDS aligned. The protein and the nucleotide sequences come from different E. coli strains.
+The homologues selected were, for Mus musculus, Gale (CDS NM_001356493.1; protein NP_001343422.1, 347 aa) and, for Escherichia coli, galE (protein NP_415280.3, 338 aa, strain K-12 MG1655; nucleotide record OZ544371.1, strain RSZYD15081311_A, not K-12). The protein and the nucleotide sequences therefore come from different E. coli strains.
 
 ### Comparison of the WT and mutant sequences
 
-The WT and mutant CDS are both 1047 nt long and differ at one position only, with no gaps (1046/1047 identities, 99.90%). The difference is at position 280, where the WT has G and the mutant has A, a transition (c.280G>A).
+The WT and mutant CDS (1047 nt) differ at one position, with no gaps: position 280 is G in the WT and A in the mutant (c.280G>A). The WT and mutant proteins (348 aa) differ at one position, with no gaps: valine at position 94 is replaced by methionine (p.Val94Met). Codon 94 occupies nucleotides 280–282, and position 280 is its first base. The change converts GTG (Val) to ATG (Met), so the substitution is missense; the stop codon is unchanged and the reading frame is not altered.
 
-The WT and mutant proteins are both 348 aa long and also differ at one position only, with no gaps (347/348 identities, 99.71%). The difference is at position 94, where valine (Val, V) in the WT is replaced by methionine (Met, M), written p.Val94Met. 
-
-Codon 94 occupies nucleotides 280–282, and position 280 is its first base. The G>A change converts GTG (Val) to ATG (Met), so the substitution is missense: the new codon still encodes an amino acid, and the stop codon is unchanged. No nucleotides are inserted or deleted, so the reading frame is not altered.
-
-Valine and methionine are both non-polar, hydrophobic and uncharged, so charge and polarity are the same. They differ in chemical class and side-chain volume: valine is aliphatic with a medium volume (140.0 Å³), whereas methionine is a sulfur-containing amino acid with a larger volume (162.9 Å³) (Pommié et al. 2004).
+Valine and methionine are both non-polar, hydrophobic and uncharged. Valine is aliphatic with a medium volume (140.0 Å³), whereas methionine is sulfur-containing with a larger volume (162.9 Å³) (Pommié et al. 2004).
 
 ### Conservation across species: CDS
 
-The CDS could not be compared in a single three-way alignment, because blastn aligned only 22% of the human CDS with the E. coli sequence. Human vs mouse and human vs E. coli were therefore aligned separately, with the human WT CDS as the query in both runs (Table 1).
+Because blastn aligned only 22% of the human CDS with the E. coli sequence, human vs mouse and human vs E. coli were aligned separately (Table 1).
 
-Table 1. Identity and coverage of the WT human sequences against mouse and E. coli.
+#### Table 1. Identity and coverage of the WT human sequences against mouse and E. coli.
 
 | Comparison | 	Level | Query cover | Identity | 	Identity per 60-position block |
 |---|---|---|---|---|
@@ -54,55 +46,23 @@ Table 1. Identity and coverage of the WT human sequences against mouse and E. co
 | *Human vs mouse* | Protein | 99% | 93.93% (325/346) | 91.67–96.67% (6 blocks) |
 | *Human vs E. coli* | Protein | 98% | 52.49% (179/341) | 40.48–80.00% (6 blocks) |
 
-Human and mouse CDS align over almost their whole length (E-value 0.0). Identity differs between blocks: the blocks at positions 367–426 and 847–906 have two and three mismatches per 60 nt, whereas the block at positions 547–606 has 12 mismatches. For E. coli, blastn aligned only one segment of about 230 nt (positions 532–761, E-value 5e-40; 176/231 identities, 76.19%). Outside this segment the human CDS has no alignment with the E. coli sequence. This segment corresponds approximately to residues 178–254 of the protein.
+CDS. Human and mouse CDS align over almost their whole length (E-value 0.0), with 113 substitutions (928/1041 identities, no gaps): 88 at the third base of a codon, 12 at the first and 13 at the second. For E. coli, blastn aligned one segment (positions 532–761, E-value 5e-40; 176/231 identities), which corresponds approximately to residues 178–254 of the protein, with 53 substitutions and two gaps; outside it the human CDS has no alignment. Position c.280 is G in human and mouse. It lies outside the segment aligned with E. coli.
 
-Human vs mouse shows 113 substitutions (928/1041 identities, no gaps), spread along the sequence; 88 of them are at the third base of a codon, 12 at the first and 13 at the second. The first six nucleotides of the human CDS are not aligned, and the mouse CDS is 1044 nt long against 1047 nt for human. Within the segment aligned with E. coli there are 53 substitutions and two gaps. Position c.280 is G in both human and mouse, so it is identical in these two species. It lies outside the segment aligned with E. coli and could not be compared.
+Protein. Of the 346 human positions covered by the three-way alignment (residues 3–348), 177 (51.2%) are identical in human, mouse and E. coli (Figure 1). The longest identical stretches are residues 85–102 (VIHFAGLKAVGESVQKPL), 198–211, 232–244 and 129–137. Identity with E. coli is lowest in residues 19–47 (7 of 29) and 303–348 (17 of 46). The mouse protein has 21 substitutions and no gaps; nine lie in residues 28–83. The E. coli protein has 156 substitutions and a six-residue gap corresponding to human residues 41–46. The full list of substitutions and the identity of every block are given in Additional file 1. Valine 94 is identical in the three species and lies inside the longest conserved stretch (residues 85–102).
 
-### Conservation across species: protein
+CDS and protein. Human vs mouse has 113 nucleotide differences but 21 amino-acid differences, and identity is higher in the protein (93.93%) than in the CDS (89.15%). For E. coli, the protein aligned over 98% of the human protein and the CDS over 22% of the human CDS, so the two identities are not directly comparable.
 
-The human protein is 93.93% identical to the mouse protein and 52.49% identical to the E. coli protein (Table 1). Of the 346 human positions covered by the three-way alignment (residues 3–348), 177 (51.2%) are identical in human, mouse and E. coli. The longest stretches identical in the three species are residues 85–102 (VIHFAGLKAVGESVQKPL, 18 aa), 198–211 (GEDPQGIPNNLMPY), 232–244 (TEDGTGVRDYIHV) and 129–137 (FSSSATVYG). The N-terminal stretch at residues 8–17 (TGGAGYIGSH) is identical in mouse and has one substitution in E. coli (A11S), and the stretch at residues 157–161 (YGKSK) is identical in the three species. Identity with E. coli is lowest in residues 19–47 (7 of 29 positions identical) and in the C-terminal residues 303–348 (17 of 46).
+Figure 1: MSA_position94.png
 
-Compared with human, the mouse protein has 21 substitutions (L28S, F39I, G42E, G43D, L45M, G71A, R75H, Y80H, M83K, K120R, Q173R, K176T, T177A, T189I, C196R, N228D, D231A, R256K, I266T, Q315H, T346A) and no internal gaps. The E. coli protein has 156 substitutions and one internal gap of six residues, corresponding to human residues 41–46 (GGGSLP). Human residues 1–3 and 345–348 have no counterpart in the E. coli alignment.
-
-### Comparison of the CDS and protein alignments
-
-Mouse differences are located at residues 28–83 (nine of the 21) and 173–177 (three of the 21). In the E. coli protein comparison, the identity per block is lowest in the last block (residues 303–344) and highest at residues 183–242 (80.00%). At CDS level, the only region of the E. coli sequence that aligned is the segment at positions 532–761.
-
-The two alignments do not show the same number of differences. Human vs mouse has 113 nucleotide differences but 21 amino-acid differences.
-
-For mouse, identity is higher at protein level (93.93%) than at CDS level (89.15%). For E. coli, the protein aligned over 98% of the human protein and the CDS over 22% of the human CDS, so the two percentages are not directly comparable.
-
-Valine 94 is identical in human, mouse and E. coli, and lies inside the longest stretch conserved in the three species (residues 85–102).
+#### Figure 1. MSA_position94.png
+Valine 94 is boxed. * identical, : strongly similar, . weakly similar. 
 
 ### Experimental 3D structures
-Protein Data Bank (Table 2). The sequence of 1EK5 is identical to the WT protein. The sequence of 1I3N has methionine at position 94 and also differs from the WT protein at position 180 (Ala in the WT, Val in 1I3N).
+Two X-ray structures of human GALE were selected: 1EK5 (WT; 1.80 Å; one chain in the asymmetric unit, with the dimer generated by symmetry; ligand NAD; Thoden et al. 2000) and 1I3N (V94M; 1.50 Å; chains A and B; ligands NAD,UDP-N-acetylglucosamine: , chloride and magnesium; Thoden et al. 2001). The sequence of 1EK5 is identical to the WT protein. The sequence of 1I3N has methionine at position 94 and also differs from the WT at position 180 (Ala in the WT, Val in 1I3N).
 
-| Feature | Wild Type (WT) Structure | Mutant (V94M) Structure |
-| :--- | :--- | :--- |
-| **PDB ID** | **1EK5** | **1I3N** |
-| **Experimental Method** | X-ray Diffraction | X-ray Diffraction |
-| **Resolution** | 1.80 Å | 1.50 Å |
-| **Organism** | *Homo sapiens* | *Homo sapiens* |
-| **Mutation** | None (WT - Val94) | V94M (p.Val94Met) |
-| **Ligands / Cofactors** | NAD | NAD, UDP-N-acetylglucosamine, chloride, magnesium |
-| **Chains in the asymmetric unit** | One (chain A); the dimer is generated by symmetry | Two (A and B) |
+In the WT, residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, Ala93, Gly95, Glu96 and Asn206 are neighbours in both structures; Ser97, Val98, Asn155 and Tyr157 only in the WT, and Asn37 and Tyr104 only in the mutant (Table 2). The Cα–Cα distance between residue 94 and Tyr157 was 5.6 Å in the WT and 10.0 Å (chain A) and 10.1 Å (chain B) in 1I3N. No NAD atom lies within 4.5 Å of residue 94 in the WT, and no atom of the UDP-sugar ligand lies within 4.5 Å in 1I3N. Residue 94 is not part of the dimer interface defined in 1I3N (residues 110, 117, 156, 163, 167, 171 and 174 are). In UniProt Q14376, residue 94 has no binding-site or active-site annotation; the nearby Lys92 and Asn206 are annotated as NAD-binding and substrate-binding, and Tyr157 as the proton acceptor.
 
-[results of tasks 3.5 and 3.6]
-
-![Figure 1: Superposition of WT and V94M mutant GALE structures](figures/comparacion_V94M.png)
-
-**Figure 1. Structural superposition of human WT GALE (1EK5) and V94M mutant (1I3N).** 
-Superposition of WT (green, 1EK5) and V94M mutant (cyan, 1I3N) structures zoomed in on position 94. The p.Val94Met substitution replaces valine with a larger methionine side chain, causing steric hindrance and a displacement of the neighboring loop (Ala93–Glu96).
-
-**Structural Impact of p.Val94Met:**
-The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing side chain into a highly conserved, tightly packed region (residues 85–102). Comparison between `1EK5` (WT) and `1I3N` (Mutant) reveals that the V94M substitution causes a slight displacement of the surface loop (Ala93 to Glu96), disrupting optimal active site geometry and destabilizing the core structure, which accounts for the reduced enzymatic activity in Epimerase-Deficiency Galactosemia.
-### Structural environment of residue 94
-
-The environment of residue 94 was analysed in the WT (1EK5) and V94M (1I3N) structures (Table 3). Residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, Ala93, Gly95, Glu96 and Asn206 are neighbours in both structures. Ser97, Val98, Asn155 and Tyr157 are neighbours only in the WT, and Asn37 and Tyr104 only in the mutant. No residue of chain B lies within 4.5 Å of residue 94.
-
-The Cα–Cα distance between residue 94 and Tyr157 was 5.6 Å in the WT, and 10.0 Å (chain A) and 10.1 Å (chain B) in 1I3N. No NAD atom lies within 4.5 Å of residue 94 in the WT; within 8 Å there are six NAD atoms in the WT and ten in 1I3N (chain A). In 1I3N, no atom of the substrate UDP-N-acetylglucosamine lies within 4.5 Å of residue 94, and seven atoms lie within 8 Å. Residue 94 is not part of the dimer interface (residues 110, 117, 156, 163, 167, 171 and 174 are).
-
-**Table 3.** Structural environment of residue 94.
+**Table 2.** Structural environment of residue 94.
 
 | Feature | WT (1EK5) | V94M (1I3N) |
 |---|---|---|
@@ -111,10 +71,19 @@ The Cα–Cα distance between residue 94 and Tyr157 was 5.6 Å in the WT, and 1
 | Neighbours < 4.5 Å (both) | Lys92, Ala93, Gly95, Glu96, Asn206 | Lys92, Ala93, Gly95, Glu96, Asn206 |
 | Neighbours < 4.5 Å (only one structure) | Ser97, Val98, Asn155, Tyr157 | Asn37, Tyr104 |
 | Cα–Cα distance 94–Tyr157 | 5.6 Å | 10.0 Å (chain A); 10.1 Å (chain B) |
-| NAD atoms < 4.5 Å | 0 | Not measured |
-| NAD atoms < 8 Å | 6 | 10 |
-| Substrate (UDP-GlcNAc) atoms < 4.5 Å / < 8 Å | No substrate in the structure | 0 / 7 |
-| Dimer interface | Not part of it | Not part of it |
+| NAD atoms < 4.5 Å / < 8 Å| 0/6 | Not measured/10 |
+| UDP-sugar atoms < 4.5 Å / < 8 Å | No substrate in the structure | 0 / 7 |
+| Dimer interface | Not measured | Not part of it |
+
+# Marta, you may need this following information
+
+The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing side chain into a highly conserved, tightly packed region (residues 85–102). Comparison between `1EK5` (WT) and `1I3N` (Mutant) reveals that the V94M substitution causes a slight displacement of the surface loop (Ala93 to Glu96), disrupting optimal active site geometry and destabilizing the core structure, which accounts for the reduced enzymatic activity in Epimerase-Deficiency Galactosemia.
+### Structural environment of residue 94
+
+The environment of residue 94 was analysed in the WT (1EK5) and V94M (1I3N) structures (Table 2). Residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, Ala93, Gly95, Glu96 and Asn206 are neighbours in both structures. Ser97, Val98, Asn155 and Tyr157 are neighbours only in the WT, and Asn37 and Tyr104 only in the mutant. No residue of chain B lies within 4.5 Å of residue 94.
+
+The Cα–Cα distance between residue 94 and Tyr157 was 5.6 Å in the WT, and 10.0 Å (chain A) and 10.1 Å (chain B) in 1I3N. No NAD atom lies within 4.5 Å of residue 94 in the WT; within 8 Å there are six NAD atoms in the WT and ten in 1I3N (chain A). In 1I3N, no atom of the substrate UDP-N-acetylglucosamine lies within 4.5 Å of residue 94, and seven atoms lie within 8 Å. Residue 94 is not part of the dimer interface (residues 110, 117, 156, 163, 167, 171 and 174 are).
+
 
 Residue 94 therefore does not contact NAD, the substrate or the other subunit directly, but it lies close to residues annotated in UniProt Q14376 as NAD-binding (Lys92), substrate-binding (Asn206) and the catalytic proton acceptor (Tyr157). These are measurements. The interpretation that Met94 acts indirectly on the active site is a hypothesis.
 
