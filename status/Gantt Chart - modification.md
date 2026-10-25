@@ -37,8 +37,8 @@
 | 3.8 | Interpret cross-species differences | Marta | 3.3 | 14/10/26 | 19/10/26 | 16/10/26 |  | |  0%  |
 | 🏁 | **Milestone 3: Sequence, structure and function analysis completed** | | | | | | | | |
 | **WP 4** | **Reporting and delivery (BMC Bioinformatics format)** | | | | | | | | |
-| 4.1 | Draft Methods and Results | Adrià | WP 3 | 19/10/26 | 21/10/26 | 13/10/26| 24/10/26 | 11 days |  100%  |
-| 4.2 | Draft Background | Mengxin | 4.1, WP 2 | 15/10/26 | 16/10/26 | | | |  0%  |
+| 4.1 | Draft Methods and Results | Mengxin | WP 3 | 19/10/26 | 21/10/26 | 13/10/26| 24/10/26 | 11 days |  100%  |
+| 4.2 | Draft Background | Adrià | 4.1, WP 2 | 15/10/26 | 16/10/26 | | | |  0%  |
 | 4.3 | Draft Discussion and Conclusions | Marta | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 24/10/26 | | |  0%  |
 | 4.4 | Figures and tables (maximum five) | Alexandra | WP 3 | 19/10/26 | 21/10/26 | | | |  0%  |
 | 4.5 | Abstract, keywords, abbreviations, declarations | Adrià | 4.3 | 21/10/26 | 23/10/26 | | | |  0%  |
