@@ -215,13 +215,27 @@ Here it is important to separate what we found from what is only an idea. From o
 Our idea is that, since residue 94 does not touch the substrate, Met94 may affect the active site in an indirect way, and this would fit with the low activity and the severe disease. However, we cannot prove it, because 1EK5 and 1I3N have different resolution and ligands, 1I3N also has the change Ala180Val, and we did not measure any activity.
 
 ## Abbreviations
-[List abbreviations used, e.g., AI: Artificial Intelligence.]
+
+- **aa:** amino acid
+- **BLAST:** Basic Local Alignment Search Tool
+- **CDS:** coding DNA sequence
+- **EDG:** epimerase-deficiency galactosemia
+- **GALE:** UDP-galactose 4-epimerase (gene symbol *GALE*)
+- **HGVS:** Human Genome Variation Society
+- **MeSH:** Medical Subject Headings
+- **MSA:** multiple sequence alignment
+- **NAD:** nicotinamide adenine dinucleotide
+- **nt:** nucleotide
+- **OMIM:** Online Mendelian Inheritance in Man
+- **PDB:** Protein Data Bank
+- **RefSeq:** NCBI Reference Sequence database
+- **UDP:** uridine diphosphate
+- **WT:** wild type
 
 ## Declarations
 Availability of data and materials: [Statement on repository/access]
 Authors' contributions: Specify roles
 
-## References
 
 ## References
 
