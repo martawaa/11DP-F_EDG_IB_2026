@@ -232,9 +232,13 @@ Our idea is that, since residue 94 does not touch the substrate, Met94 may affec
 - **UDP:** uridine diphosphate
 - **WT:** wild type
 
+
 ## Declarations
-Availability of data and materials: [Statement on repository/access]
-Authors' contributions: Specify roles
+
+**Availability of data and materials:** The FASTA files (WT and mutant CDS and protein) are available in the `references/data` folder of the GitHub repository of group 11DP-F: [https://github.com/martawaa/11DP-F_EDG_IB_2026.git]. The structure images and other figures are available in the `figures` folder of the same repository. The 3D structures are available in the RCSB Protein Data Bank (1EK5 and 1I3N). The *E. coli* protein (NP_415280.3) comes from strain K-12 MG1655, whereas the *E. coli* CDS used for the nucleotide comparison (OZ544371.1) comes from a different strain (RSZYD15081311_A), because the BLASTn search against the K-12 genome returned only genome records and not a CDS. Only 22% of the human CDS aligned with this sequence, so the CDS comparison with *E. coli* should be interpreted with caution.
+
+
+**Authors' contributions:** Mengxin retrieved the protein accessions and homologues, compared the WT and mutant sequences, linked structure to enzyme function and phenotype, drafted the Background and integrated the report. Adrià curated the OMIM data, performed the multiple sequence alignment, analysed the structural environment of residue 94, and drafted the Methods and Results, the Abstract, keywords and declarations. Alexandra defined the MeSH terms, identified and compared the WT and mutant structures, prepared the figures and tables, and coordinated the final submission. Marta carried out the literature research, analysed conservation and cross-species differences, drafted the Discussion and Conclusions, and managed the Gantt chart. All authors read and approved the final manuscript.
 
 
 ## References
