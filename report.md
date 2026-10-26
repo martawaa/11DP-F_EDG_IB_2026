@@ -7,7 +7,7 @@
 words).*
 
 ## Keywords
-[Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5]
+Epimerase-deficiency galactosemia, GALE, p.Val94Met, sequence conservation, protein structure
 
 ## Background
 
