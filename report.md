@@ -27,9 +27,9 @@ Several missense variants in *GALE* have been reported in OMIM, including p.Val9
 
 ### Identification of the human GALE sequences
 
-The WT CDS search identified the human gene GALE (Gene ID 2582, MIM 606953) at locus 1p36.11 (NC_000001.11), with the RefSeq record NM_000403.4 (13 exons). The WT protein search identified NP_000394.2 (348 aa). The mutant CDS had its best hit on NM_000403.4 with 99.90% identity to the WT CDS (1046/1047 nucleotides; query cover 100%, E-value 0.0), and the mutant protein had its best hit on NP_000394.2 with 99.71% identity to the WT protein (347/348 amino acids; query cover 100%, E-value 0.0).
+The WT CDS search identified the human gene *GALE* (Gene ID 2582, MIM 606953) at locus 1p36.11 (NC_000001.11), with the RefSeq record NM_000403.4 (13 exons). The WT protein search identified NP_000394.2 (348 aa). The mutant CDS had its best hit on NM_000403.4 with 99.90% identity to the WT CDS (1046/1047 nucleotides; query cover 100%, E-value 0.0), and the mutant protein had its best hit on NP_000394.2 with 99.71% identity to the WT protein (347/348 amino acids; query cover 100%, E-value 0.0).
 
-The homologues selected were, for Mus musculus, Gale (CDS NM_001356493.1; protein NP_001343422.1, 347 aa) and, for Escherichia coli, galE (protein NP_415280.3, 338 aa, strain K-12 MG1655; nucleotide record OZ544371.1, strain RSZYD15081311_A, not K-12). The protein and the nucleotide sequences therefore come from different E. coli strains.
+The homologues selected were, for *Mus musculus*, Gale (CDS NM_001356493.1; protein NP_001343422.1, 347 aa) and, for *Escherichia coli*, galE (protein NP_415280.3, 338 aa, strain K-12 MG1655; nucleotide record OZ544371.1, strain RSZYD15081311_A, not K-12). The protein and the nucleotide sequences therefore come from different *E. coli* strains.
 
 ### Comparison of the WT and mutant sequences
 
@@ -39,27 +39,27 @@ Valine and methionine are both non-polar, hydrophobic and uncharged. Valine is a
 
 ### Conservation across species: CDS
 
-Because blastn aligned only 22% of the human CDS with the E. coli sequence, human vs mouse and human vs E. coli were aligned separately (Figure 1).
+Because blastn aligned only 22% of the human CDS with the *E. coli* sequence, human vs mouse and human vs *E. coli* were aligned separately (Figure 1).
 
-#### Figure 1. Identity and coverage of the WT human sequences against mouse and E. coli.
+#### Figure 1. Identity and coverage of the WT human sequences against mouse and *E. coli*.
 
 | Comparison | 	Level | Query cover | Identity | 	Identity per 60-position block |
 |---|---|---|---|---|
 | *Human vs mouse* | CDS | 99% (positions 7–1047) | 89.15% | 80.00–96.67% (18 blocks) |
-| *Escherichia coli* | CDS | 	22% (positions 532–761) | 76.19% | 74.0–80.0% (4 blocks) |
+| *Human vs Escherichia coli* | CDS | 	22% (positions 532–761) | 76.19% | 74.00–80.00% (4 blocks) |
 | *Human vs mouse* | Protein | 99% | 93.93% (325/346) | 91.67–96.67% (6 blocks) |
 | *Human vs E. coli* | Protein | 98% | 52.49% (179/341) | 40.48–80.00% (6 blocks) |
 
-CDS. Human and mouse CDS align over almost their whole length (E-value 0.0), with 113 substitutions (928/1041 identities, no gaps): 88 at the third base of a codon, 12 at the first and 13 at the second. For E. coli, blastn aligned one segment (positions 532–761, E-value 5e-40; 176/231 identities), which corresponds approximately to residues 178–254 of the protein, with 53 substitutions and two gaps; outside it the human CDS has no alignment. Position c.280 is G in human and mouse. It lies outside the segment aligned with E. coli.
+CDS. Human and mouse CDS align over almost their whole length (E-value 0.0), with 113 substitutions (928/1041 identities, no gaps): 88 at the third base of a codon, 12 at the first and 13 at the second. For *E. coli*, blastn aligned one segment (positions 532–761, E-value 5e-40; 176/231 identities), which corresponds approximately to residues 178–254 of the protein, with 53 substitutions and two gaps; outside it the human CDS has no alignment. Position c.280 is G in human and mouse. It lies outside the segment aligned with *E. coli*.
 
-Protein. Of the 346 human positions covered by the three-way alignment (residues 3–348), 177 (51.2%) are identical in human, mouse and E. coli (Figure 2). The longest identical stretches are residues 85–102 (VIHFAGLKAVGESVQKPL), 198–211, 232–244 and 129–137. Identity with E. coli is lowest in residues 19–47 (7 of 29) and 303–348 (17 of 46). The mouse protein has 21 substitutions and no gaps; nine lie in residues 28–83. The E. coli protein has 156 substitutions and a six-residue gap corresponding to human residues 41–46. The full list of substitutions and the identity of every block are given in Additional file 1. Valine 94 is identical in the three species and lies inside the longest conserved stretch (residues 85–102).
+Protein. Of the 346 human positions covered by the three-way alignment (residues 3–348), 177 (51.2%) are identical in human, mouse and *E. coli* (Figure 2). The longest identical stretches are residues 85–102 (VIHFAGLKAVGESVQKPL), 198–211, 232–244 and 129–137. Identity with *E. coli* is lowest in residues 19–47 (7 of 29) and 303–348 (17 of 46). The mouse protein has 21 substitutions and no gaps; nine lie in residues 28–83. The *E. coli* protein has 156 substitutions and a six-residue gap corresponding to human residues 41–46. The full list of substitutions and the identity of every block are given in Additional file 1. Valine 94 is identical in the three species and lies inside the longest conserved stretch (residues 85–102).
 
-CDS and protein. Human vs mouse has 113 nucleotide differences but 21 amino-acid differences, and identity is higher in the protein (93.93%) than in the CDS (89.15%). For E. coli, the protein aligned over 98% of the human protein and the CDS over 22% of the human CDS, so the two identities are not directly comparable.
+CDS and protein. Human vs mouse has 113 nucleotide differences but 21 amino-acid differences, and identity is higher in the protein (93.93%) than in the CDS (89.15%). For *E. coli*, the protein aligned over 98% of the human protein and the CDS over 22% of the human CDS, so the two identities are not directly comparable.
 
 #### Figure 2. MSA_position94.png
 Valine 94 is boxed. * identical, : strongly similar, . weakly similar. 
 
-### Analyze the structural environment of the mutated position comparing WT and mutant structures.
+### Structural environment of the mutated position comparing WT and mutant structures.
 
 Two X-ray structures of human GALE were selected: 1EK5 (WT; 1.80 Å; one chain in the asymmetric unit, with the dimer generated by symmetry; ligand NAD; Thoden et al. 2000) and 1I3N (V94M; 1.50 Å; chains A and B; ligands NAD, UDP-N-acetylglucosamine, chloride ion and magnesium ion; Thoden et al. 2001). The sequence of 1EK5 is identical to the WT protein. The sequence of 1I3N has methionine at position 94 and also differs from the WT at position 180 (Ala in the WT, Val in 1I3N).
 
@@ -86,23 +86,23 @@ The main aim of this study was to investigate the potential consequences of the 
 
 A possible interpretation is that this residue is under functional constraint: purifying selection eliminates individuals that carry mutations that interfere with important functions, so sequences under strong constraint tend to be conserved [24]. This suggests that the residue may contribute to a structurally or functionally important region of the enzyme. However, only three species were compared, so conservation suggests that the position matters but cannot prove it.
 
-##### 1. WT vs. Mutant (human)
+##### 1. WT vs. Mutant (Human)
 
 The alignment between the WT and mutant CDS shows 100% coverage and 99.90% identity, corresponding to a single nucleotide difference. Similarly, the comparison between the WT and mutant protein sequences demonstrates 100% coverage and 99.71% identity, reflecting the substitution of a single amino acid.
 
 > The same single change gives a lower percentage in the protein because it is divided by a shorter sequence: three nucleotides (one codon) code for one amino acid.
 
-##### 2. WT(human) vs. *E. coli*
+##### 2. WT (Human) vs. *E. coli*
 
 The alignment between the WT CDS and Escherichia coli shows 76.19% identity, though it covers only 22% of the nucleotide sequence. In contrast, the comparison at the protein level spans 98% coverage with 52.49% identity.
 
-> Although the CDS identity with *E.coli*(76.19%) is higer  than the protein identity(52.49%),but this is not a real difference: blastn aligned only 22% of the human CDS, whereas blastp aligned 98% of the protein, so the two percentages cannot be compared. We cannot say anything about the part of the CDS that did not align.
+> Although the CDS identity with *E. coli* (76.19%) is higher than the protein identity (52.49%), but this is not a real difference: blastn aligned only 22% of the human CDS, whereas blastp aligned 98% of the protein, so the two percentages cannot be compared. We cannot say anything about the part of the CDS that did not align.
 
-##### 3. WT(human) vs. *Mus musculus*
+##### 3. WT (Human) vs. *Mus musculus*
 
-The alignment between the WT human CDS and Mus musculus shows 99% coverage and 89.15% identity. In contrast, the comparison at the protein level demonstrates 99% coverage with a higher identity of 93.93%.
+The alignment between the WT human CDS and *Mus musculus* shows 99% coverage and 89.15% identity. In contrast, the comparison at the protein level demonstrates 99% coverage with a higher identity of 93.93%.
 
-> Both percentage identities are similar, but the highest is the protein sequence. Because throughout the alignment there can be cases where the change of a nucleotid doesn't necessarily imply a change in the encoded aminoacid. Of the 113 nucleotide differences, 88 are at the third base of a codon, where a change often does not alter the amino acid because the genetic code is degenerate (synonymous changes), meaning that the change of a nucleotid could create a new codon that also codificates for that same aminoacid, making it a neutral mutation with no visible effect on the final protein.Only 21 amino acids differ. 
+> Both percentage identities are similar, but the highest is the protein sequence. Because throughout the alignment there can be cases where the change of a nucleotide doesn't necessarily imply a change in the encoded amino acid. Of the 113 nucleotide differences, 88 are at the third base of a codon, where a change often does not alter the amino acid because the genetic code is degenerate (synonymous changes), meaning that the change of a nucleotid could create a new codon that also codes for that same aminoacid, making it a neutral mutation with no visible effect on the final protein. Only 21 amino acids differ. 
 
 The p.Val94Met variant can be followed from the gene to the patient. The enzyme UDP-galactose 4-epimerase is a dimer that requires NAD and converts UDP-glucose into UDP-galactose and UDP-N-acetylglucosamine into UDP-N-acetylgalactosamine; Tyr157 is the residue that accepts a proton in the reaction (UniProt Q14376). Low activity of the enzyme causes EDG, which is peripheral (mild) or generalized (severe). V94M has been found in patients with two copies of the variant, who have the generalized form (Fridovich-Keil et al. 2011).
 
@@ -112,7 +112,7 @@ Our hypothesis is that Met94 changes the loop and the position of Tyr157, which 
 
 Our structural findings directly integrate with established literature, systematically connecting baseline wild-type (WT) mechanics, variant crystallography, and computational dynamics. First, our analysis builds upon the WT human UDP-galactose 4-epimerase (GALE) framework established by Thoden et al. [21], who solved both the resting state (Protein Data Bank [PDB] entry 1EK5) and the substrate-bound ternary complex (PDB entry 1EK6). Their work demonstrated that substrate binding triggers a C-terminal domain closure—transitioning from 1EK5 to 1EK6—that brings Tyr157 into optimal hydrogen-bonding proximity (3.1 Å) to abstract the sugar 4'-hydroxyl proton, establishing Tyr157 as the essential active-site base.
 
-The findings of this study can be directly compared with those of Thoden et al. [22] (PDB 1I3N), who investigated the human GALE p.Val94Met (V94M) variant using X-ray crystallography. Their study described an opening of the Ala93–Glu96 loop associated with the amino acid (aa) substitution, providing a structural context for the loop displacement observed in our structural comparison. Thoden et al. [22] established that Val94 acts as a hydrophobic "molecular fence" restricting non-productive sugar rotation; its substitution to Met94 induces steric hindrance that alters the backbone dihedral angles of Ala93, causing the surface loop to open up and become significantly disordered (average B-factors ~77Å² vs. 22Å² in WT). Because uridine diphosphate (UDP) binding interactions remain intact, this localized loop displacement allows free rotation of the glycosyl moiety into non-productive conformations, providing a clear molecular rationale for why catalytic turnover is severely impaired while substrate affinity ($K_m$) and global fold stability remain largely unaffected in severe epimerase-deficiency galactosemia (EDG).
+The findings of this study can be directly compared with those of Thoden et al. [22] (PDB 1I3N), who investigated the human GALE p.Val94Met (V94M) variant using X-ray crystallography. Their study described an opening of the Ala93–Glu96 loop associated with the amino acid (aa) substitution, providing a structural context for the loop displacement observed in our structural comparison. Thoden et al. [22] established that Val94 acts as a hydrophobic "molecular fence" restricting non-productive sugar rotation; its substitution to Met94 induces steric hindrance that alters the backbone dihedral angles of Ala93, causing the surface loop to open up and become significantly disordered (average B-factors ~77 Å² vs. 22 Å² in WT). Because uridine diphosphate (UDP) binding interactions remain intact, this localized loop displacement allows free rotation of the glycosyl moiety into non-productive conformations, providing a clear molecular rationale for why catalytic turnover is severely impaired while substrate affinity and global fold stability remain largely unaffected in severe epimerase-deficiency galactosemia (EDG).
 
 Finally, these static crystallographic insights are dynamically corroborated by the molecular dynamics (MD) simulations of Timson and Lindert [23]. While crystallographic superpositions capture static loop displacement, Timson and Lindert [23] confirmed that V94M dynamically increases the average interatomic distance between the substrate C4 atom and the Tyr157 catalytic hydroxyl from 5.0Å in WT to 7.3Å in the mutant. Crucially, both crystallographic evidence [22] and MD trajectories [23] agree that global secondary structure and monomeric fold stability are preserved, conclusively demonstrating that severe EDG stems from localized active-site loop disruption and impaired catalytic turnover rather than global protein denaturation.
 
