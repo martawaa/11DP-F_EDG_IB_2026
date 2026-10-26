@@ -127,9 +127,8 @@ The alignment between the WT human CDS and Mus musculus shows 99% coverage and 8
 
 
 #structure meaning in the environment of residue 94 and how it relates to the enzime's activity and the disease overall
-
-
-
+The p.Val94Met variant can be followed from the gene to the patient. The change c.280G>A in GALE makes the enzyme have methionine instead of valine at position 94. This enzyme, UDP-galactose 4-epimerase, needs NAD to work and is a dimer. It changes UDP-glucose into UDP-galactose, and UDP-N-acetylglucosamine into UDP-N-acetylgalactosamine, and Tyr157 is the residue that takes a proton during the reaction (UniProt Q14376). When the enzyme has low activity, the person has EDG, which can be mild, when only the blood cells are affected (peripheral form), or severe, when all the tissues tested are affected (generalized form). V94M has been found in patients with two copies of the variant who have the generalized form (Fridovich-Keil et al.).
+It is important to separate what we found from what is only an idea. In the structures, residue 94 is inside the protein and does not touch NAD, the UDP-sugar or the other subunit, but it is close to Lys92, Asn206 and Tyr157. The distance between residue 94 and Tyr157 is 5.6 Å in 1EK5 and 10.0 Å in 1I3N. From the literature, the V94M enzyme has about 5% of the normal activity with UDP-galactose and about 25% with UDP-N-acetylgalactosamine, and its structure shows that the loop Ala93–Glu96 opens (Thoden et al. 2001). A computer simulation also found that the substrate is farther from Tyr157 in the variant (Timson and Lindert 2013). Our idea is that, since residue 94 does not touch the substrate, Met94 may affect the active site in an indirect way, and this would fit with the low activity and the severe disease. We cannot prove this, because we did not measure any activity and the two structures are not directly comparable (see the limitations below).
 
 #literature comparison
 
@@ -145,8 +144,6 @@ Finally, these static crystallographic insights are dynamically corroborated by 
 ## Methods
 
 ### Literature and database searches
-
-
 
 Background information was collected from NCBI MeSH, PubMed, OMIM and UniProt, which were consulted between 8 and 12 October 2026. MeSH was searched with “galactosemias”[MeSH Terms] OR Epimerase-Deficiency Galactosemia[Text Word] and with “Epimerase”[MeSH Terms]; the records 68004926 (Escherichia coli) and 68017398 (Alternative Splicing) were also consulted to prepare the BLAST searches. The clinical description of EDG was taken from PMID 21290786 (GeneReviews) and the NORD page. Articles on galactose epimerase deficiency were searched in PubMed with the query “Galactose Epimerase Deficiency”, and articles on V94M with the query “V94M”, on 22 October 2026; they included Thoden et al. (2001) and Timson and Lindert (2013). OMIM entries *606953 (GALE, with its allelic variants .0001–.0008) and 
 #230350 (galactosemia III) and UniProt Q14376 (function and functional sites) were read, and NCBI Gene (Gene ID 2582) was consulted on 9 October 2026.
@@ -186,13 +183,7 @@ Human GALE structures were searched in the RCSB Protein Data Bank (https://www.r
 
 The properties of valine and methionine were taken from the IMGT classes of the 20 common amino acids (https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html; Pommié et al. 2004).
 
----
-
-
 *(this should be added to discussion)*
-
-
----
 
 [  https://www.ncbi.nlm.nih.gov/books/NBK26836/ ]
 
@@ -215,12 +206,6 @@ Position 157: active site of proton acceptor
 Positions 132-134, 185-187, 206-208, 224-226, 239 and 300-303: binding sites for substrate
 
 the studied mutation appears in postion 279, meaning that it does not directly affect any of the indicated functional sites. These are needed for the basic wellness of the organism and therefore are less prone to effective mutation. 
-
-**Task 3.7. Link between the structure, the enzyme function and the phenotype**
-
-The p.Val94Met variant can be followed from the gene to the patient. The change c.280G>A in GALE makes the enzyme have methionine instead of valine at position 94. This enzyme, UDP-galactose 4-epimerase, needs NAD to work and is a dimer. It changes UDP-glucose into UDP-galactose, and UDP-N-acetylglucosamine into UDP-N-acetylgalactosamine, and Tyr157 is the residue that takes a proton during the reaction (UniProt Q14376). When the enzyme has low activity, the person has EDG. This disease can be mild, when only the blood cells are affected (peripheral form), or severe, when all the tissues tested are affected (generalized form). V94M has been found in patients with two copies of the variant who have the generalized form (Fridovich-Keil et al.).
-
-Here it is important to separate what we found from what is only an idea. From our analysis, valine 94 is the same in human, mouse and E. coli. In the structures, it is inside the protein and it does not touch NAD, the UDP-sugar or the other subunit, but it is close to Lys92, Asn206 and Tyr157. The distance between residue 94 and Tyr157 is 5.6 Å in 1EK5 and 10.0 Å in 1I3N. From the literature, the V94M enzyme has about 5% of the normal activity with UDP-galactose and about 25% with UDP-N-acetylgalactosamine, and its structure shows that the loop Ala93–Glu96 opens (Thoden et al. 2001). A computer simulation also found that the substrate is farther from Tyr157 in the variant (Timson and Lindert 2013). 
 
 Our idea is that, since residue 94 does not touch the substrate, Met94 may affect the active site in an indirect way, and this would fit with the low activity and the severe disease. However, we cannot prove it, because 1EK5 and 1I3N have different resolution and ligands, 1I3N also has the change Ala180Val, and we did not measure any activity.
 
