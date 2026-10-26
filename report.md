@@ -97,6 +97,30 @@ The nucleotide and protein comparisons also differed in their coverage across sp
 
 #why the identity of CDS and protein is different( types of mutation, %cover, %identity)
 
+### Sequence Alignment Analysis
+
+#### 1. WTCDS vs. Mutant CDS
+
+The alignment between the WT and mutant CDS shows 100% coverage and 99.90% identity, corresponding to a single nucleotide difference. Similarly, the comparison between the WT and mutant protein sequences demonstrates 100% coverage and 99.71% identity, reflecting the substitution of a single amino acid.
+
+> Although the nucleotid sequence alignment has a higher identity percentage, the variation in both cases is only one component of the sequence. The mutation only consists of a substitution at nucleotide 280 that corresponds to a V --> M substitution at amino-acid position 94. The highest percentage of the CDS sequence is due to a greater ammount of nucleotids in the sequence than aminoacids, as three nucleotids (a codon) are needed to form an aminoacid during traduction. This is called a missense substitution mutation.
+
+---
+
+#### 2. WTCDS vs. *E. coli*
+
+The alignment between the WT CDS and Escherichia coli shows 76.19% identity, though it covers only 22% of the nucleotide sequence. In contrast, the comparison at the protein level spans 98% coverage with 52.49% identity.
+
+> The highest percentage identity is the WTCDS - E. coli alignment. Although it is higher, this is only because it is a percentage made within the section that BLAST covered, which is only a 22% of the sequence provided. This suggests that the rest of the sequence doesn't align with the human protein sequence and, therefore, would have a significantly lower identity percentage than the protein's if 98% of the sequence had been taken into account aswell. A higher identity rate in CDS than in protein alignments indicates that many mutations are silent substitutions. This means that many changes in the nucleotide sequence still codificate for the same aminoacid, making that fragment of the protein sequence unaffected by the mutation.
+
+---
+
+#### 3. WTCDS vs. *Mus musculus*
+
+The alignment between the WT human CDS and Mus musculus shows 99% coverage and 89.15% identity. In contrast, the comparison at the protein level demonstrates 99% coverage with a higher identity of 93.93%.
+
+> Both percentage identities are similar, but the highest is the protein sequence. This is, similarly to the WTCDS vs E.coli comparison, because throughout the alignment there can be cases where the change of a nucleotid doesn't necessarily imply a change in the codificated aminoacid. Aminoacids can be codificated by different codon sequences at the same time, meaning that the change of a nucleotid could create a new codon that also codificates for that same aminoacid, making it a neutral mutation with no visible effect on the final protein. 
+
 
 
 #structure meaning in the environment of residue 94 and how it relates to the enzime's activity and the disease overall
@@ -161,29 +185,6 @@ The properties of valine and methionine were taken from the IMGT classes of the 
 
 *(this should be added to discussion)*
 
-## Sequence Alignment Analysis
-
-#### 1. WTCDS vs. Mutant CDS
-
-The alignment between the WT and mutant CDS shows 100% coverage and 99.90% identity, corresponding to a single nucleotide difference. Similarly, the comparison between the WT and mutant protein sequences demonstrates 100% coverage and 99.71% identity, reflecting the substitution of a single amino acid.
-
-> Although the nucleotid sequence alignment has a higher identity percentage, the variation in both cases is only one component of the sequence. The mutation consists of a substitution at nucleotide 280 that corresponds to a V --> M substitution at amino-acid position 94. The highest percentage of the CDS sequence is due to a greater ammount of nucleotids in the sequence than aminoacids, as three nucleotids (a codon) are needed to form an aminoacid during traduction. This is called a missense mutation.
-
----
-
-#### 2. WTCDS vs. *E. coli*
-
-The alignment between the WT CDS and Escherichia coli shows 76.19% identity, though it covers only 22% of the nucleotide sequence. In contrast, the comparison at the protein level spans 98% coverage with 52.49% identity.
-
-> The highest percentage identity is the WTCDS - E. coli alignment. Although it is higher, this is only because it is a percentage made within the section that BLAST covered, which is only a 22% of the sequence provided. This suggests that the rest of the sequence doesn't align with the human protein sequence and, therefore, would have a significantly lower identity percentage than the protein's if 98% of the sequence had been taken into account aswell.
-
----
-
-#### 3. WTCDS vs. *Mus musculus*
-
-The alignment between the WT human CDS and Mus musculus shows 99% coverage and 89.15% identity. In contrast, the comparison at the protein level demonstrates 99% coverage with a higher identity of 93.93%.
-
-> Both percentage identities are similar, but the highest is the protein sequence. This is because throughout the alignment there can be cases where the change of a nucleotid doesn't necessarily imply a change in the codificated aminoacid. Aminoacids can be codificated by different codon sequences at the same time, meaning that the change of a nucleotid could create a new codon that also codificates for that same aminoacid, making it a neutral mutation with no visible effect on the final protein.
 
 ---
 
