@@ -89,17 +89,6 @@ The main aim of this study was to investigate the potential consequences of the 
 
 A possible interpretation is that this residue is under functional constraint: purifying selection eliminates individuals that carry mutations that interfere with important functions, so sequences under strong constraint tend to be conserved. This suggests that the residue may contribute to a structurally or functionally important region of the enzyme. The *GALE* gene encodes UDP-galactose 4-epimerase, which catalyses the interconversion of UDP-glucose and UDP-galactose, and of UDP-N-acetylglucosamine and UDP-N-acetylgalactosamine, and is therefore essential for basic metabolic processes. However, only three species were compared, so conservation suggests that the position matters but cannot prove it.
 
-The structural comparison of the WT and mutant amino acid sequence showed that both valine and methionine are non-polar, hydrophobic and uncharged. Metionine, however, has a larger side-chain volume. The structural superposition of PDB 1EK5 and PDB 1I3N showed a displacement of Ala93-Glu96 in the region of the mutated residue 94. This diference in side-chain volume and the structural displacement suggest that the substitution contributed to a change in the structural environment of the protein. Nevertheless, these observations can't accurately explain the substitution's effects on the protein's function. Also, PDB 1I3N contains an Ala180Val difference, so the structural differences between the two structures can't be entirely attributed to the V94M substitution alone.
-
-The nucleotide and protein comparisons also differed in their coverage across species. BLAST was able to align the human and mouse CDS sequences almost entirely, but the coverage offered by the E. coli alignment was only 22%, making it harder to accurately compare both sequences. Moreover, the protein alignment showed a higher coverage percentage in both mouse and E.coli comparisons.
-'''
-
-#what does it mean that Val94 is identical in human, mouse and ecoli. (conservation and possible functional importance)
-
-
-
-#why the identity of CDS and protein is different( types of mutation, %cover, %identity)
-
 ### Sequence Alignment Analysis
 
 #### 1. WTCDS vs. Mutant CDS
