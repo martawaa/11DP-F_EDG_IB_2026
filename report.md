@@ -80,16 +80,6 @@ In the WT, residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, A
 
 The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing side chain into a highly conserved, tightly packed region (residues 85–102). Comparison between `1EK5` (WT) and `1I3N` (Mutant) reveals that the V94M substitution causes a slight displacement of the surface loop (Ala93 to Glu96), disrupting optimal active site geometry and destabilizing the core structure, which accounts for the reduced enzymatic activity in Epimerase-Deficiency Galactosemia.
 
-### Structural environment of residue 94
-
-The environment of residue 94 was analysed in the WT (1EK5) and V94M (1I3N) structures (Table 2). Residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, Ala93, Gly95, Glu96 and Asn206 are neighbours in both structures. Ser97, Val98, Asn155 and Tyr157 are neighbours only in the WT, and Asn37 and Tyr104 only in the mutant. No residue of chain B lies within 4.5 Å of residue 94.
-
-The Cα–Cα distance between residue 94 and Tyr157 was 5.6 Å in the WT, and 10.0 Å (chain A) and 10.1 Å (chain B) in 1I3N. No NAD atom lies within 4.5 Å of residue 94 in the WT; within 8 Å there are six NAD atoms in the WT and ten in 1I3N (chain A). In 1I3N, no atom of the substrate UDP-N-acetylglucosamine lies within 4.5 Å of residue 94, and seven atoms lie within 8 Å. Residue 94 is not part of the dimer interface (residues 110, 117, 156, 163, 167, 171 and 174 are).
-
-Residue 94 therefore does not contact NAD, the substrate or the other subunit directly, but it lies close to residues annotated in UniProt Q14376 as NAD-binding (Lys92), substrate-binding (Asn206) and the catalytic proton acceptor (Tyr157). These are measurements. The interpretation that Met94 acts indirectly on the active site is a hypothesis.
-
-*Limitations:* 1EK5 and 1I3N are different crystals (1.80 and 1.50 Å resolution), 1I3N also carries Ala180Val, and only 1I3N contains the substrate, so the differences cannot be attributed to V94M alone. The Cα–Cα change (4.4 Å) is large and should be compared with Thoden et al. 2001.
-
 
 ## Discussion
 [Discuss implications, compare with existing research, and highlight limitations.]
