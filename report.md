@@ -124,10 +124,9 @@ Finally, accomodating to the GitHub repository has been another hardship in the 
 
 ## Conclusion
 
-'''
 In this study we analysed the p.Val94Met variant of GALE, associated with epimerase-deficiency galactosemia, by comparing the WT and mutant sequences, assessing conservation in human, mouse and E. coli, and examining the structural environment of residue 94
 Comparing sequences across different species shows what part of a protein's sequence is likely to matter the most, and structure suggests why it matters. In GALE, the p.Val94Met variant (c.280G>A) is a missense substitution mutation, meaning that a mutation in the nucleotide sequence changes the amino acid sequence of the protein. The aminoacids changed are chemically similar but still have a strong effect. Valine 94 is identical in human, mouse and E. coli. Its conservation across such a large evolutionary distance suggests that the position is under functional constraint, which fits the essential role of GALE in galactose metabolism and in the synthesis of glycoproteins and glycolipids described in the literature. In the WT structure, residue 94 is buried in an α-helix and does not contact NAD, and in the mutant structure it does not contact the UDP-sugar ligand or the dimer interface. Together with published structural studies, this suggests that Met94 may affect the active site indirectly, possibly by altering the nearby loop and the position of Tyr157. However, this interpretation is limited by the small number of species compared, the differences in ligands and resolution between 1EK5 and 1I3N, the additional Ala180Val change in 1I3N, and the absence of activity measurements.
-'''
+
 
 
 ## Methods
@@ -222,7 +221,7 @@ The properties of valine and methionine were taken from the IMGT classes of the 
 18. IMGT Education. IMGT classes of the 20 common amino acids. Available at: https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html (accessed 22 October 2026).
 19. Pommié C, Levadoux S, Sabatier R et al. IMGT standardized criteria for statistical analysis of immunoglobulin V-REGION amino acid properties. J Mol Recognit 2004;17:17–32.
 20. Schrödinger, LLC. The PyMOL Molecular Graphics System, Version 3.1. Available at: https://pymol.org/ (accessed 24 October 2026).
-21. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Crystallographic evidence for Tyr 157 functioning as the active site base in human UDP-galactose 4-epimerase. Biochemistry  2000-05, Vol.39 (19), p.5691-5701
+21. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Crystallographic evidence for Tyr 157 functioning as the active site base in human UDP-galactose 4-epimerase. *Biochemistry* 2000;39:5691–5701. https://doi.org/10.1021/bi000215l.
 22. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Molecular basis for severe epimerase deficiency galactosemia. X-ray structure of the human V94M-substituted UDP-galactose 4-epimerase. J Biol Chem 2001;276:20617–23.
 23. Timson DJ, Lindert S. Comparison of dynamics of wildtype and V94M human UDP-galactose 4-epimerase: a computational perspective on severe epimerase-deficiency galactosemia. Gene 2013;526:318–24.
 24. National Center for Biotechnology Information. *NCBI Bookshelf*. Available from: https://www.ncbi.nlm.nih.gov/books/NBK26836/ (26 October 2026, date last accessed).
