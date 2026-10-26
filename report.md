@@ -77,28 +77,27 @@ In the WT, residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, A
 
 ## Discussion
 
-The main aim of this study was to investigate the potential consequences of the p.Val94Met (V94M) variant in the human *GALE* gene. The comparison of the WT and mutant sequences showed a single nucleotide difference, which results in the replacement of valine by methionine at position 94. The cross-species analysis supports the importance of this residue. Human GALE showed 93.93% protein identity with mouse GALE and 52.49% identity with the *Escherichia coli* homologue. Despite this difference in identity, valine 94 is identical in the three species and lies inside the longest conserved stretch of the alignment (residues 85–102). This is notable because most positions have changed between human and *E. coli*, while position 94 has not.
-
-A possible interpretation is that this residue is under functional constraint: purifying selection eliminates individuals that carry mutations that interfere with important functions, so sequences under strong constraint tend to be conserved. This suggests that the residue may contribute to a structurally or functionally important region of the enzyme. The *GALE* gene encodes UDP-galactose 4-epimerase, which catalyses the interconversion of UDP-glucose and UDP-galactose, and of UDP-N-acetylglucosamine and UDP-N-acetylgalactosamine, and is therefore essential for basic metabolic processes. However, only three species were compared, so conservation suggests that the position matters but cannot prove it.
-
-##### 1. WTCDS vs. Mutant CDS
+##### 1. WT vs. Mutant (human)
 
 The alignment between the WT and mutant CDS shows 100% coverage and 99.90% identity, corresponding to a single nucleotide difference. Similarly, the comparison between the WT and mutant protein sequences demonstrates 100% coverage and 99.71% identity, reflecting the substitution of a single amino acid.
 
 > Although the nucleotid sequence alignment has a higher identity percentage, the variation in both cases is only one component of the sequence. The mutation only consists of a substitution at nucleotide 280 that corresponds to a V --> M substitution at amino-acid position 94. The highest percentage of the CDS sequence is due to a greater ammount of nucleotids in the sequence than aminoacids, as three nucleotids (a codon) are needed to form an aminoacid during traduction. This is called a missense substitution mutation.
 
-##### 2. WTCDS vs. *E. coli*
+##### 2. WT(human) vs. *E. coli*
 
 The alignment between the WT CDS and Escherichia coli shows 76.19% identity, though it covers only 22% of the nucleotide sequence. In contrast, the comparison at the protein level spans 98% coverage with 52.49% identity.
 
 > The highest percentage identity is the WTCDS - E. coli alignment. Although it is higher, this is only because it is a percentage made within the section that BLAST covered, which is only a 22% of the sequence provided. This suggests that the rest of the sequence doesn't align with the human protein sequence and, therefore, would have a significantly lower identity percentage than the protein's if 98% of the sequence had been taken into account aswell. A higher identity rate in CDS than in protein alignments indicates that many mutations are silent substitutions. This means that many changes in the nucleotide sequence still codificate for the same aminoacid, making that fragment of the protein sequence unaffected by the mutation.
 
-##### 3. WTCDS vs. *Mus musculus*
+##### 3. WT(human) vs. *Mus musculus*
 
 The alignment between the WT human CDS and Mus musculus shows 99% coverage and 89.15% identity. In contrast, the comparison at the protein level demonstrates 99% coverage with a higher identity of 93.93%.
 
 > Both percentage identities are similar, but the highest is the protein sequence. This is, similarly to the WTCDS vs E.coli comparison, because throughout the alignment there can be cases where the change of a nucleotid doesn't necessarily imply a change in the encoded aminoacid. Aminoacids can be encoded by different codon sequences at the same time, meaning that the change of a nucleotid could create a new codon that also codificates for that same aminoacid, making it a neutral mutation with no visible effect on the final protein. 
 
+The main aim of this study was to investigate the potential consequences of the p.Val94Met (V94M) variant in the human *GALE* gene. The comparison of the WT and mutant sequences showed a single nucleotide difference, which results in the replacement of valine by methionine at position 94. The cross-species analysis supports the importance of this residue. Human GALE showed 93.93% protein identity with mouse GALE and 52.49% identity with the *Escherichia coli* homologue. Despite this difference in identity, valine 94 is identical in the three species and lies inside the longest conserved stretch of the alignment (residues 85–102). This is notable because most positions have changed between human and *E. coli*, while position 94 has not.
+
+A possible interpretation is that this residue is under functional constraint: purifying selection eliminates individuals that carry mutations that interfere with important functions, so sequences under strong constraint tend to be conserved. This suggests that the residue may contribute to a structurally or functionally important region of the enzyme. The *GALE* gene encodes UDP-galactose 4-epimerase, which catalyses the interconversion of UDP-glucose and UDP-galactose, and of UDP-N-acetylglucosamine and UDP-N-acetylgalactosamine, and is therefore essential for basic metabolic processes. However, only three species were compared, so conservation suggests that the position matters but cannot prove it.
 
 The p.Val94Met variant can be followed from the gene to the patient. The enzyme UDP-galactose 4-epimerase is a dimer that requires NAD and converts UDP-glucose into UDP-galactose; Tyr157 is the residue that accepts a proton in the reaction (UniProt Q14376). Low activity of the enzyme causes EDG, which is peripheral (mild) or generalized (severe). V94M has been found in patients with two copies of the variant, who have the generalized form (Fridovich-Keil et al.).
 
