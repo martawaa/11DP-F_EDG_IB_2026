@@ -35,7 +35,7 @@ Valine and methionine are both non-polar, hydrophobic and uncharged. Valine is a
 
 ### Conservation across species: CDS
 
-Because blastn aligned only 22% of the human CDS with the E. coli sequence, human vs mouse and human vs E. coli were aligned separately (Table 1).
+Because blastn aligned only 22% of the human CDS with the E. coli sequence, human vs mouse and human vs E. coli were aligned separately (Figure 1).
 
 #### Figure 1. Identity and coverage of the WT human sequences against mouse and E. coli.
 
@@ -51,8 +51,6 @@ CDS. Human and mouse CDS align over almost their whole length (E-value 0.0), wit
 Protein. Of the 346 human positions covered by the three-way alignment (residues 3–348), 177 (51.2%) are identical in human, mouse and E. coli (Figure 1). The longest identical stretches are residues 85–102 (VIHFAGLKAVGESVQKPL), 198–211, 232–244 and 129–137. Identity with E. coli is lowest in residues 19–47 (7 of 29) and 303–348 (17 of 46). The mouse protein has 21 substitutions and no gaps; nine lie in residues 28–83. The E. coli protein has 156 substitutions and a six-residue gap corresponding to human residues 41–46. The full list of substitutions and the identity of every block are given in Additional file 1. Valine 94 is identical in the three species and lies inside the longest conserved stretch (residues 85–102).
 
 CDS and protein. Human vs mouse has 113 nucleotide differences but 21 amino-acid differences, and identity is higher in the protein (93.93%) than in the CDS (89.15%). For E. coli, the protein aligned over 98% of the human protein and the CDS over 22% of the human CDS, so the two identities are not directly comparable.
-
-Figure 2: MSA_position94.png
 
 #### Figure 2. MSA_position94.png
 Valine 94 is boxed. * identical, : strongly similar, . weakly similar. 
@@ -74,8 +72,6 @@ In the WT, residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, A
 | NAD atoms < 4.5 Å / < 8 Å| 0/6 | Not measured/10 |
 | UDP-sugar atoms < 4.5 Å / < 8 Å | No substrate in the structure | 0 / 7 |
 | Dimer interface | Not measured | Not part of it |
-
-Figure 3: Superposition of WT and V94M mutant GALE structures
 
 #### Figure 4. Superposition of human WT GALE (1EK5, green) and V94M mutant (1I3N, cyan), zoomed in on position 94.
 
