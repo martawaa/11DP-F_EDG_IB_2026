@@ -37,7 +37,7 @@ Valine and methionine are both non-polar, hydrophobic and uncharged. Valine is a
 
 Because blastn aligned only 22% of the human CDS with the E. coli sequence, human vs mouse and human vs E. coli were aligned separately (Table 1).
 
-#### Table 1. Identity and coverage of the WT human sequences against mouse and E. coli.
+#### Figure 1. Identity and coverage of the WT human sequences against mouse and E. coli.
 
 | Comparison | 	Level | Query cover | Identity | 	Identity per 60-position block |
 |---|---|---|---|---|
@@ -52,9 +52,9 @@ Protein. Of the 346 human positions covered by the three-way alignment (residues
 
 CDS and protein. Human vs mouse has 113 nucleotide differences but 21 amino-acid differences, and identity is higher in the protein (93.93%) than in the CDS (89.15%). For E. coli, the protein aligned over 98% of the human protein and the CDS over 22% of the human CDS, so the two identities are not directly comparable.
 
-Figure 1: MSA_position94.png
+Figure 2: MSA_position94.png
 
-#### Figure 1. MSA_position94.png
+#### Figure 2. MSA_position94.png
 Valine 94 is boxed. * identical, : strongly similar, . weakly similar. 
 
 ### Experimental 3D structures
@@ -62,7 +62,7 @@ Two X-ray structures of human GALE were selected: 1EK5 (WT; 1.80 Å; one chain i
 
 In the WT, residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, Ala93, Gly95, Glu96 and Asn206 are neighbours in both structures; Ser97, Val98, Asn155 and Tyr157 only in the WT, and Asn37 and Tyr104 only in the mutant (Table 2, Figure 2). The Cα–Cα distance between residue 94 and Tyr157 was 5.6 Å in the WT and 10.0 Å (chain A) and 10.1 Å (chain B) in 1I3N. No NAD atom lies within 4.5 Å of residue 94 in the WT, and no atom of the UDP-sugar ligand lies within 4.5 Å in 1I3N. Residue 94 is not part of the dimer interface defined in 1I3N (residues 110, 117, 156, 163, 167, 171 and 174 are). In UniProt Q14376, residue 94 has no binding-site or active-site annotation; the nearby Lys92 and Asn206 are annotated as NAD-binding and substrate-binding, and Tyr157 as the proton acceptor.
 
-**Table 2.** Structural environment of residue 94.
+**Figure 3.** Structural environment of residue 94.
 
 | Feature | WT (1EK5) | V94M (1I3N) |
 |---|---|---|
@@ -75,9 +75,9 @@ In the WT, residue 94 is buried and lies in an α-helix. Within 4.5 Å, Lys92, A
 | UDP-sugar atoms < 4.5 Å / < 8 Å | No substrate in the structure | 0 / 7 |
 | Dimer interface | Not measured | Not part of it |
 
-Figure 2: Superposition of WT and V94M mutant GALE structures
+Figure 3: Superposition of WT and V94M mutant GALE structures
 
-#### Figure 2. Superposition of human WT GALE (1EK5, green) and V94M mutant (1I3N, cyan), zoomed in on position 94.
+#### Figure 4. Superposition of human WT GALE (1EK5, green) and V94M mutant (1I3N, cyan), zoomed in on position 94.
 
 
 # Marta, you may need this following information
