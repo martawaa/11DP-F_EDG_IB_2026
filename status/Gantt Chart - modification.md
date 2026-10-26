@@ -23,23 +23,23 @@
 | **WP 2** | **Background research and data collection** | | | | | | | | |
 | 2.1 | Define Mesh terms | Alexandra | WP 1 | 08/10/26 | 11/10/26 | 08/10/26 | 08/10/26 | 1 day |  100%  |
 | 2.2 | OMIM: GALE gene, phenotype and variant | Adrià | WP 1 | 08/10/26 | 12/10/26 | 08/10/26 | 11/10/26 | 4 days |  100%  |
-| 2.3 | Read other key papers and write background notes (PubMed) | Marta | WP 1 | 08/10/26 | 12/10/26 | 08/10/26 | 14/10/26 | 7 days |  100%  |
+| 2.3 | Read other key papers and write background notes (PubMed) | Marta | WP 1 | 08/10/26 | 12/10/26 | 08/10/26 | 14/10/26 | 5 days |  100%  |
 | 2.4 | UniProt: identify the protein, check accessions, add at least two other species | Mengxin | WP 1 | 08/10/26 | 12/10/26 | 08/10/26 | 12/10/26 | 5 days |  100%  |
 | 🏁 | **Milestone 2: Literature and data collected** | | | | | | | | |
 | **WP 3** | **Sequence, structure and function analysis** | | | | | | | | |
 | 3.1 | Compare WT and mutant CDS and protein | Mengxin | 1.3 | 09/10/26 | 09/10/26 | 13/10/26 | 13/10/26 | 1 day |  100%  |
 | 3.2 | PDB: find WT and mutant structures | Alexandra | 3.1 | 11/10/26 | 14/10/26 | 20/10/26 | 20/10/26 | 1 day |  100%  |
 | 3.3 | Multiple sequence alignment across species | Adrià | 2.4 | 12/10/26 | 14/10/26 | 14/10/26 | 14/10/26 | 1 day |  100%  |
-| 3.4 | Conservation analysis of the mutated position | Marta | 3.3 | 14/10/26 | 16/10/26 | 15/10/26 | 23/10/26| 9 days |  0%  |
+| 3.4 | Conservation analysis of the mutated position | Marta | 3.3 | 14/10/26 | 16/10/26 | 15/10/26 | 23/10/26| 7 days |  100%  |
 | 3.5 | Visualize and compare WT and mutant structure | Alexandra | 3.1, 3.2 | 14/10/26 | 15/10/26 | 23/10/26 | 23/10/26 | 1 day |  100%  |
 | 3.6 | Analyze the structural environment of the mutated position | Adrià | 3.5 | 14/10/26 | 16/10/26 | 24/10/26 | 24/10/26 | 1 day |  100%  |
 | 3.7 | Link structure to enzyme function and phenotype | Mengxin | 3.6 | 16/10/26 | 19/10/26 | 22/10/26 | 24/10/26 | 2 days |  100%  |
-| 3.8 | Interpret cross-species differences | Marta | 3.3 | 14/10/26 | 19/10/26 | 16/10/26 |  | |  0%  |
+| 3.8 | Interpret cross-species differences | Marta | 3.3 | 14/10/26 | 19/10/26 | 16/10/26 | 23/10/26 | 6 days |  100%  |
 | 🏁 | **Milestone 3: Sequence, structure and function analysis completed** | | | | | | | | |
 | **WP 4** | **Reporting and delivery (BMC Bioinformatics format)** | | | | | | | | |
 | 4.1 | Draft Methods and Results | Mengxin | WP 3 | 19/10/26 | 21/10/26 | 13/10/26| 24/10/26 | 11 days |  100%  |
 | 4.2 | Draft Background | Adrià | 4.1, WP 2 | 15/10/26 | 16/10/26 | 22/10/26 | 23/10/26 | 2 days |  100%  |
-| 4.3 | Draft Discussion and Conclusions | Marta | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 24/10/26 | | |  0%  |
+| 4.3 | Draft Discussion and Conclusions | Marta | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 24/10/26 | | |  50%  |
 | 4.4 | Figures and tables (maximum five) | Alexandra | WP 3 | 19/10/26 | 21/10/26 | | | |  0%  |
 | 4.5 | Abstract, keywords, abbreviations, declarations | Adrià | 4.3 | 21/10/26 | 23/10/26 | | | |  0%  |
 | 4.6 | Preview of the full report | Mengxin | 4.5 | 23/10/26 | 24/10/26 | | | |  0%  |
