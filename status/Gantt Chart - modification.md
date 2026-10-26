@@ -46,8 +46,8 @@
 | 4.3.4 | Compare the finding with the literature | Alexandra | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
 | 4.3.5 | State the limitation of the study and conclusion | Marta | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
 | 4.4 | Figures and tables (maximum five) | Alexandra | WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness |
-| 4.5 | Abstract, keywords, abbreviations, declarations | Adrià | 4.3 | 21/10/26 | 23/10/26 | 26/10/26 | 26/10/26 | 4 days |  100%  | Completed, but late finish because of the dependance on 4.3 |
-| 4.6 | Preview of the full report | Mengxin | 4.5 | 23/10/26 | 23/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late finish because of the dependance on 4.5 |
+| 4.5 | Abstract, keywords, abbreviations, declarations | Adrià | 4.3 | 21/10/26 | 23/10/26 | 25/10/26 | 26/10/26 | 4 days |  100%  | Completed, but late finish because of the dependance on 4.3 |
+| 4.6 | Preview of the full report | Team | 4.5 | 23/10/26 | 23/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late finish because of the dependance on 4.5 |
 | 4.7 | Update final Gantt chart and Status document | Marta | 4.6 | 26/10/26 | 26/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | - |
 | 4.8 | Final submission | Alexandra | 4.7 | 26/10/26 | 26/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | - |
 | 🏁 | **Milestone 4: Final submission** | | | | | | | | | |
