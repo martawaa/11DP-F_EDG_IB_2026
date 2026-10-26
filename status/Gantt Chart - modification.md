@@ -39,7 +39,12 @@
 | **WP 4** | **Reporting and delivery (BMC Bioinformatics format)** | | | | | | | | | |
 | 4.1 | Draft Methods and Results | Mengxin | WP 3 | 19/10/26 | 21/10/26 | 13/10/26| 23/10/26 | 9 days |  100%  | Completed, but late due to accumulated tardiness. Took longer than expected |
 | 4.2 | Draft Background | Adrià | 4.1, WP 2 | 15/10/26 | 16/10/26 | 22/10/26 | 23/10/26 | 2 days |  100%  | Completed, but late finish because of the dependance on 4.1 |
-| 4.3 | Draft Discussion and Conclusions | Marta | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 24/10/26 | 26/10/26 | 2 days |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
+| 4.3 | Draft Discussion and Conclusions | Team | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 24/10/26 | 26/10/26 | 2 days |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
+| 4.3.1 | Interpret the conservation of valine 94 cross species | Adrià | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
+| 4.3.2 | Explain the differences between CDS and protein identity | Marta | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
+| 4.3.3 | Link structure, enzyme function and  phenotype | Mengxin | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
+| 4.3.4 | Compare the finding with the literature | Alexandra | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
+| 4.3.5 | State the limitation of the study and conclusion | Marta | 4.1, 4.2, WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness and dependance on 4.1 & 4.2 |
 | 4.4 | Figures and tables (maximum five) | Alexandra | WP 3 | 19/10/26 | 21/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late due to accumulated tardiness |
 | 4.5 | Abstract, keywords, abbreviations, declarations | Adrià | 4.3 | 21/10/26 | 23/10/26 | 26/10/26 | 26/10/26 | 4 days |  100%  | Completed, but late finish because of the dependance on 4.3 |
 | 4.6 | Preview of the full report | Mengxin | 4.5 | 23/10/26 | 23/10/26 | 26/10/26 | 26/10/26 | 1 day |  100%  | Completed, but late finish because of the dependance on 4.5 |
