@@ -3,8 +3,12 @@
 **Department, Institution, City, Country:** BBI, Polytechnic University of Catalonia, Barcelona, Spain
 
 ## Abstract
-*Provide a structured abstract covering Background, Results, and Conclusions (Max 350
-words).*
+
+**Background:** Epimerase-deficiency galactosemia (EDG) is a rare autosomal recessive disorder caused by mutations in the *GALE* gene, which encodes the enzyme UDP-galactose 4-epimerase. This enzyme catalyses two reversible reactions: the interconversion of UDP-glucose and UDP-galactose, and of UDP-N-acetylglucosamine and UDP-N-acetylgalactosamine. The disease causes an accumulation of galactose in the blood. The missense variant p.Val94Met has been associated with the severe generalized form, but how this single amino-acid change affects the enzyme is not fully understood. We aimed to explain how this variant may cause EDG by comparing sequences across species and analysing the structural environment of the mutated residue.
+
+**Results:** The wild-type (WT) and mutant coding DNA sequences (CDS) differed at a single position (c.280G>A), which produces a missense substitution at protein level (p.Val94Met). Valine and methionine are both hydrophobic, but methionine is larger. Human GALE shared 93.93% protein identity with mouse (*Mus musculus*) and 52.49% with *Escherichia coli*, and valine 94 was identical in the three species, inside the longest conserved stretch (residues 85–102). In the X-ray structures 1EK5 (WT) and 1I3N (V94M), residue 94 is buried in an α-helix and does not contact nicotinamide adenine dinucleotide (NAD), the substrate, or the dimer interface. The distance between residue 94 and the catalytic Tyr157 increased from 5.6 Å in the WT to about 10 Å in the mutant.
+
+**Conclusions:** The conservation of valine 94 suggests that this position is under functional constraint. Together with the structural data and published studies, our results suggest that Met94 may affect the active site indirectly, possibly by altering the nearby loop and the position of Tyr157, which would be consistent with reduced enzyme activity and severe EDG. However, this interpretation is limited by the small number of species compared, differences in resolution and ligands between the two structures, the additional Ala180Val change in 1I3N, and the absence of activity measurements.
 
 ## Keywords
 Epimerase-deficiency galactosemia, GALE, p.Val94Met, sequence conservation, protein structure
@@ -168,31 +172,6 @@ Human GALE structures were searched in the RCSB Protein Data Bank (https://www.r
 
 The properties of valine and methionine were taken from the IMGT classes of the 20 common amino acids (https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html; Pommié et al. 2004).
 
-*(this should be added to discussion)*
-
-[  https://www.ncbi.nlm.nih.gov/books/NBK26836/ ]
-
-##The conservation of the genome and proteins throughout evolution
-
-The conservation of the genome sequences between two different species depend on the ammount of time they have separately evolved. 
-Also, purifying selection eliminates individuals that carry mutations that interfere with important genetic functions. Sequences that are subject to strong functional constraint (the sequence has an important impact on the organism's wellness) are often conserved.
-
-According to the molecular-clock hypothesis, changes of specific sequences of genes and proteins are not sudden, but constant in time. This molecular clock runs faster in sequences that are not affected by purifying selection, and slower in those that suffer from strong functional constraints.
-
-[https://www.uniprot.org/uniprotkb/Q14376/ ]
-
-The general function of the gene UDP-glucose 4-epimerase (GALE) is to catalyze two analogous reactions: the reversible epimerization of UDP-glucose to UDP-galactose and the reversible epimerization of UDP-N-acetylglucosamine to UDP-N-acetylgalactosamine. The reaction with UDP-Gal plays a critical role in the Leloir pathway of galactose catabolism in which galactose is converted to the glycolytic intermediate glucose 6-phosphate. It contributes to the catabolism of dietary galactose and enables the endogenous biosynthesis of both UDP-Gal and UDP-GalNAc when exogenous sources are limited.
-
-more specifically, it contains the following functional sites:
-
-[https://www.uniprot.org/uniprotkb/Q14376/entry]
-Positions 12-14, 33-37, 66-67, 88, 92, 161 and 185: binding sites for NAD+.
-Position 157: active site of proton acceptor
-Positions 132-134, 185-187, 206-208, 224-226, 239 and 300-303: binding sites for substrate
-
-the studied mutation appears in postion 279, meaning that it does not directly affect any of the indicated functional sites. These are needed for the basic wellness of the organism and therefore are less prone to effective mutation. 
-
-Our idea is that, since residue 94 does not touch the substrate, Met94 may affect the active site in an indirect way, and this would fit with the low activity and the severe disease. However, we cannot prove it, because 1EK5 and 1I3N have different resolution and ligands, 1I3N also has the change Ala180Val, and we did not measure any activity.
 
 ## Abbreviations
 
@@ -237,12 +216,14 @@ Our idea is that, since residue 94 does not touch the substrate, Met94 may affec
 12. NCBI Nucleotide. NM_001008216.2. https://www.ncbi.nlm.nih.gov/nucleotide/NM_001008216.2
 13. NCBI Protein. NP_001126148.1. https://www.ncbi.nlm.nih.gov/protein/NP_001126148.1
 14. UniProt. Q14376: UDP-glucose 4-epimerase (GALE_HUMAN). https://www.uniprot.org/uniprotkb/Q14376/entry
-16. NCBI Gene. GALE UDP-galactose-4-epimerase [Homo sapiens], Gene ID: 2582. https://www.ncbi.nlm.nih.gov/gene/2582
-17. RCSB Protein Data Bank. Structure of human UDP-galactose 4-epimerase in complex with NAD+. PDB ID: 1EK5. Available at: https://www.rcsb.org/structure/1EK5 (accessed 20 October 2026).
-18. RCSB Protein Data Bank. Molecular basis for severe epimerase-deficiency galactosemia: X-ray structure of the human V94M-substituted UDP-galactose 4-epimerase. PDB ID: 1I3N. Available at: https://www.rcsb.org/structure/1I3N (accessed 20 October 2026).
-19. IMGT Education. IMGT classes of the 20 common amino acids. Available at: https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html (accessed 22 October 2026).
-20. Pommié C, Levadoux S, Sabatier R et al. IMGT standardized criteria for statistical analysis of immunoglobulin V-REGION amino acid properties. J Mol Recognit 2004;17:17–32.
-21. Schrödinger, LLC. The PyMOL Molecular Graphics System, Version 3.1. Available at: https://pymol.org/ (accessed 24 October 2026).
-22. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Crystallographic evidence for Tyr 157 functioning as the active site base in human UDP-galactose 4-epimerase. Biochemistry  2000-05, Vol.39 (19), p.5691-5701
-23. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Molecular basis for severe epimerase deficiency galactosemia. X-ray structure of the human V94M-substituted UDP-galactose 4-epimerase. J Biol Chem 2001;276:20617–23.
-24. Timson DJ, Lindert S. Comparison of dynamics of wildtype and V94M human UDP-galactose 4-epimerase: a computational perspective on severe epimerase-deficiency galactosemia. Gene 2013;526:318–24.
+15. NCBI Gene. GALE UDP-galactose-4-epimerase [Homo sapiens], Gene ID: 2582. https://www.ncbi.nlm.nih.gov/gene/2582
+16. RCSB Protein Data Bank. Structure of human UDP-galactose 4-epimerase in complex with NAD+. PDB ID: 1EK5. Available at: https://www.rcsb.org/structure/1EK5 (accessed 20 October 2026).
+17. RCSB Protein Data Bank. Molecular basis for severe epimerase-deficiency galactosemia: X-ray structure of the human V94M-substituted UDP-galactose 4-epimerase. PDB ID: 1I3N. Available at: https://www.rcsb.org/structure/1I3N (accessed 20 October 2026).
+18. IMGT Education. IMGT classes of the 20 common amino acids. Available at: https://www.imgt.org/IMGTeducation/Aide-memoire/_UK/aminoacids/IMGTclasses.html (accessed 22 October 2026).
+19. Pommié C, Levadoux S, Sabatier R et al. IMGT standardized criteria for statistical analysis of immunoglobulin V-REGION amino acid properties. J Mol Recognit 2004;17:17–32.
+20. Schrödinger, LLC. The PyMOL Molecular Graphics System, Version 3.1. Available at: https://pymol.org/ (accessed 24 October 2026).
+21. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Crystallographic evidence for Tyr 157 functioning as the active site base in human UDP-galactose 4-epimerase. Biochemistry  2000-05, Vol.39 (19), p.5691-5701
+22. Thoden JB, Wohlers TM, Fridovich-Keil JL et al. Molecular basis for severe epimerase deficiency galactosemia. X-ray structure of the human V94M-substituted UDP-galactose 4-epimerase. J Biol Chem 2001;276:20617–23.
+23. Timson DJ, Lindert S. Comparison of dynamics of wildtype and V94M human UDP-galactose 4-epimerase: a computational perspective on severe epimerase-deficiency galactosemia. Gene 2013;526:318–24.
+24. National Center for Biotechnology Information. *NCBI Bookshelf*. Available from: https://www.ncbi.nlm.nih.gov/books/NBK26836/ (26 October 2026, date last accessed).
+25. UniProt Consortium. *UDP-glucose 4-epimerase (GALE), Homo sapiens*. UniProtKB, accession Q14376. Available from: https://www.uniprot.org/uniprotkb/Q14376/entry (26 October 2026, date last accessed).
