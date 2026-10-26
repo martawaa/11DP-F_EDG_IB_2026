@@ -83,15 +83,33 @@ The substitution of Val94 with Met94 introduces a bulkier, sulfur-containing sid
 
 ## Discussion
 [Discuss implications, compare with existing research, and highlight limitations.]
-
+'''
 The main aim of this study was to investigate the potential consequences of the p.Val94Met (V94M) variant in the human GALE gene. This comparison showed variation in a single nucleotid, resulting in the replacement of valine by methionine at position 94. The cross-species analysis supports the importance of residue 94. Human GALE showed 93.93% protein identity with mouse GALE and 52.49% identity with the Escherichia coli homologue. Despite the lower or higher identity percentages observed in both species, valine 94 was conserved in all three. This conservation suggests that the residue may contribute to a structurally or functionally important region of the enzyme. This region encodes for UDP-galactose 4-epimerase. This enzyme catalyses the interconversion of UDP-glucose and UDP-galactose, and of UDP-N-acetylglucosamine and UDP-N-acetylgalactosamine, therefore being essential for basic metabolic processes.
 
 The structural comparison of the WT and mutant amino acid sequence showed that both valine and methionine are non-polar, hydrophobic and uncharged. Metionine, however, has a larger side-chain volume. The structural superposition of PDB 1EK5 and PDB 1I3N showed a displacement of Ala93-Glu96 in the region of the mutated residue 94. This diference in side-chain volume and the structural displacement suggest that the substitution contributed to a change in the structural environment of the protein. Nevertheless, these observations can't accurately explain the substitution's effects on the protein's function. Also, PDB 1I3N contains an Ala180Val difference, so the structural differences between the two structures can't be entirely attributed to the V94M substitution alone.
 
 The nucleotide and protein comparisons also differed in their coverage across species. BLAST was able to align the human and mouse CDS sequences almost entirely, but the coverage offered by the E. coli alignment was only 22%, making it harder to accurately compare both sequences. Moreover, the protein alignment showed a higher coverage percentage in both mouse and E.coli comparisons.
+'''
+
+#what does it mean that Val94 is identical in human, mouse and ecoli. (conservation and possible functional importance)
+
+
+
+#why the identity of CDS and protein is different( types of mutation, %cover, %identity)
+
+
+
+#structure meaning in the environment of residue 94 and how it relates to the enzime's activity and the disease overall
+
+
+
+
+#literature comparison
 
 [https://pubmed.ncbi.nlm.nih.gov/11279193/]
 The findings of this study can be compared with those of Thoden et al. (2001), who investigated the human GALE V94M variant using X-ray crystallography. Their study described an opening of the Ala93–Glu96 loop associated with the substitution, providing a structural context for the loop displacement observed in our comparison. This supports the interpretation that the region surrounding residue 94 differs between the wild-type and variant structures.
+
+#limitations
 
 ## Conclusions
 [State the main conclusions and their significance.]
